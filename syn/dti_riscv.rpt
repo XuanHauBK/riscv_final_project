@@ -1,0 +1,872 @@
+################################################################################
+# User-defined Project Path
+################################################################################
+set TOP_LEVEL_MODULE  dti_riscv
+dti_riscv
+set PROJECT_DIR       ../../trunk
+../../trunk
+set SCRIPT_DIR        ../../trunk/syn/dc_scripts
+../../trunk/syn/dc_scripts
+set DTI_LIB_DIR       ${PROJECT_DIR}/libs
+../../trunk/libs
+# set REG_BLK           ${PROJECT_DIR}/libs/axi2ahb_reg_blk/hdl
+################################################################################
+# RTL Source code
+################################################################################
+set DTI_LIB           "${DTI_LIB_DIR}/dti_lib/dti_fifo/dti_bin_to_gray                       ${DTI_LIB_DIR}/dti_lib/dti_fifo/dti_bicnt_dwn                       ${DTI_LIB_DIR}/dti_lib/dti_fifo/dti_cdc_data_sync_gf                       ${DTI_LIB_DIR}/dti_lib/dti_fifo/dti_gray_to_bin                       ${DTI_LIB_DIR}/dti_lib/dti_fifo/dti_fifo_async_sf                       ${DTI_LIB_DIR}/apb_gpio/hdl                       ${DTI_LIB_DIR}/apb_timer/hdl                       ${DTI_LIB_DIR}/apb_uart/hdl";
+../../trunk/libs/dti_lib/dti_fifo/dti_bin_to_gray                       ../../trunk/libs/dti_lib/dti_fifo/dti_bicnt_dwn                       ../../trunk/libs/dti_lib/dti_fifo/dti_cdc_data_sync_gf                       ../../trunk/libs/dti_lib/dti_fifo/dti_gray_to_bin                       ../../trunk/libs/dti_lib/dti_fifo/dti_fifo_async_sf                       ../../trunk/libs/apb_gpio/hdl                       ../../trunk/libs/apb_timer/hdl                       ../../trunk/libs/apb_uart/hdl
+set RTL_SOURCE        ${PROJECT_DIR}/hdl
+../../trunk/hdl
+set INCLUDE_SOURCE     ${PROJECT_DIR}/inc
+../../trunk/inc
+set TOP_MODULE_FILE    ${RTL_SOURCE}/${TOP_LEVEL_MODULE}.v
+../../trunk/hdl/dti_riscv.v
+################################################################################
+# User-defined variables for logical library setup in dc_setup.tcl
+################################################################################
+set ADDITIONAL_SEARCH_PATH    "/data2/projects/libraries/tsmc28hpcp/7t/dti_tm28hpcp_l30_stdcells_7t_rev1p0p1/db                                $RTL_SOURCE                                $DTI_LIB                                $INCLUDE_SOURCE                                $SCRIPT_DIR";
+/data2/projects/libraries/tsmc28hpcp/7t/dti_tm28hpcp_l30_stdcells_7t_rev1p0p1/db                                ../../trunk/hdl                                ../../trunk/libs/dti_lib/dti_fifo/dti_bin_to_gray                       ../../trunk/libs/dti_lib/dti_fifo/dti_bicnt_dwn                       ../../trunk/libs/dti_lib/dti_fifo/dti_cdc_data_sync_gf                       ../../trunk/libs/dti_lib/dti_fifo/dti_gray_to_bin                       ../../trunk/libs/dti_lib/dti_fifo/dti_fifo_async_sf                       ../../trunk/libs/apb_gpio/hdl                       ../../trunk/libs/apb_timer/hdl                       ../../trunk/libs/apb_uart/hdl                                ../../trunk/inc                                ../../trunk/syn/dc_scripts
+set TARGET_LIBRARY_FILES       dti_tm28hpcp_l30_stdcells_7t_ssg_0p81v_neg40c_rev0p0p1.db
+dti_tm28hpcp_l30_stdcells_7t_ssg_0p81v_neg40c_rev0p0p1.db
+set SYMBOL_LIBRARY_FILES       sc.sdb
+sc.sdb
+set LIB                        rev0p0p1
+rev0p0p1
+# set TECH_FILE     /data/projects/libraries/tech_file/tsmcn28_10lm5X2Y2RRDL.tf
+# set MW_REF_LIB    /data/projects/libraries/mw_lib/mw_lib_28hpm
+# set MW_DESIGN_LIB mw_${TOP_LEVEL_MODULE}
+# set TLUPLUS_MAX_FILE /data/projects/libraries/tech_file/RC_TLUplus_cln28hpm_1p10m+alrdl_5x2y2z_rcworst/cln28hpm_1p10m+alrdl_5x2y2z_rcworst.tluplus
+# set TLUPLUS_MIN_FILE /data/projects/libraries/tech_file/RC_TLUplus_cln28hpm_1p10m+alrdl_5x2y2z_rcbest/cln28hpm_1p10m+alrdl_5x2y2z_rcbest.tluplus
+################################################################################
+# Clock Information
+################################################################################
+# 1600 MHz -  0.625
+# 1066 MHz -  0.938
+#  800 MHz -  1.250
+#  700 MHz -  1.428
+#  533 MHz -  1.875
+#  400 MHz -  2.500
+#  200 MHz -  5.000
+#  100 MHz - 10.000
+# set CLOCK_PERIOD_DTI_WB            1
+# set HALF_PERIOD_DTI_WB             [expr {$CLOCK_PERIOD_DTI_WB/2}]
+# set MARGIN_DTI_APB                 [expr {$CLOCK_PERIOD_DTI_WB*0.20}]
+# set CLOCK_PERIOD_DTI_APB           1.2
+# set HALF_PERIOD_DTI_APB            [expr {$CLOCK_PERIOD_DTI_APB/2}]
+# set MARGIN_DTI_APB                 [expr {$CLOCK_PERIOD_DTI_APB*0.20}]
+################################################################################
+# Input constrain files
+################################################################################
+# set DC_CONSTRAINTS_INPUT_FILE     tconstraints.tcl
+################################################################################
+# Reports
+################################################################################
+set DC_CHECK_LIBRARY_REPORT                           ${TOP_LEVEL_MODULE}_${LIB}_check_library.rpt
+dti_riscv_rev0p0p1_check_library.rpt
+set DC_CONSISTENCY_CHECK_ENV_FILE                     ${TOP_LEVEL_MODULE}_${LIB}_compile_ultra.env
+dti_riscv_rev0p0p1_compile_ultra.env
+set DC_CHECK_DESIGN_REPORT                            ${TOP_LEVEL_MODULE}_${LIB}_check_design.rpt
+dti_riscv_rev0p0p1_check_design.rpt
+set DC_ELARORATE_REPORT                               ${TOP_LEVEL_MODULE}_${LIB}_elaborate.rpt
+dti_riscv_rev0p0p1_elaborate.rpt
+set DC_FINAL_QOR_REPORT                               ${TOP_LEVEL_MODULE}_${LIB}_final_qor.rpt
+dti_riscv_rev0p0p1_final_qor.rpt
+set DC_FINAL_TIMING_REPORT                            ${TOP_LEVEL_MODULE}_${LIB}_final_timing.rpt
+dti_riscv_rev0p0p1_final_timing.rpt
+set DC_FINAL_AREA_REPORT                              ${TOP_LEVEL_MODULE}_${LIB}_final_area.rpt
+dti_riscv_rev0p0p1_final_area.rpt
+set DC_FINAL_POWER_REPORT                             ${TOP_LEVEL_MODULE}_${LIB}_final_power.rpt
+dti_riscv_rev0p0p1_final_power.rpt
+set DC_FINAL_CLOCK_GATING_REPORT                      ${TOP_LEVEL_MODULE}_${LIB}_final_clock_gating.rpt
+dti_riscv_rev0p0p1_final_clock_gating.rpt
+set DC_FINAL_SELF_GATING_REPORT                       ${TOP_LEVEL_MODULE}_${LIB}_final_self_gating.rpt
+dti_riscv_rev0p0p1_final_self_gating.rpt
+set DC_FINAL_CONSTRAINTS_REPORT                       ${TOP_LEVEL_MODULE}_${LIB}_final_constraints.rpt
+dti_riscv_rev0p0p1_final_constraints.rpt
+set DC_FINAL_FSM_REPORT                               ${TOP_LEVEL_MODULE}_${LIB}_final_fsm.rpt
+dti_riscv_rev0p0p1_final_fsm.rpt
+set DC_TIMING_MAX_REPORT                              ${TOP_LEVEL_MODULE}_${LIB}_timing_max.rpt
+dti_riscv_rev0p0p1_timing_max.rpt
+set DC_TIMING_MIN_REPORT                              ${TOP_LEVEL_MODULE}_${LIB}_timing_min.rpt
+dti_riscv_rev0p0p1_timing_min.rpt
+################################################################################
+# Output Files
+################################################################################
+set DC_FINAL_DDC_OUTPUT_FILE                          ${TOP_LEVEL_MODULE}_${LIB}_netlist.ddc
+dti_riscv_rev0p0p1_netlist.ddc
+set DC_FINAL_VERILOG_OUTPUT_FILE                      ${TOP_LEVEL_MODULE}_${LIB}_netlist.v
+dti_riscv_rev0p0p1_netlist.v
+set DC_FINAL_SDC_OUTPUT_FILE                          ${TOP_LEVEL_MODULE}_${LIB}_netlist.sdc
+dti_riscv_rev0p0p1_netlist.sdc
+set DC_FINAL_SDF_OUTPUT_FILE                          ${TOP_LEVEL_MODULE}_${LIB}_netlist.sdf
+dti_riscv_rev0p0p1_netlist.sdf
+######################################################################
+# Report and Result Directories
+######################################################################
+set REPORTS_DIR reports
+reports
+set RESULTS_DIR results
+results
+file mkdir $REPORTS_DIR
+file mkdir $RESULTS_DIR
+######################################################################
+# Logical Library Settings
+######################################################################
+define_design_lib work -path ./work
+1
+set_app_var search_path       "$search_path $ADDITIONAL_SEARCH_PATH"
+. /tools/synopsys/dc/Q-2019.12-SP4/libraries/syn /tools/synopsys/dc/Q-2019.12-SP4/dw/syn_ver /tools/synopsys/dc/Q-2019.12-SP4/dw/sim_ver /data2/projects/libraries/tsmc28hpcp/7t/dti_tm28hpcp_l30_stdcells_7t_rev1p0p1/db                                ../../trunk/hdl                                ../../trunk/libs/dti_lib/dti_fifo/dti_bin_to_gray                       ../../trunk/libs/dti_lib/dti_fifo/dti_bicnt_dwn                       ../../trunk/libs/dti_lib/dti_fifo/dti_cdc_data_sync_gf                       ../../trunk/libs/dti_lib/dti_fifo/dti_gray_to_bin                       ../../trunk/libs/dti_lib/dti_fifo/dti_fifo_async_sf                       ../../trunk/libs/apb_gpio/hdl                       ../../trunk/libs/apb_timer/hdl                       ../../trunk/libs/apb_uart/hdl                                ../../trunk/inc                                ../../trunk/syn/dc_scripts
+set_app_var synthetic_library [list dw_foundation.sldb]
+dw_foundation.sldb
+set_app_var target_library    $TARGET_LIBRARY_FILES
+dti_tm28hpcp_l30_stdcells_7t_ssg_0p81v_neg40c_rev0p0p1.db
+set_app_var link_library      "* $target_library $synthetic_library "
+* dti_tm28hpcp_l30_stdcells_7t_ssg_0p81v_neg40c_rev0p0p1.db dw_foundation.sldb 
+set_app_var symbol_library    $SYMBOL_LIBRARY_FILES
+sc.sdb
+# set_min_library $MAX_LIBRARY_FILES -min_version $MIN_LIBRARY_FILES
+######################################################################
+# FSM inferring Settings
+######################################################################
+set_app_var fsm_auto_inferring true
+true
+set_app_var hdlin_reporting_level comprehensive+fsm
+comprehensive+fsm
+######################################################################
+# Naming Settings
+######################################################################
+set_app_var hdlin_keep_signal_name all
+all
+set_app_var hdlin_module_name_limit 128
+128
+set_app_var hdlin_shorten_long_module_name true
+true
+set_app_var report_default_significant_digits 5
+5
+set_app_var timing_enable_normalized_slack true
+true
+set compile_timing_high_effort true
+true
+set_app_var compile_advanced_fix_multiple_port_nets true
+true
+set_app_var hdlin_check_no_latch true
+true
+set_host_options -max_core 4
+1
+set_dp_smartgen_options -optimize_for speed
+1
+#-v ${RTL_SOURCE}/freechips.rocketchip.system.DefaultConfig.v
+analyze -vcs "-sverilog               -y ${DTI_LIB_DIR}/dti_lib/dti_fifo/dti_bin_to_gray               -y ${DTI_LIB_DIR}/dti_lib/dti_fifo/dti_bicnt_dwn               -y ${DTI_LIB_DIR}/dti_lib/dti_fifo/dti_cdc_data_sync_gf               -y ${DTI_LIB_DIR}/dti_lib/dti_fifo/dti_gray_to_bin               -y ${DTI_LIB_DIR}/dti_lib/dti_fifo/dti_fifo_async_sf               -y ${DTI_LIB_DIR}/apb_gpio/hdl               -y ${DTI_LIB_DIR}/apb_timer/hdl               -y ${DTI_LIB_DIR}/apb_uart/hdl               -y $RTL_SOURCE               +incdir+$INCLUDE_SOURCE +libext+.v+.sv" ${TOP_MODULE_FILE}
+Running PRESTO HDLC
+Compiling source file ../../trunk/hdl/dti_riscv.v
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Warning:  ../../trunk/inc/dti_global_parameters.svh:3: Parameter keyword used in local parameter declaration. (VER-329)
+Compiling source file ../../trunk/hdl/dti_apb_adapter.v
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Compiling source file ../../trunk/hdl/dti_apb_peripheral.v
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Compiling source file ../../trunk/hdl/dti_boost_inst.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Warning:  ../../trunk/hdl/dti_boost_inst.sv:22: Parameter keyword used in local parameter declaration. (VER-329)
+Compiling source file ../../trunk/hdl/dti_riscv_core.v
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Warning:  ../../trunk/inc/dti_global_parameters.svh:3: Parameter keyword used in local parameter declaration. (VER-329)
+Compiling source file ../../trunk/hdl/imem.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Warning:  ../../trunk/inc/dti_global_parameters.svh:3: Parameter keyword used in local parameter declaration. (VER-329)
+Compiling source file ../../trunk/libs/apb_gpio/hdl/apb_gpio.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Compiling source file ../../trunk/libs/apb_timer/hdl/apb_timer.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Compiling source file ../../trunk/libs/apb_uart/hdl/apb_uart.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Compiling source file ../../trunk/hdl/riscv_csr_unit.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Warning:  ../../trunk/inc/dti_global_parameters.svh:3: Parameter keyword used in local parameter declaration. (VER-329)
+Compiling source file ../../trunk/hdl/riscv_decode.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Warning:  ../../trunk/inc/dti_global_parameters.svh:3: Parameter keyword used in local parameter declaration. (VER-329)
+Compiling source file ../../trunk/hdl/riscv_execute.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Warning:  ../../trunk/inc/dti_global_parameters.svh:3: Parameter keyword used in local parameter declaration. (VER-329)
+Compiling source file ../../trunk/hdl/riscv_fetch.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Warning:  ../../trunk/inc/dti_global_parameters.svh:3: Parameter keyword used in local parameter declaration. (VER-329)
+Compiling source file ../../trunk/hdl/riscv_memory.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Compiling source file ../../trunk/hdl/riscv_register_file.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Compiling source file ../../trunk/hdl/riscv_writeback.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Compiling source file ../../trunk/libs/apb_uart/hdl/apb_interface.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Compiling source file ../../trunk/libs/apb_uart/hdl/baudrate_gen.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Warning:  ../../trunk/libs/apb_uart/hdl/baudrate_gen.sv:28: Parameter keyword used in local parameter declaration. (VER-329)
+Compiling source file ../../trunk/libs/apb_uart/hdl/receiver.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Warning:  ../../trunk/libs/apb_uart/hdl/receiver.sv:36: Parameter keyword used in local parameter declaration. (VER-329)
+Compiling source file ../../trunk/libs/apb_uart/hdl/transmitter.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Warning:  ../../trunk/libs/apb_uart/hdl/transmitter.sv:36: Parameter keyword used in local parameter declaration. (VER-329)
+Compiling source file ../../trunk/hdl/riscv_alu.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Compiling source file ../../trunk/hdl/riscv_alu_mux.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Warning:  ../../trunk/inc/dti_global_parameters.svh:3: Parameter keyword used in local parameter declaration. (VER-329)
+Compiling source file ../../trunk/hdl/riscv_comparator.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Compiling source file ../../trunk/hdl/riscv_control_unit.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Warning:  ../../trunk/inc/dti_global_parameters.svh:3: Parameter keyword used in local parameter declaration. (VER-329)
+Compiling source file ../../trunk/hdl/riscv_counter.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Compiling source file ../../trunk/hdl/riscv_csr_alu.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Compiling source file ../../trunk/hdl/riscv_imm_decoder.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Warning:  ../../trunk/inc/dti_global_parameters.svh:3: Parameter keyword used in local parameter declaration. (VER-329)
+Compiling source file ../../trunk/libs/dti_lib/dti_fifo/dti_fifo_async_sf/dti_fifo_async_sf.v
+Compiling source file ../../trunk/hdl/riscv_alu_control_decode.sv
+Opening include file ../../trunk/inc/dti_global_defines.svh
+Opening include file ../../trunk/inc/dti_global_parameters.svh
+Warning:  ../../trunk/inc/dti_global_parameters.svh:3: Parameter keyword used in local parameter declaration. (VER-329)
+Compiling source file ../../trunk/libs/dti_lib/dti_fifo/dti_cdc_data_sync_gf/dti_cdc_data_sync_gf.v
+Compiling source file ../../trunk/libs/dti_lib/dti_fifo/dti_fifo_async_sf/dti_fifo_async_2port_mem_wrap.sv
+Compiling source file ../../trunk/libs/dti_lib/dti_fifo/dti_fifo_async_sf/dti_fifo_async_addr_ptr_gen.v
+Compiling source file ../../trunk/libs/dti_lib/dti_fifo/dti_fifo_async_sf/dti_fifo_async_ctrl.v
+Compiling source file ../../trunk/libs/dti_lib/dti_fifo/dti_bin_to_gray/dti_bin_to_gray.v
+Compiling source file ../../trunk/libs/dti_lib/dti_fifo/dti_gray_to_bin/dti_gray_to_bin.v
+Presto compilation completed successfully.
+Loading db file '/data2/projects/libraries/tsmc28hpcp/7t/dti_tm28hpcp_l30_stdcells_7t_rev1p0p1/db/dti_tm28hpcp_l30_stdcells_7t_ssg_0p81v_neg40c_rev0p0p1.db'
+Loading db file '/tools/synopsys/dc/Q-2019.12-SP4/libraries/syn/dw_foundation.sldb'
+1
+elaborate ${TOP_LEVEL_MODULE} -lib work
+Loading db file '/tools/synopsys/dc/Q-2019.12-SP4/libraries/syn/gtech.db'
+Loading db file '/tools/synopsys/dc/Q-2019.12-SP4/libraries/syn/standard.sldb'
+  Loading link library 'dti_stdcell_ssg_0p81v_neg40c'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+
+statistics for FSM inference:
+
+  no finite state machine inferred.
+Presto compilation completed successfully. (dti_riscv)
+Elaborated 1 design.
+Current design is now 'dti_riscv'.
+Information: Building the design 'dti_apb_adapter'. (HDL-193)
+
+Statistics for case statements in always block at line 63 in file
+        '../../trunk/hdl/dti_apb_adapter.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            64            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 83 in file
+        '../../trunk/hdl/dti_apb_adapter.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            85            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 114 in file
+        '../../trunk/hdl/dti_apb_adapter.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           134            |    auto/auto     |
+===============================================
+
+statistics for FSM inference:
+  state register: current_state
+  states
+  ======
+  fsm_state_0:          00
+  fsm_state_1:          01
+  fsm_state_2:          10
+
+  total number of states: 3
+
+
+Inferred memory devices in process
+        in routine dti_apb_adapter line 114 in file
+                '../../trunk/hdl/dti_apb_adapter.v'.
+================================================================================
+|    Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+================================================================================
+| mem_data_out_cld_reg | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  current_state_reg   | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  apb_paddr_cld_reg   | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+| apb_penable_cld_reg  | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   apb_psel_cld_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|  apb_pwdata_cld_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  apb_pwrite_cld_reg  | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+================================================================================
+Synthetic Cells Summary
+===============================
+|      Cell Type      | Count |
+===============================
+| SELECT_OP_3.2_3.2_3 |   1   |
+| SELECT_OP_4.2_4.2_4 |   1   |
+| SELECT_OP_2.1_2.1_2 |   3   |
+| SELECT_OP_3.1_3.1_3 |   6   |
+| SELECT_OP_4.1_4.1_4 |   6   |
+===============================
+Presto compilation completed successfully. (dti_apb_adapter)
+Information: Building the design 'dti_apb_peripheral'. (HDL-193)
+
+statistics for FSM inference:
+
+  no finite state machine inferred.
+Presto compilation completed successfully. (dti_apb_peripheral)
+Error: Width mismatch on port 'irq' of reference to 'dti_apb_peripheral' in 'dti_riscv'. (LINK-3)
+Information: Building the design 'dti_boost_inst'. (HDL-193)
+Warning:  ../../trunk/hdl/dti_boost_inst.sv:83: signed to unsigned conversion occurs. (VER-318)
+
+Statistics for case statements in always block at line 63 in file
+        '../../trunk/hdl/dti_boost_inst.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            65            |    auto/auto     |
+===============================================
+Warning:  ../../trunk/hdl/dti_boost_inst.sv:116: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+
+Statistics for case statements in always block at line 97 in file
+        '../../trunk/hdl/dti_boost_inst.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           107            |     no/auto      |
+===============================================
+
+statistics for FSM inference:
+  state register: current_state
+  states
+  ======
+  fsm_state_0:          00
+  fsm_state_1:          01
+  fsm_state_2:          10
+
+  total number of states: 3
+
+
+Inferred memory devices in process
+        in routine dti_boost_inst line 31 in file
+                '../../trunk/hdl/dti_boost_inst.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     rx_acc_reg      | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine dti_boost_inst line 97 in file
+                '../../trunk/hdl/dti_boost_inst.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     scratch_reg     | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  current_state_reg  | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     sample_reg      | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   bitpos_data_reg   | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   bitpos_stop_reg   | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine dti_boost_inst line 148 in file
+                '../../trunk/hdl/dti_boost_inst.sv'.
+================================================================================
+|    Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+================================================================================
+|    count_req_reg     | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+| instruction_data_reg | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+================================================================================
+
+Inferred memory devices in process
+        in routine dti_boost_inst line 162 in file
+                '../../trunk/hdl/dti_boost_inst.sv'.
+====================================================================================
+|      Register Name       |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+====================================================================================
+| rx_boost_inst_wr_req_reg | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+====================================================================================
+Synthetic Cells Summary
+===============================
+|      Cell Type      | Count |
+===============================
+|  ADD_UNS_OP;4;1;4   |   4   |
+|  ADD_UNS_OP;2;1;2   |   2   |
+|  ADD_UNS_OP;5;1;5   |   1   |
+| SELECT_OP_2.5_2.5_2 |   1   |
+| SELECT_OP_4.2_4.2_4 |   1   |
+| SELECT_OP_2.1_2.1_2 |   2   |
+| SELECT_OP_2.8_2.8_2 |   2   |
+| SELECT_OP_3.1_3.1_3 |   2   |
+| SELECT_OP_2.4_2.4_2 |   2   |
+| SELECT_OP_4.1_4.1_4 |   3   |
+| SELECT_OP_2.2_2.2_2 |   1   |
+| SELECT_OP_3.4_3.4_3 |   1   |
+| SELECT_OP_4.8_4.8_4 |   1   |
+===============================
+Presto compilation completed successfully. (dti_boost_inst)
+Information: Building the design 'dti_riscv_core'. (HDL-193)
+Error:  ../../trunk/hdl/dti_riscv_core.v:371: Cannot test variable 'reset_n' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:375: Cannot test variable 'stall' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:385: Cannot test variable 'reset_n' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:390: Cannot test variable 'stall' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:406: Cannot test variable 'reset_n' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:414: Cannot test variable 'stall_mem' because it was not in the event expression or with wrong polarity. (ELAB-300)
+*** Presto compilation terminated with 6 errors. ***
+Information: Building the design 'dti_riscv_core'. (HDL-193)
+Information: Building the design 'imem'. (HDL-193)
+
+statistics for FSM inference:
+
+  no finite state machine inferred.
+
+Inferred memory devices in process
+        in routine imem line 26 in file
+                '../../trunk/hdl/imem.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  boost_en_tmp_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine imem line 36 in file
+                '../../trunk/hdl/imem.sv'.
+==================================================================================
+|     Register Name      |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+==================================================================================
+| instruction_memory_reg | Flip-flop | 3200  |  Y  | N  | Y  | N  | N  | N  | N  |
+|     index_inst_reg     | Flip-flop |   7   |  Y  | N  | Y  | N  | N  | N  | N  |
+==================================================================================
+
+Inferred memory devices in process
+        in routine imem line 52 in file
+                '../../trunk/hdl/imem.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  imem_data_in_reg   | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    imem_ack_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Synthetic Cells Summary
+=====================================
+|         Cell Type         | Count |
+=====================================
+|     LT_UNS_OP;30;7;1      |   1   |
+|     ADD_UNS_OP;7;1;7      |   1   |
+|    SELECT_OP_3.1_3.1_3    |   1   |
+|    SELECT_OP_2.7_2.7_2    |   1   |
+|  SELECT_OP_3.100_3.100_3  |   1   |
+|   SELECT_OP_2.32_2.32_2   |   2   |
+|    SELECT_OP_2.1_2.1_2    |   1   |
+| SELECT_OP_100.1_100.1_100 |  32   |
+=====================================
+Presto compilation completed successfully. (imem)
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+# Compile Top module
+current_design ${TOP_LEVEL_MODULE}
+Current design is 'dti_riscv'.
+{dti_riscv}
+source -echo -verbose tconstraints.sdc
+puts "DTI-Info: Running script tconstraints.tcl\n"
+DTI-Info: Running script tconstraints.tcl
+
+################################################################################
+# Clock Information
+################################################################################
+# 1600 MHz -  0.625
+# 1066 MHz -  0.938
+#  800 MHz -  1.250
+#  700 MHz -  1.428
+#  533 MHz -  1.875
+#  400 MHz -  2.500
+#  200 MHz -  5.000
+#  100 MHz - 10.000
+set clock_core                 clk
+clk
+set clock_core_period          1
+1
+set clock_core_margin          [expr {$clock_core_period*0.20}]
+0.2
+set clock_apb                  apb_pclk
+apb_pclk
+set clock_apb_period           1
+1
+set clock_apb_margin           [expr {$clock_apb_period*0.20}]
+0.2
+set clock_uart                 clk_uart
+clk_uart
+set clock_uart_period          1
+1
+set clock_uart_margin          [expr {$clock_uart_period*0.20}]
+0.2
+################ Uncertainty ############################################################
+create_clock -period $clock_core_period $clock_core
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_clock_uncertainty $clock_core_margin $clock_core
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+create_clock -period $clock_apb_period $clock_apb
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_clock_uncertainty $clock_apb_margin $clock_apb
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+create_clock -period $clock_uart_period $clock_uart
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_clock_uncertainty $clock_uart_margin $clock_uart
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+########################################################################################
+# Create real clock if clock port is found
+set_input_delay        [expr {$clock_core_period*0.05}]        -clock $clock_core        [remove_from_collection                  [all_inputs]                  [get_ports {clk apb_pclk clk_uart}]]
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_output_delay        [expr {$clock_core_period*0.05}]        -clock $clock_core        [remove_from_collection                  [all_outputs]                  [get_ports {clk apb_pclk clk_uart}]]
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_false_path -from clk -to apb_pclk
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_false_path -from clk -to clk_uart
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_false_path -from apb_pclk -to clk
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_false_path -from apb_pclk -to clk_uart
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_false_path -from clk_uart -to clk
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_false_path -from clk_uart -to apb_pclk
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_dont_touch_network [get_ports clk]
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_dont_touch_network [get_ports apb_pclk]
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_dont_touch_network [get_ports clk_uart]
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_clock_groups -asynchronous -group clk -group apb_pclk -group clk_uart 
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: False path got overridden by set_clock_groups. (TIM-183)
+1
+puts "RM-Info: Completed script tconstraints.sdc\n"RM-Info: Completed script tconstraints.sdc
+
+set_fix_multiple_port_nets -all [all_designs] -buffer_constants
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_fsm_encoding_style one_hot
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_fsm_minimize true
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+ungroup -all -flatten
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Updating graph... (UID-83)
+Warning: Design 'dti_riscv' contains 3 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+1
+check_design > ${REPORTS_DIR}/${TOP_LEVEL_MODULE}_${LIB}_check_design.rpt
+link
+
+  Linking design 'dti_riscv'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (2 designs)               /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/syn/dti_riscv.db, etc
+  dti_stdcell_ssg_0p81v_neg40c (library)
+                              /data2/projects/libraries/tsmc28hpcp/7t/dti_tm28hpcp_l30_stdcells_7t_rev1p0p1/db/dti_tm28hpcp_l30_stdcells_7t_ssg_0p81v_neg40c_rev0p0p1.db
+  dw_foundation.sldb (library)
+                              /tools/synopsys/dc/Q-2019.12-SP4/libraries/syn/dw_foundation.sldb
+
+Error: Width mismatch on port 'irq' of reference to 'dti_apb_peripheral' in 'dti_riscv'. (LINK-3)
+Warning: Unable to resolve reference 'dti_apb_peripheral' in 'dti_riscv'. (LINK-5)
+Information: Building the design 'dti_riscv_core'. (HDL-193)
+Error:  ../../trunk/hdl/dti_riscv_core.v:371: Cannot test variable 'reset_n' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:375: Cannot test variable 'stall' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:385: Cannot test variable 'reset_n' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:390: Cannot test variable 'stall' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:406: Cannot test variable 'reset_n' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:414: Cannot test variable 'stall_mem' because it was not in the event expression or with wrong polarity. (ELAB-300)
+*** Presto compilation terminated with 6 errors. ***
+Information: Building the design 'dti_riscv_core'. (HDL-193)
+Warning: Unable to resolve reference 'dti_riscv_core' in 'dti_riscv'. (LINK-5)
+0
+write -format verilog -hierarchy -output ${RESULTS_DIR}/${TOP_LEVEL_MODULE}_${LIB}_GTECH.v
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Writing verilog file '/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/syn/results/dti_riscv_rev0p0p1_GTECH.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+Warning: Module dti_riscv contains unmapped components.  The output netlist might not be read back into the system. (VO-12)
+1
+# set_implementation apparch "U1"
+# compile_ultra 
+# compile_ultra -no_autoungroup
+compile_ultra -incremental
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: set compile_timing_high_effort is not supported in WLM mode. Ignoring this setting. (OPT-1346)
+Information: Performing power optimization. (PWR-850)
+Analyzing: "/data2/projects/libraries/tsmc28hpcp/7t/dti_tm28hpcp_l30_stdcells_7t_rev1p0p1/db/dti_tm28hpcp_l30_stdcells_7t_ssg_0p81v_neg40c_rev0p0p1.db"
+Library analysis succeeded.
+Information: Running optimization using a maximum of 4 cores. (OPT-1500)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | Q-2019.12-DWBB_201912.3 |     *     |
+| Licensed DW Building Blocks        | Q-2019.12-DWBB_201912.3 |     *     |
+============================================================================
+
+
+Information: There are 494 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbckx4' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbckx2' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbckx1' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbckoptax4' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbckoptax2' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbckoptax1' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbckena10x4' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbckena10x2' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbckena10x1' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbckena01x4' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbckena01x2' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbckena01x1' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka11x4' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka11x2' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka11x1' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka11optax4' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka11optax2' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka11optax1' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka10x4' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka10x2' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka10x1' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka10optax4' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka10optax2' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka10optax1' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka01x4' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka01x2' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka01x1' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka01optax4' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka01optax2' could not be modeled for sequential mapping. (OPT-1201)
+Warning: Library cell 'dti_28hc_7t_30_sffnqqnbcka01optax1' could not be modeled for sequential mapping. (OPT-1201)
+Loaded alib file './alib-52/dti_tm28hpcp_l30_stdcells_7t_ssg_0p81v_neg40c_rev0p0p1.db.alib'
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping  (Incremental)
+  ------------------------
+  Processing 'dti_riscv'
+Information: Added key list 'DesignWare' to design 'dti_riscv'. (DDB-72)
+Error: Width mismatch on port 'irq' of reference to 'dti_apb_peripheral' in 'dti_riscv'. (LINK-3)
+Warning: Unable to resolve reference 'dti_apb_peripheral' in 'dti_riscv'. (LINK-5)
+Information: Building the design 'dti_riscv_core'. (HDL-193)
+Error:  ../../trunk/hdl/dti_riscv_core.v:371: Cannot test variable 'reset_n' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:375: Cannot test variable 'stall' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:385: Cannot test variable 'reset_n' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:390: Cannot test variable 'stall' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:406: Cannot test variable 'reset_n' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:414: Cannot test variable 'stall_mem' because it was not in the event expression or with wrong polarity. (ELAB-300)
+*** Presto compilation terminated with 6 errors. ***
+Information: Building the design 'dti_riscv_core'. (HDL-193)
+Warning: Unable to resolve reference 'dti_riscv_core' in 'dti_riscv'. (LINK-5)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: The library cell 'dti_28hc_7t_30_tierailx1' in the library 'dti_stdcell_ssg_0p81v_neg40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'dti_28hc_7t_30_tielox1' in the library 'dti_stdcell_ssg_0p81v_neg40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'dti_28hc_7t_30_tiehix1' in the library 'dti_stdcell_ssg_0p81v_neg40c' is not characterized for internal power. (PWR-536)
+Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
+  Mapping 'dti_riscv_DW_cmp_0'
+  Mapping 'dti_riscv_DW01_inc_0'
+  Mapping 'dti_riscv_DW01_inc_1'
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:06:09   10955.8      0.37    1482.0       0.0                            713.2935
+    0:06:09   10955.8      0.37    1482.0       0.0                            713.2935
+
+  Beginning Mapping Optimizations  (Ultra High effort)  (Incremental)
+  -------------------------------
+
+  Beginning Incremental Implementation Selection
+  ----------------------------------------------
+    0:06:40   27263.0      0.18     573.2       0.0                           2633.5962
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:06:40   27263.0      0.18     573.2       0.0                           2633.5962
+    0:06:41   27252.7      0.18     573.2       0.0                           2632.5728
+    0:06:44   26936.4      0.18     573.2       0.0                           2586.1523
+    0:06:46   26936.4      0.18     573.2       0.0                           2586.1523
+    0:06:47   26937.9      0.06     184.7       0.0                           2586.3582
+    0:06:47   26937.9      0.06     184.7       0.0                           2586.3582
+    0:07:00   26936.3      0.00       0.0       0.0                           2586.1775
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:07:00   26936.3      0.00       0.0       0.0                           2586.1775
+    0:07:00   26936.3      0.00       0.0       0.0                           2586.1775
+    0:07:00   26936.3      0.00       0.0       0.0                           2586.1775
+    0:07:00   26936.3      0.00       0.0       0.0                           2586.1775
+    0:07:00   26936.3      0.00       0.0       0.0                           2586.1775
+    0:07:12    9672.8      0.00       0.0       0.0                            648.7493
+
+
+  Beginning Design Rule Fixing  (min_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:07:12    9672.8      0.00       0.0       0.0                            648.7493
+    0:07:12    9672.8      0.00       0.0       0.0                            648.7493
+    0:07:15    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:15    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:15    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:15    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:15    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:16    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:16    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:16    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:16    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:16    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:19    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:19    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:19    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:19    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:19    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:20    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:20    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:20    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:20    9672.8      0.00       0.0       0.0                            648.7485
+    0:07:20    9673.0      0.00       0.0       0.0                            648.7612
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:07:20    9673.0      0.00       0.0       0.0                            648.7612
+    0:07:23    9673.0      0.00       0.0       0.0                            648.7612
+    0:07:32    9388.1      0.00       0.0       0.0                            601.1991
+    0:07:32    9388.1      0.00       0.0       0.0                            601.1991
+    0:07:33    9388.3      0.00       0.0       0.0                            601.2117
+    0:07:33    9388.3      0.00       0.0       0.0                            601.2117
+    0:07:40    9256.9      0.00       0.0       0.0                            572.9313
+Loading db file '/data2/projects/libraries/tsmc28hpcp/7t/dti_tm28hpcp_l30_stdcells_7t_rev1p0p1/db/dti_tm28hpcp_l30_stdcells_7t_ssg_0p81v_neg40c_rev0p0p1.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'dti_riscv' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'clk': 3402 load(s), 1 driver(s), 1 inout(s)
+     Net 'reset_n': 3402 load(s), 1 driver(s), 2 inout(s)
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated black box outputs. (PWR-428)
+1
+update_timing
+Error: Width mismatch on port 'irq' of reference to 'dti_apb_peripheral' in 'dti_riscv'. (LINK-3)
+Warning: Unable to resolve reference 'dti_apb_peripheral' in 'dti_riscv'. (LINK-5)
+Information: Building the design 'dti_riscv_core'. (HDL-193)
+Error:  ../../trunk/hdl/dti_riscv_core.v:371: Cannot test variable 'reset_n' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:375: Cannot test variable 'stall' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:385: Cannot test variable 'reset_n' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:390: Cannot test variable 'stall' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:406: Cannot test variable 'reset_n' because it was not in the event expression or with wrong polarity. (ELAB-300)
+Error:  ../../trunk/hdl/dti_riscv_core.v:414: Cannot test variable 'stall_mem' because it was not in the event expression or with wrong polarity. (ELAB-300)
+*** Presto compilation terminated with 6 errors. ***
+Information: Building the design 'dti_riscv_core'. (HDL-193)
+Warning: Unable to resolve reference 'dti_riscv_core' in 'dti_riscv'. (LINK-5)
+Information: Updating design information... (UID-85)
+Warning: Design 'dti_riscv' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+1
+check_timing > ${REPORTS_DIR}/${TOP_LEVEL_MODULE}_${LIB}_check_timing.rpt
+#################################################################################
+# Write out Design
+#################################################################################
+write_file -format ddc     -hierarchy -output ${RESULTS_DIR}/${DC_FINAL_DDC_OUTPUT_FILE}
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Writing ddc file 'results/dti_riscv_rev0p0p1_netlist.ddc'.
+1
+write_file -format verilog -hierarchy -output ${RESULTS_DIR}/${DC_FINAL_VERILOG_OUTPUT_FILE}
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Writing verilog file '/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/syn/results/dti_riscv_rev0p0p1_netlist.v'.
+Warning: Verilog writer has added 2 nets to module dti_riscv using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+1
+write_sdf -significant_digits 5          ${RESULTS_DIR}/${DC_FINAL_SDF_OUTPUT_FILE}
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/syn/results/dti_riscv_rev0p0p1_netlist.sdf'. (WT-3)
+Warning: Design contains black-box components.  These cells will have no timing information. (WT-7)
+1
+################################################################################
+# Generate Final Reports
+#################################################################################
+report_timing -nworst 1000 -sort_by slack                    > ${REPORTS_DIR}/${DC_FINAL_TIMING_REPORT}
+report_constraint -all_violators                             > ${REPORTS_DIR}/${DC_FINAL_CONSTRAINTS_REPORT}
+report_qor  -significant_digits 5                            > ${REPORTS_DIR}/${DC_FINAL_QOR_REPORT}
+report_fsm                                                   > ${REPORTS_DIR}/${DC_FINAL_FSM_REPORT}
+report_power -analysis_effort medium                         > ${REPORTS_DIR}/${TOP_LEVEL_MODULE}_${LIB}_final_power.rpt
+report_power -analysis_effort medium -cell -verbose          > ${REPORTS_DIR}/${TOP_LEVEL_MODULE}_${LIB}_final_power_cell.rpt
+report_reference                                             > ${REPORTS_DIR}/${TOP_LEVEL_MODULE}_${LIB}_final_ref.rpt
+if {[shell_is_in_topographical_mode]} {
+  report_area -physical -nosplit > ${REPORTS_DIR}/${DC_FINAL_AREA_REPORT}
+} else {
+  report_area -nosplit > ${REPORTS_DIR}/${DC_FINAL_AREA_REPORT}
+}
+puts "RM-Info: Completed script syn.tcl\n"
+RM-Info: Completed script syn.tcl
+
+exit
+Memory usage for this session 2534 Mbytes.
+Memory usage for this session including child processes 2534 Mbytes.
+CPU usage for this session 483 seconds ( 0.13 hours ).
+Elapsed time for this session 497 seconds ( 0.14 hours ).
+
+Thank you...
+

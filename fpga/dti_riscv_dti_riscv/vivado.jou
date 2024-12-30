@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Dec 16 14:13:07 2024
+# Process ID: 22844
+# Current directory: /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_dti_riscv
+# Command line: vivado
+# Log file: /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_dti_riscv/vivado.log
+# Journal file: /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_dti_riscv/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project dti_riscv_dti_riscv /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_dti_riscv/dti_riscv_dti_riscv -part xc7a100tcsg324-1
+set_property board_part digilentinc.com:nexys-a7-100t:part0:1.3 [current_project]
+import_files -norecurse /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_lib/dti_riscv.sv
+update_compile_order -fileset sources_1
+ipx::infer_core -vendor user.org -library user -taxonomy /UserIP /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_dti_riscv
+ipx::edit_ip_in_project -upgrade true -name dti_riscv -directory /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_dti_riscv/dti_riscv_dti_riscv/dti_riscv_dti_riscv.tmp /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_dti_riscv/component.xml
+ipx::current_core /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_dti_riscv/component.xml
+update_compile_order -fileset sources_1
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project

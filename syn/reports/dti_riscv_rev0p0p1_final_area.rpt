@@ -1,0 +1,33 @@
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : dti_riscv
+Version: Q-2019.12-SP4
+Date   : Tue Dec 24 16:56:06 2024
+****************************************
+
+Library(s) Used:
+
+    dti_stdcell_ssg_0p81v_neg40c (File: /data2/projects/libraries/tsmc28hpcp/7t/dti_tm28hpcp_l30_stdcells_7t_rev1p0p1/db/dti_tm28hpcp_l30_stdcells_7t_ssg_0p81v_neg40c_rev0p0p1.db)
+
+Number of ports:                           84
+Number of nets:                          7109
+Number of cells:                         6890
+Number of combinational cells:           3486
+Number of sequential cells:              3404
+Number of macros/black boxes:               0
+Number of buf/inv:                        329
+Number of references:                      57
+
+Combinational area:               1599.164009
+Buf/Inv area:                       64.777998
+Noncombinational area:            7657.719855
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  9256.883864
+Total area:                 undefined
+
+Information: This design contains black box (unknown) components. (RPT-8)
+1

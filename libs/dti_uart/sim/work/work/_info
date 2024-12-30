@@ -1,0 +1,294 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.4 2023.10, Oct  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/sim/work
+T_opt
+!s110 1713837518
+VeA_b4DZFKSYIURR_`:08`3
+04 11 4 work dti_uart_tb fast 0
+=1-98039b6522a7-662715ce-5fc39-f5fa
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.4;77
+vbaudrate_gen
+Z3 2../../obf/hdl_obf_kname/dti_uart.sv|../tb/dti_uart_tb.sv
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1713837516
+!i10b 1
+!s100 hXCAVn_PjKX:?<3WaK5I_0
+If21NRclXY^1eFU7KE<>NK2
+S1
+R1
+Z6 w1713836366
+Z7 8../../obf/hdl_obf_kname/dti_uart.sv
+Z8 F../../obf/hdl_obf_kname/dti_uart.sv
+!i122 0
+L0 747 52
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2023.4;77
+r1
+!s85 0
+31
+Z11 !s108 1713837516.000000
+Z12 !s107 ../../inc//dti_global_defines.svh|../tb/dti_uart_tb.sv|../../obf/hdl_obf_kname/dti_uart.sv|
+Z13 !s90 -f|filelist_rtl.f|-f|filelist_tb.f|+cover=bcefs|-nocoverfec|
+!i113 0
+Z14 !s102 +cover=bcefs -nocoverfec
+Z15 o-sv -timescale 1fs/1fs +libext+.v +libext+.vh +libext+.sv +libext+.svh +cover=bcefs -nocoverfec -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z16 !s92 +incdir+../../inc/ +incdir+../../libs/uart_reg_blk/hdl +incdir+../../hdl/ -y ../../libs/uart_reg_blk/hdl -y ../../hdl +incdir+../libs -y ../libs -v ../libs/uart_tx.v -v ../libs/uart_rx.v -sv -timescale 1fs/1fs +libext+.v +libext+.vh +libext+.sv +libext+.svh +cover=bcefs -nocoverfec -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vdti_uart
+R3
+R4
+R5
+!i10b 1
+!s100 nP;@_U3jm_lgYzd<:1<j]3
+IQ=9eQhgP>T12W5k;]jHB40
+S1
+R1
+R6
+R7
+R8
+!i122 0
+L0 2 42
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+R2
+vdti_uart_tb
+R3
+R4
+R5
+!i10b 1
+!s100 3i5iOA:ToE=mcn42G2>[c2
+I]aaZT>0LA3fjDgC]cjUza3
+S1
+R1
+w1713779778
+8../tb/dti_uart_tb.sv
+F../tb/dti_uart_tb.sv
+!i122 0
+L0 3 261
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+R2
+vrb_apb_bridge
+R3
+R4
+R5
+!i10b 1
+!s100 GhdD;4fVn;3IUighYBzj:2
+I5Xm71oKkDH6c5j[f:XQVm2
+S1
+R1
+R6
+R7
+R8
+!i122 0
+L0 713 32
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+R2
+vrb_regs
+R3
+R4
+R5
+!i10b 1
+!s100 [:?NMI8:4^[^ij]EcnNRi3
+Ih8<;G5oTLdTVlVYW`=RT[1
+S1
+R1
+R6
+R7
+R8
+!i122 0
+L0 462 249
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+R2
+vreceiver
+R3
+R4
+R5
+!i10b 1
+!s100 4X0@]hSR^0nc8M2WJCWaO1
+IPVZKY2CRfe;m=7BGZZaZT1
+S1
+R1
+R6
+R7
+R8
+!i122 0
+L0 242 177
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+R2
+vregister_block
+R3
+R4
+R5
+!i10b 1
+!s100 Onoh^K;VLn>`32=?o]L8[1
+IL17KcWlAgAPIK>JY_F0Hn2
+S1
+R1
+R6
+R7
+R8
+!i122 0
+L0 421 39
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+R2
+vtransmitter
+R3
+R4
+R5
+!i10b 1
+!s100 dD^N7o:IPkG4VmT6gd`US0
+IMnh5fd6[TaHQbUF_6UHKQ3
+S1
+R1
+R6
+R7
+R8
+!i122 0
+L0 46 194
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+R2
+vuart_rx
+R4
+R5
+!i10b 1
+!s100 :aC3BNjoMhV9D7YoXG=2C2
+IkfGOj?CGQi`3ThldjDf>F2
+S1
+R1
+w1713779940
+8../libs/uart_rx.v
+F../libs/uart_rx.v
+!i122 0
+L0 9 201
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+R2
+vuart_tx
+R4
+R5
+!i10b 1
+!s100 1TT>`2coQebT4BigPbfc10
+I[JTco8ZWBclS?:g<l4dO42
+S1
+R1
+w1713752187
+8../libs/uart_tx.v
+F../libs/uart_tx.v
+!i122 0
+L0 10 180
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R16
+R2

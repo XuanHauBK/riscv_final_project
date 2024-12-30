@@ -1,0 +1,30 @@
+#mkdir replace
+perl replace_32h_and_signed.pl  -src=./
+
+mv dataflow_controller.sv1         replace/dataflow_controller.sv
+mv datapath.sv1                    replace/datapath.sv
+mv ddr_bist.sv1                    replace/ddr_bist.sv
+mv dfi_bridge.sv1                  replace/dfi_bridge.sv
+mv dti_gear_ctrl.sv1               replace/dti_gear_ctrl.sv
+mv dti_gear_slice.sv1              replace/dti_gear_slice.sv
+mv dti_phy_ctl_blk.sv1             replace/dti_phy_ctl_blk.sv
+mv port_bridge.sv1                 replace/port_bridge.sv
+mv protocol_controller.sv1         replace/protocol_controller.sv
+mv register_block.sv1              replace/register_block.sv
+mv dti_cmd_cptr.sv1                replace/dti_cmd_cptr.sv
+mv dynamo_core.sv1                replace/dynamo_core.sv
+
+#sed -i "s|dti_cdc_data_sync_gf rd_sync_wr_ptr|dti_cdc_data_sync_gf #(.DATA_WIDTH (4), .SRC_SYNC (0)) rd_sync_wr_ptr|g" replace/port_bridge.sv
+#sed -i   "s|__clk_src(|.clk_src(|g"   replace/port_bridge.sv
+#sed -i  "s|__clk_dest(|.clk_dest(|g"  replace/port_bridge.sv
+#sed -i   "s|__reset_n(|.reset_n(|g"   replace/port_bridge.sv
+#sed -i   "s|__din_src(|.din_src(|g"   replace/port_bridge.sv
+#sed -i "s|__dout_dest(|.dout_dest(|g" replace/port_bridge.sv
+
+#sed -i "s|dti_cdc_data_sync_gf rd_sync_wr_full_state|dti_cdc_data_sync_gf #(.DATA_WIDTH (1), .SRC_SYNC (0)) rd_sync_wr_full_state|g" replace/port_bridge.sv
+#sed -i   "s|__clk_src(|.clk_src(|g"   replace/port_bridge.sv
+#sed -i  "s|__clk_dest(|.clk_dest(|g"  replace/port_bridge.sv
+#sed -i   "s|__reset_n(|.reset_n(|g"   replace/port_bridge.sv
+#sed -i   "s|__din_src(|.din_src(|g"   replace/port_bridge.sv
+#sed -i "s|__dout_dest(|.dout_dest(|g" replace/port_bridge.sv
+

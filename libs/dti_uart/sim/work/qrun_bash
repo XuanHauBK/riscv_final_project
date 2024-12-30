@@ -1,0 +1,13 @@
+reset
+
+# prepare for sim
+alias vlb='reset; rm -rf work; vlib work; mkdir -p log'
+
+# compile source code
+alias vlg='vlog -f filelist_rtl.f -f filelist_tb.f +cover=bcefs -nocoverfec '
+
+# run simulation
+alias vsm='vsim -c dti_uart_tb -l log/vsm.log -voptargs=+acc +notimingchecks -wlf vsim.wlf  -do " add wave -r dti_uart_tb/*; run -all; "'
+
+# View wave
+alias viw='vsim -view vsim.wlf -do wave.do &'

@@ -1,0 +1,308 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:39:19 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 10318
+License: Customer
+
+Current time: 	Tue Dec 17 11:29:05 ICT 2024
+Time zone: 	Indochina Time (Asia/Ho_Chi_Minh)
+
+OS: CentOS Linux release 7.9.2009 (Core)
+OS Version: 3.10.0-1160.95.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 72
+
+Display: :26
+Screen size: 1600x863
+Screen resolution (DPI): 99
+Available screens: 1
+Available disk space: 187 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/data_nas3/tools/Xilinx/Vivado/2018.1/tps/lnx64/jre
+Java executable location: 	/data_nas3/tools/Xilinx/Vivado/2018.1/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	hautx0
+User home directory: /home/hautx0
+User working directory: /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /data_nas3/tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2018.1
+RDI_DATADIR: /data_nas3/tools/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: /data_nas3/tools/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: /home/hautx0/.Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: /home/hautx0/.Xilinx/Vivado/2018.1/
+Vivado layouts directory: /home/hautx0/.Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	/data_nas3/tools/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/vivado.log
+Vivado journal file location: 	/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-10318-dt22-linux
+
+GUI allocated memory:	166 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 5,175 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 64 MB (+64645kb) [00:00:06]
+// [Engine Memory]: 5,159 MB (+5257607kb) [00:00:06]
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.xpr", 0); // q (O, ch)
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 5,239 MB. GUI used memory: 34 MB. Current time: 12/17/24 11:29:07 AM ICT
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_dti_riscv'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_uart_dti_uart'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2018.1/data/ip'. 
+// Project name: dti_riscv_top; location: /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:12 . Memory (MB): peak = 6525.383 ; gain = 220.141 ; free physical = 151708 ; free virtual = 215827 
+// Elapsed time: 12 seconds
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 5,438 MB (+22199kb) [00:00:21]
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false, false, false, false, true, false); // u (O, ch) - Popup Trigger
+// [GUI Memory]: 68 MB (+491kb) [00:00:23]
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RESET_BEHAVIORAL, "Reset Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RESET_BEHAVIORAL
+// A (ch): Reset Simulation: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,420 MB. GUI used memory: 43 MB. Current time: 12/17/24 11:29:22 AM ICT
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bv (ch):  Reset Simulation : addNotify
+dismissDialog("Reset Simulation"); // A (ch)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RESET_SIM
+// Tcl Message: reset_simulation -simset sim_1 -mode behavioral 
+dismissDialog("Reset Simulation"); // bv (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: launch_simulation 
+// Tcl Message: Generating merged BMM file for the design top 'dti_riscv_top'... 
+// Tcl Message: Generating merged BMM file for the design top 'dti_riscv_top'... Generating merged BMM file for the design top 'dti_riscv_top'... 
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'dti_riscv_top' in fileset 'sim_1'... 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-Questa-107] Finding global include files... INFO: [USF-Questa-108] Finding include directories and verilog header directory paths... INFO: [USF-Questa-110] Fetching design files from 'sources_1'...(this may take a while)... INFO: [USF-Questa-111] Fetching design files from 'sim_1'... INFO: [USF-Questa-2] Questa::Compile design INFO: [USF-Questa-15] Creating automatic 'do' files... INFO: [USF-Questa-69] Executing 'COMPILE and ANALYZE' step in '/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.sim/sim_1/behav/questa' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-Questa-69] 'compile' step finished in '3' seconds INFO: [USF-Questa-3] Questa::Elaborate design INFO: [USF-Questa-69] Executing 'ELABORATE' step in '/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.sim/sim_1/behav/questa' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-Questa-69] 'elaborate' step finished in '4' seconds INFO: [USF-Questa-4] Questa::Simulate design INFO: [USF-Questa-69] Executing 'SIMULATE' step in '/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.sim/sim_1/behav/questa' 
+// Tcl Message: Program launched (PID=11623) 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 6743.480 ; gain = 0.000 ; free physical = 151120 ; free virtual = 215290 
+// [GUI Memory]: 80 MB (+8922kb) [00:00:40]
+// 'd' command handler elapsed time: 9 seconds
+// Elapsed time: 10 seconds
+dismissDialog("Run Simulation"); // e (ch)
+// Elapsed time: 101 seconds
+floatView(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ch)
+// PAResourceOtoP.PAViews_SOURCES: Sources: float view
+dockFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, aG)
+// PAResourceOtoP.PAViews_SOURCES: Sources: dock view
+floatView(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ch)
+// PAResourceOtoP.PAViews_SOURCES: Sources: float view
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, aG)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, dti_riscv_top (dti_riscv_top.sv)]", 6); // B (D, aG)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, dti_riscv_top (dti_riscv_top.sv), design_1_wrapper : design_1_wrapper (design_1_wrapper.v)]", 7); // B (D, aG)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, dti_riscv_top (dti_riscv_top.sv), design_1_wrapper : design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd), design_1 (design_1.v)]", 9); // B (D, aG)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, dti_riscv_top (dti_riscv_top.sv), design_1_wrapper : design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd), design_1 (design_1.v), clk_wiz_0 : design_1_clk_wiz_0_0 (design_1_clk_wiz_0_0.xci)]", 11); // B (D, aG)
+// A (aG): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (aG)
+// [GUI Memory]: 84 MB (+465kb) [00:02:33]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, dti_riscv_top (dti_riscv_top.sv), design_1_wrapper : design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd), design_1 (design_1.v), clk_wiz_0 : design_1_clk_wiz_0_0 (design_1_clk_wiz_0_0.xci), design_1_clk_wiz_0_0 (design_1_clk_wiz_0_0.v)]", 12); // B (D, aG)
+// PAPropertyPanels.initPanels (design_1_clk_wiz_0_0.v) elapsed time: 0.2s
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, dti_riscv_top (dti_riscv_top.sv), design_1_wrapper : design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd), design_1 (design_1.v), clk_wiz_0 : design_1_clk_wiz_0_0 (design_1_clk_wiz_0_0.xci), design_1_clk_wiz_0_0 (design_1_clk_wiz_0_0.v)]", 12, true); // B (D, aG) - Node
+// [GUI Memory]: 90 MB (+2134kb) [00:02:53]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, dti_riscv_top (dti_riscv_top.sv), design_1_wrapper : design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd), design_1 (design_1.v), clk_wiz_0 : design_1_clk_wiz_0_0 (design_1_clk_wiz_0_0.xci), design_1_clk_wiz_0_0 (design_1_clk_wiz_0_0.v)]", 12, true, false, false, false, false, true); // B (D, aG) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, dti_riscv_top (dti_riscv_top.sv), design_1_wrapper : design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd), design_1 (design_1.v), clk_wiz_0 : design_1_clk_wiz_0_0 (design_1_clk_wiz_0_0.xci), design_1_clk_wiz_0_0 (design_1_clk_wiz_0_0.v)]", 12, true); // B (D, aG) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, dti_riscv_top (dti_riscv_top.sv), design_1_wrapper : design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd), design_1 (design_1.v), clk_wiz_0 : design_1_clk_wiz_0_0 (design_1_clk_wiz_0_0.xci), design_1_clk_wiz_0_0 (design_1_clk_wiz_0_0.v)]", 12, true, false, false, false, false, true); // B (D, aG) - Double Click - Node
+// Elapsed time: 17 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// [GUI Memory]: 96 MB (+813kb) [00:03:31]
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5, true, false, false, false, true, false); // B (D, aG) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // Z (ai, aG)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RESET, "Reset Simulation"); // Z (ai, aG)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RESET_BEHAVIORAL, "Reset Behavioral Simulation"); // ac (aG)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RESET_BEHAVIORAL
+// A (aG): Reset Simulation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bv (aG):  Reset Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Reset Simulation"); // A (aG)
+// TclEventType: RESET_SIM
+// Tcl Message: reset_simulation -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-2266] Removing simulation data... INFO: [Vivado 12-2267] Reset complete 
+dismissDialog("Reset Simulation"); // bv (aG)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5, true, false, false, false, true, false); // B (D, aG) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // Z (ai, aG)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RESET, "Reset Simulation"); // Z (ai, aG)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, aG)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, aG)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RESET, "Reset Simulation"); // Z (ai, aG)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // Z (ai, aG)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // Z (ai, aG)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RESET, "Reset Simulation"); // Z (ai, aG)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, aG)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // ac (ai, aG)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,461 MB. GUI used memory: 52 MB. Current time: 12/17/24 11:33:02 AM ICT
+// Elapsed time: 75 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false, false, false, false, true, false); // u (O, ch) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_SETTINGS, "Simulation Settings..."); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// C (ch): Settings: addNotify
+selectComboBox(PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION_SET, "sim_1", 0); // w (Q, C)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (C)
+// [GUI Memory]: 101 MB (+750kb) [00:05:29]
+// bv (ch):  Change Settings : addNotify
+// [GUI Memory]: 107 MB (+307kb) [00:05:30]
+// [GUI Memory]: 122 MB (+10098kb) [00:05:30]
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 137 MB (+10163kb) [00:05:42]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (C)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// Elapsed time: 12 seconds
+dismissDialog("Change Settings"); // bv (ch)
+// TclEventType: CREATE_IP_CATALOG
+// [GUI Memory]: 151 MB (+7542kb) [00:05:42]
+// Tcl Message: update_ip_catalog 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (C)
+selectButton("OptionPane.button", "OK"); // JButton (A, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (C)
+// bv (ch):  Change Settings : addNotify
+// TclEventType: FILE_SET_CHANGE
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Change Settings"); // bv (ch)
+dismissDialog("Settings"); // C (ch)
+// Tcl Message: update_ip_catalog 
+// TclEventType: CREATE_IP_CATALOG
+// bv (ch):  Refresh All IP Repositories : addNotify
+dismissDialog("Refresh All IP Repositories"); // bv (ch)
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false, false, false, false, true, false); // u (O, ch) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RESET_BEHAVIORAL, "Reset Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RESET_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// A (ch): Reset Simulation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bv (ch):  Reset Simulation : addNotify
+dismissDialog("Reset Simulation"); // A (ch)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RESET_SIM
+// Tcl Message: reset_simulation -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-2266] Removing simulation data... INFO: [Vivado 12-2267] Reset complete 
+dismissDialog("Reset Simulation"); // bv (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: launch_simulation 
+// Tcl Message: Generating merged BMM file for the design top 'dti_riscv_top'... 
+// Tcl Message: Generating merged BMM file for the design top 'dti_riscv_top'... Generating merged BMM file for the design top 'dti_riscv_top'... 
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'dti_riscv_top' in fileset 'sim_1'... 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-Questa-107] Finding global include files... INFO: [USF-Questa-108] Finding include directories and verilog header directory paths... INFO: [USF-Questa-110] Fetching design files from 'sources_1'...(this may take a while)... INFO: [USF-Questa-111] Fetching design files from 'sim_1'... INFO: [USF-Questa-2] Questa::Compile design INFO: [USF-Questa-15] Creating automatic 'do' files... INFO: [USF-Questa-69] Executing 'COMPILE and ANALYZE' step in '/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.sim/sim_1/behav/questa' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-Questa-69] 'compile' step finished in '5' seconds INFO: [USF-Questa-3] Questa::Elaborate design INFO: [USF-Questa-69] Executing 'ELABORATE' step in '/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.sim/sim_1/behav/questa' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-Questa-69] 'elaborate' step finished in '4' seconds INFO: [USF-Questa-4] Questa::Simulate design INFO: [USF-Questa-69] Executing 'SIMULATE' step in '/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.sim/sim_1/behav/questa' 
+// Tcl Message: Program launched (PID=15975) 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 6767.352 ; gain = 0.000 ; free physical = 154277 ; free virtual = 218491 
+// 'd' command handler elapsed time: 10 seconds
+// Elapsed time: 10 seconds
+dismissDialog("Run Simulation"); // e (ch)

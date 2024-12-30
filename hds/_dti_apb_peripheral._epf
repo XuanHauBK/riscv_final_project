@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom dti_apb_peripheral
+DEFAULT_FILE atom dti_apb_peripheral/struct.bd

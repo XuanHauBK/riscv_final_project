@@ -1,0 +1,768 @@
+m255
+K4
+z2
+Z0 !s99 mlopt
+!s11e MIXED_VERSIONS
+!s11f vlog 2023.4 2023.10, Oct  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.sim/sim_1/behav/questa
+vdesign_1
+Z2 2../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_lmb_bram_0/sim/design_1_lmb_bram_0.v|../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v|../../../../dti_riscv_top.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Z3 !s110 1734624284
+!i10b 1
+!s100 dVa257cn>daD1YOLDJ5B;3
+IjMUgKoJ0Ac`XzkPQ9Am0L3
+R1
+Z4 w1734410663
+Z5 8../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v
+Z6 F../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v
+!i122 7
+L0 13 263
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2023.4;77
+r1
+!s85 0
+31
+Z9 !s108 1734624283.000000
+Z10 !s107 ../../../../dti_riscv_top.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v|../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_lmb_bram_0/sim/design_1_lmb_bram_0.v|
+Z11 !s90 -incr|-work|xil_defaultlib|+incdir+../../../../dti_riscv_top.srcs/sources_1/bd/design_1/ipshared/4903|+incdir+/tools/Xilinx/Vivado/2018.1/data/xilinx_vip/include|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_lmb_bram_0/sim/design_1_lmb_bram_0.v|../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v|../../../../dti_riscv_top.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v|
+!i113 0
+Z12 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -work xil_defaultlib +incdir+../../../../dti_riscv_top.srcs/sources_1/bd/design_1/ipshared/4903 +incdir+/tools/Xilinx/Vivado/2018.1/data/xilinx_vip/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 tCvgOpt 0
+Edesign_1_axi_apb_bridge_0_0
+Z15 w1734367363
+Z16 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+Z17 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
+DEx22 axi_apb_bridge_v3_0_14 14 axi_apb_bridge 0 22 lAl@7[P<A?>fRZ23YYMB^2
+Z18 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z19 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z20 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 1
+R1
+Z21 8../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_axi_apb_bridge_0_0/sim/design_1_axi_apb_bridge_0_0.vhd
+Z22 F../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_axi_apb_bridge_0_0/sim/design_1_axi_apb_bridge_0_0.vhd
+l0
+Z23 L59 1
+Ve9B6k3gAGOfcif35ldOA^2
+!s100 60HenDDl;RH::W]mZABg]0
+Z24 OL;C;2023.4;77
+31
+Z25 !s110 1734624282
+!i10b 1
+Z26 !s108 1734624281.000000
+Z27 !s90 -93|-work|xil_defaultlib|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_axi_apb_bridge_0_0/sim/design_1_axi_apb_bridge_0_0.vhd|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_microblaze_0_0/sim/design_1_microblaze_0_0.vhd|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_mdm_0_0/sim/design_1_mdm_0_0.vhd|
+Z28 !s107 ../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_mdm_0_0/sim/design_1_mdm_0_0.vhd|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_microblaze_0_0/sim/design_1_microblaze_0_0.vhd|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_axi_apb_bridge_0_0/sim/design_1_axi_apb_bridge_0_0.vhd|
+!i113 0
+Z29 o-93 -work xil_defaultlib
+Z30 tExplicit 1 CvgOpt 0
+Adesign_1_axi_apb_bridge_0_0_arch
+R16
+R17
+R18
+R19
+R20
+DEx4 work 27 design_1_axi_apb_bridge_0_0 0 22 e9B6k3gAGOfcif35ldOA^2
+!i122 1
+l218
+L90 220
+V^dlb3I]Bil5PO9HbliChE2
+!s100 a0al0a<m9;KI27?[L^:X23
+R24
+31
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R29
+R30
+vdesign_1_clk_wiz_0_0
+Z31 2../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v
+R25
+!i10b 1
+!s100 bSKe7=7H^1aZ>^lZ?i@_83
+I]XYQ<4Pef4kFki^[T;j^d2
+R1
+Z32 w1734407843
+8../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v
+F../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v
+!i122 2
+L0 71 25
+R7
+R8
+r1
+!s85 0
+31
+Z33 !s108 1734624282.000000
+Z34 !s107 ../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v|
+Z35 !s90 -incr|-work|xil_defaultlib|+incdir+../../../../dti_riscv_top.srcs/sources_1/bd/design_1/ipshared/4903|+incdir+/tools/Xilinx/Vivado/2018.1/data/xilinx_vip/include|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v|
+!i113 0
+R12
+R13
+R14
+vdesign_1_clk_wiz_0_0_clk_wiz
+R31
+R25
+!i10b 1
+!s100 SWHFmfS_k?`TIFgi83JWi0
+IL<7d_Q;M@LE^mgeElK@hJ2
+R1
+R32
+8../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v
+F../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v
+!i122 2
+L0 69 145
+R7
+R8
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 0
+R12
+R13
+R14
+Edesign_1_dlmb_bram_if_cntlr_0
+Z36 w1734367404
+Z37 DEx25 lmb_bram_if_cntlr_v4_0_14 17 lmb_bram_if_cntlr 0 22 10K1ZN@EO1=549[L<Y[<l0
+R18
+R19
+R20
+!i122 6
+R1
+Z38 8../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_0/sim/design_1_dlmb_bram_if_cntlr_0.vhd
+Z39 F../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_0/sim/design_1_dlmb_bram_if_cntlr_0.vhd
+l0
+R23
+V9Xm^WLhA4T[HohEf_j4bm0
+!s100 b0]]GF=da2JN?::FiZ3;[0
+R24
+31
+Z40 !s110 1734624283
+!i10b 1
+R9
+Z41 !s90 -93|-work|xil_defaultlib|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dlmb_v10_0/sim/design_1_dlmb_v10_0.vhd|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_ilmb_v10_0/sim/design_1_ilmb_v10_0.vhd|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_0/sim/design_1_dlmb_bram_if_cntlr_0.vhd|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_ilmb_bram_if_cntlr_0/sim/design_1_ilmb_bram_if_cntlr_0.vhd|
+Z42 !s107 ../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_ilmb_bram_if_cntlr_0/sim/design_1_ilmb_bram_if_cntlr_0.vhd|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_0/sim/design_1_dlmb_bram_if_cntlr_0.vhd|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_ilmb_v10_0/sim/design_1_ilmb_v10_0.vhd|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dlmb_v10_0/sim/design_1_dlmb_v10_0.vhd|
+!i113 0
+R29
+R30
+Adesign_1_dlmb_bram_if_cntlr_0_arch
+R18
+R19
+R20
+DEx4 work 29 design_1_dlmb_bram_if_cntlr_0 0 22 9Xm^WLhA4T[HohEf_j4bm0
+!i122 6
+l217
+Z43 L84 212
+V_4Ok0:iPEl4?oMCR]lL8R3
+!s100 cz?l1T6ae^NST_c^:XTJI1
+R24
+31
+R40
+!i10b 1
+R9
+R41
+R42
+!i113 0
+R29
+R30
+Edesign_1_dlmb_v10_0
+Z44 w1734367403
+Z45 DEx14 lmb_v10_v3_0_9 7 lmb_v10 0 22 ke_FQJP?olA@lkAQK>o;c3
+R18
+R19
+R20
+!i122 6
+R1
+Z46 8../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dlmb_v10_0/sim/design_1_dlmb_v10_0.vhd
+Z47 F../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dlmb_v10_0/sim/design_1_dlmb_v10_0.vhd
+l0
+R23
+V<nE=K_Y?]SNICjaW_RfT93
+!s100 Y^oTP8?S;fR_5ZI>f`RVb3
+R24
+31
+R40
+!i10b 1
+R9
+R41
+R42
+!i113 0
+R29
+R30
+Adesign_1_dlmb_v10_0_arch
+R18
+R19
+R20
+DEx4 work 19 design_1_dlmb_v10_0 0 22 <nE=K_Y?]SNICjaW_RfT93
+!i122 6
+l157
+Z48 L89 104
+Vz:aWFJCY]KAPYdQ3LJ2<i2
+!s100 IgSzm_0Iho87XYC0RK6^U0
+R24
+31
+R40
+!i10b 1
+R9
+R41
+R42
+!i113 0
+R29
+R30
+vdesign_1_dti_riscv_0_0
+Z49 2../../../../dti_riscv_top.ip_user_files/bd/design_1/ipshared/1a8f/dti_riscv_dti_riscv/dti_riscv_dti_riscv.srcs/sources_1/imports/dti_riscv_lib/dti_riscv.sv|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dti_riscv_0_0/sim/design_1_dti_riscv_0_0.sv
+Z50 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z51 !s110 1734624281
+!i10b 1
+!s100 KM?THVI:OM?d;DJ5FGGbW1
+IK`?k44?TNA^0kiHX6[jDK3
+S1
+R1
+R15
+8../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dti_riscv_0_0/sim/design_1_dti_riscv_0_0.sv
+F../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dti_riscv_0_0/sim/design_1_dti_riscv_0_0.sv
+!i122 0
+L0 56 56
+R7
+R8
+r1
+!s85 0
+31
+R26
+Z52 !s107 ../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dti_riscv_0_0/sim/design_1_dti_riscv_0_0.sv|../../../../dti_riscv_top.ip_user_files/bd/design_1/ipshared/1a8f/dti_riscv_dti_riscv/dti_riscv_dti_riscv.srcs/sources_1/imports/dti_riscv_lib/dti_riscv.sv|
+Z53 !s90 -incr|-sv|-L|xil_defaultlib|-work|xil_defaultlib|+incdir+../../../../dti_riscv_top.srcs/sources_1/bd/design_1/ipshared/4903|+incdir+/tools/Xilinx/Vivado/2018.1/data/xilinx_vip/include|../../../../dti_riscv_top.ip_user_files/bd/design_1/ipshared/1a8f/dti_riscv_dti_riscv/dti_riscv_dti_riscv.srcs/sources_1/imports/dti_riscv_lib/dti_riscv.sv|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dti_riscv_0_0/sim/design_1_dti_riscv_0_0.sv|
+!i113 0
+Z54 o-sv -L xil_defaultlib -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z55 !s92 -sv -L xil_defaultlib -work xil_defaultlib +incdir+../../../../dti_riscv_top.srcs/sources_1/bd/design_1/ipshared/4903 +incdir+/tools/Xilinx/Vivado/2018.1/data/xilinx_vip/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R14
+vdesign_1_dti_uart_0_1
+Z56 2../../../../dti_riscv_top.ip_user_files/bd/design_1/ipshared/16bd/dti_uart_dti_uart/dti_uart_dti_uart.srcs/sources_1/imports/dti_riscv_lib/dti_uart.sv|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dti_uart_0_1/sim/design_1_dti_uart_0_1.sv
+R50
+R40
+!i10b 1
+!s100 KAcDIl2VF7TVz=0@kO]ID2
+IJYS_AcizaLdW?c]NCoBh<1
+S1
+R1
+R44
+8../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dti_uart_0_1/sim/design_1_dti_uart_0_1.sv
+F../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dti_uart_0_1/sim/design_1_dti_uart_0_1.sv
+!i122 4
+L0 56 73
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z57 !s107 ../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dti_uart_0_1/sim/design_1_dti_uart_0_1.sv|../../../../dti_riscv_top.ip_user_files/bd/design_1/ipshared/16bd/dti_uart_dti_uart/dti_uart_dti_uart.srcs/sources_1/imports/dti_riscv_lib/dti_uart.sv|
+Z58 !s90 -incr|-sv|-L|xil_defaultlib|-work|xil_defaultlib|+incdir+../../../../dti_riscv_top.srcs/sources_1/bd/design_1/ipshared/4903|+incdir+/tools/Xilinx/Vivado/2018.1/data/xilinx_vip/include|../../../../dti_riscv_top.ip_user_files/bd/design_1/ipshared/16bd/dti_uart_dti_uart/dti_uart_dti_uart.srcs/sources_1/imports/dti_riscv_lib/dti_uart.sv|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_dti_uart_0_1/sim/design_1_dti_uart_0_1.sv|
+!i113 0
+R54
+R55
+R14
+Edesign_1_ilmb_bram_if_cntlr_0
+R36
+R37
+R18
+R19
+R20
+!i122 6
+R1
+Z59 8../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_ilmb_bram_if_cntlr_0/sim/design_1_ilmb_bram_if_cntlr_0.vhd
+Z60 F../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_ilmb_bram_if_cntlr_0/sim/design_1_ilmb_bram_if_cntlr_0.vhd
+l0
+R23
+VUfDW]=PLUk<bSAT6N66bG2
+!s100 O3]Y_d:jmMMGPZUGj^ZKS0
+R24
+31
+R40
+!i10b 1
+R9
+R41
+R42
+!i113 0
+R29
+R30
+Adesign_1_ilmb_bram_if_cntlr_0_arch
+R18
+R19
+R20
+DEx4 work 29 design_1_ilmb_bram_if_cntlr_0 0 22 UfDW]=PLUk<bSAT6N66bG2
+!i122 6
+l217
+R43
+V]<PMm?>5l>1dNB>d:@TjX0
+!s100 ^4ThB3HX:eK??m1An>NVh0
+R24
+31
+R40
+!i10b 1
+R9
+R41
+R42
+!i113 0
+R29
+R30
+Edesign_1_ilmb_v10_0
+R36
+R45
+R18
+R19
+R20
+!i122 6
+R1
+Z61 8../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_ilmb_v10_0/sim/design_1_ilmb_v10_0.vhd
+Z62 F../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_ilmb_v10_0/sim/design_1_ilmb_v10_0.vhd
+l0
+R23
+Vk8^E`KcXQ?Q<knT>9N^Pa3
+!s100 6R8@Vo>:P[RAlH>PQ`JD^1
+R24
+31
+R40
+!i10b 1
+R9
+R41
+R42
+!i113 0
+R29
+R30
+Adesign_1_ilmb_v10_0_arch
+R18
+R19
+R20
+DEx4 work 19 design_1_ilmb_v10_0 0 22 k8^E`KcXQ?Q<knT>9N^Pa3
+!i122 6
+l157
+R48
+VaDRBM5=cS[77X:F7lJ0bI3
+!s100 DV=a;CNAT^glIh0RhBkH91
+R24
+31
+R40
+!i10b 1
+R9
+R41
+R42
+!i113 0
+R29
+R30
+vdesign_1_lmb_bram_0
+R2
+R3
+!i10b 1
+!s100 jZh[kK`YlLPAnJ1PBBi3H0
+IGLQLEb`bTZ<WY3U^HMPZ93
+R1
+R36
+8../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_lmb_bram_0/sim/design_1_lmb_bram_0.v
+F../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_lmb_bram_0/sim/design_1_lmb_bram_0.v
+!i122 7
+L0 56 192
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+Edesign_1_mdm_0_0
+Z63 w1734367401
+Z64 DPx20 axi_lite_ipif_v3_0_4 8 ipif_pkg 0 22 ^HGeE;>ko[_RXYeE=kPo?3
+Z65 DPx8 synopsys 10 attributes 0 22 9IX8bg`a2S[Azh3JDMQM02
+Z66 DPx4 ieee 14 std_logic_misc 0 22 Vh1S?Q;D1AH@iib=XF9h<0
+R16
+R17
+DEx11 mdm_v3_2_13 3 mdm 0 22 Jmfz2VggbncQSAB8az<cM0
+R18
+R19
+R20
+!i122 1
+R1
+Z67 8../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_mdm_0_0/sim/design_1_mdm_0_0.vhd
+Z68 F../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_mdm_0_0/sim/design_1_mdm_0_0.vhd
+l0
+R23
+V8PXQ8S^;KJ1PZO9W4@1Je0
+!s100 GH<QUHCGnVOk]LAeoUQA61
+R24
+31
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R29
+R30
+Adesign_1_mdm_0_0_arch
+R64
+R65
+R66
+R16
+R17
+R18
+R19
+R20
+DEx4 work 16 design_1_mdm_0_0 0 22 8PXQ8S^;KJ1PZO9W4@1Je0
+!i122 1
+l1643
+L74 2240
+VSfNl?6RKFd9[GZE?iCfdS0
+!s100 CbOoRb6`P8G:a20@]122B0
+R24
+31
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R29
+R30
+Edesign_1_microblaze_0_0
+R15
+Z69 DPx18 microblaze_v10_0_6 16 microblaze_types 0 22 j0z>N96Dea:eKTF03?CKR1
+Z70 DPx18 microblaze_v10_0_6 14 microblaze_isa 0 22 H83mPh1PXmZgLilj:NACS2
+DEx18 microblaze_v10_0_6 10 microblaze 0 22 TXzK:9TMY9`8E0Eo`1elg3
+R18
+R19
+R20
+!i122 1
+R1
+Z71 8../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_microblaze_0_0/sim/design_1_microblaze_0_0.vhd
+Z72 F../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_microblaze_0_0/sim/design_1_microblaze_0_0.vhd
+l0
+R23
+V=MW52fk@2[THEh@S7a:km0
+!s100 XB2<F;i_Q=djD`caO5am33
+R24
+31
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R29
+R30
+Adesign_1_microblaze_0_0_arch
+R69
+R70
+R18
+R19
+R20
+DEx4 work 23 design_1_microblaze_0_0 0 22 =MW52fk@2[THEh@S7a:km0
+!i122 1
+l792
+L116 1043
+V8hhFeoJT]i[YNd^UQJ>N21
+!s100 MQQI:_BVg^ocDR`>697ih0
+R24
+31
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R29
+R30
+Edesign_1_rst_clk_wiz_0_100m_0
+R44
+Z73 DPx6 unisim 11 vcomponents 0 22 ?G]jXJIkjeCZlgmP88X=l2
+DEx22 proc_sys_reset_v5_0_12 14 proc_sys_reset 0 22 M8j0Mk7f^KTWSkUhonFc83
+R18
+R19
+R20
+!i122 3
+R1
+Z74 8../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_rst_clk_wiz_0_100M_0/sim/design_1_rst_clk_wiz_0_100M_0.vhd
+Z75 F../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_rst_clk_wiz_0_100M_0/sim/design_1_rst_clk_wiz_0_100M_0.vhd
+l0
+R23
+VR6Fm`BbSibWiPID;LENP^3
+!s100 15I;RE@a7Zg6Q<m7KkH<o0
+R24
+31
+R40
+!i10b 1
+R33
+Z76 !s90 -93|-work|xil_defaultlib|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_rst_clk_wiz_0_100M_0/sim/design_1_rst_clk_wiz_0_100M_0.vhd|
+Z77 !s107 ../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_rst_clk_wiz_0_100M_0/sim/design_1_rst_clk_wiz_0_100M_0.vhd|
+!i113 0
+R29
+R30
+Adesign_1_rst_clk_wiz_0_100m_0_arch
+R73
+R18
+R19
+R20
+DEx4 work 29 design_1_rst_clk_wiz_0_100m_0 0 22 R6Fm`BbSibWiPID;LENP^3
+!i122 3
+l122
+L74 74
+Va^^zag1D6zfVdZg0VG5L[2
+!s100 f`QU46Ub]5Q9>c_BiCm=@2
+R24
+31
+R40
+!i10b 1
+R33
+R76
+R77
+!i113 0
+R29
+R30
+vdesign_1_wrapper
+R2
+R3
+!i10b 1
+!s100 ]zWc5G0l=9AdC[mJ7K[E80
+I@6FXnfYGAGQW<aVE?DNd_1
+R1
+w1734410664
+8../../../../dti_riscv_top.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+F../../../../dti_riscv_top.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+!i122 7
+L0 12 37
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vdesign_1_xlconstant_0_0
+2../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v
+R40
+!i10b 1
+!s100 nYDaWFYQEE=_[8^HobACE1
+I[iTo7bQBlcFn;73en6:2=2
+R1
+R44
+8../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v
+F../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v
+!i122 5
+Z78 L0 56 13
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 ../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v|
+!s90 -incr|-work|xil_defaultlib|+incdir+../../../../dti_riscv_top.srcs/sources_1/bd/design_1/ipshared/4903|+incdir+/tools/Xilinx/Vivado/2018.1/data/xilinx_vip/include|../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v|
+!i113 0
+R12
+R13
+R14
+vdesign_1_xlconstant_1_0
+R2
+R3
+!i10b 1
+!s100 ce1?d>LhG4Loz0MgKVNR90
+I03MlW:ABW2N2EdROdeR4@1
+R1
+w1734367521
+8../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v
+F../../../../dti_riscv_top.ip_user_files/bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v
+!i122 7
+R78
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vdti_riscv
+R49
+R50
+R51
+!i10b 1
+!s100 J2BE@Bgg_@6:e:QkGjfU@2
+I0BL1g<32E6NeYjCXf^YX30
+S1
+R1
+w1734366410
+8../../../../dti_riscv_top.ip_user_files/bd/design_1/ipshared/1a8f/dti_riscv_dti_riscv/dti_riscv_dti_riscv.srcs/sources_1/imports/dti_riscv_lib/dti_riscv.sv
+F../../../../dti_riscv_top.ip_user_files/bd/design_1/ipshared/1a8f/dti_riscv_dti_riscv/dti_riscv_dti_riscv.srcs/sources_1/imports/dti_riscv_lib/dti_riscv.sv
+!i122 0
+L0 2 4200
+R7
+R8
+r1
+!s85 0
+31
+R26
+R52
+R53
+!i113 0
+R54
+R55
+R14
+vdti_riscv_top
+2../../../../dti_riscv_top.srcs/sim_1/new/dti_riscv_top.sv
+R50
+R3
+!i10b 1
+!s100 O_hTW81I3JhCWjAHHOefG3
+IAzOLADkkEZ<6fLiNe]RS02
+S1
+R1
+w1734536648
+8../../../../dti_riscv_top.srcs/sim_1/new/dti_riscv_top.sv
+F../../../../dti_riscv_top.srcs/sim_1/new/dti_riscv_top.sv
+!i122 8
+L0 23 67
+R7
+R8
+r1
+!s85 0
+31
+Z79 !s108 1734624284.000000
+!s107 ../../../../dti_riscv_top.srcs/sim_1/new/dti_riscv_top.sv|
+!s90 -incr|-sv|-L|xil_defaultlib|-work|xil_defaultlib|+incdir+../../../../dti_riscv_top.srcs/sources_1/bd/design_1/ipshared/4903|+incdir+/tools/Xilinx/Vivado/2018.1/data/xilinx_vip/include|../../../../dti_riscv_top.srcs/sim_1/new/dti_riscv_top.sv|
+!i113 0
+R54
+R55
+R14
+Tdti_riscv_top_opt
+!s110 1734624287
+VcfQ1X=R^@@_OlVF_?aW_>3
+04 13 4 work dti_riscv_top fast 0
+04 4 4 work glbl fast 0
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o+acc=npr -L xil_defaultlib -L lib_pkg_v1_0_2 -L axi_apb_bridge_v3_0_14 -L microblaze_v10_0_6 -L axi_lite_ipif_v3_0_4 -L mdm_v3_2_13 -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_12 -L xlconstant_v1_1_4 -L lmb_v10_v3_0_9 -L lmb_bram_if_cntlr_v4_0_14 -L blk_mem_gen_v8_4_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm -work xil_defaultlib
+R14
+ndti_riscv_top_opt
+OL;O;2023.4;77
+vdti_uart
+R56
+R50
+R40
+!i10b 1
+!s100 ae:2zg8oZb1A;kliK;11X0
+I4Q:zYbNbi0Q@Jc=Hi>`b71
+S1
+R1
+w1734366414
+8../../../../dti_riscv_top.ip_user_files/bd/design_1/ipshared/16bd/dti_uart_dti_uart/dti_uart_dti_uart.srcs/sources_1/imports/dti_riscv_lib/dti_uart.sv
+F../../../../dti_riscv_top.ip_user_files/bd/design_1/ipshared/16bd/dti_uart_dti_uart/dti_uart_dti_uart.srcs/sources_1/imports/dti_riscv_lib/dti_uart.sv
+!i122 4
+L0 2 887
+R7
+R8
+r1
+!s85 0
+31
+R9
+R57
+R58
+!i113 0
+R54
+R55
+R14
+vglbl
+2glbl.v
+R3
+!i10b 1
+!s100 ogOe=PbPLNAO;H9aJiX<52
+I5B:VgMeoRZ8z0@J6d>fAb2
+R1
+w1522801934
+8glbl.v
+Fglbl.v
+!i122 10
+L0 6 65
+R7
+R8
+r1
+!s85 0
+31
+R79
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R12
+R14
+vmicroblaze_0_local_memory_imp_1K0VQXK
+R2
+R3
+!i10b 1
+!s100 NBQ3gVbI2e:EeE[^7?a;A2
+I@1;IQ=go2Nkf=]WJVRPKW0
+R1
+R4
+R5
+R6
+!i122 7
+L0 277 233
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+nmicroblaze_0_local_memory_imp_1@k0@v@q@x@k
+vuart_rx
+2../../../../dti_riscv_top.srcs/sim_1/imports/libs/uart_rx.v
+R3
+!i10b 1
+!s100 MjkLPDoImEYY:Z>GGPfTi2
+I72zBD<3RdI@:cZ0aHB>d^2
+R1
+w1729936381
+8../../../../dti_riscv_top.srcs/sim_1/imports/libs/uart_rx.v
+F../../../../dti_riscv_top.srcs/sim_1/imports/libs/uart_rx.v
+!i122 9
+L0 9 201
+R7
+R8
+r1
+!s85 0
+31
+R79
+!s107 ../../../../dti_riscv_top.srcs/sim_1/imports/libs/uart_rx.v|
+!s90 -incr|-work|xil_defaultlib|+incdir+../../../../dti_riscv_top.srcs/sources_1/bd/design_1/ipshared/4903|+incdir+/tools/Xilinx/Vivado/2018.1/data/xilinx_vip/include|../../../../dti_riscv_top.srcs/sim_1/imports/libs/uart_rx.v|
+!i113 0
+R12
+R13
+R14

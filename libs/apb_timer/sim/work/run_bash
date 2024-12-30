@@ -1,0 +1,17 @@
+#!/bin/bash
+reset
+# mkdir -p log_retry
+# prepare for sim
+alias vlb='reset; rm -rf work; vlib work'
+
+tb_name=apb_timer_tb
+# tb_name=dti_68b_fmt_ctrl_tb
+# compile source code
+alias vlg='vlog -f filelist_tb.f -f filelist_rtl.f +cover=bcefs -nocoverfec '
+
+# run simulation
+alias vsm='vsim -c ${tb_name} -l log/vsm.log -voptargs=+acc +notimingchecks -wlf vsim.wlf  -do " add wave -r ${tb_name}/*; run -all; exit;"'
+
+
+# View wave
+alias viw='vsim -view vsim.wlf -do wave.do &'

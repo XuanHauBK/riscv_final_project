@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Dec 17 11:20:47 2024
+# Process ID: 1241
+# Current directory: /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top
+# Command line: vivado
+# Log file: /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/vivado.log
+# Journal file: /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.xpr
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+open_bd_design {/data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.srcs/sources_1/bd/design_1/design_1.bd}
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation

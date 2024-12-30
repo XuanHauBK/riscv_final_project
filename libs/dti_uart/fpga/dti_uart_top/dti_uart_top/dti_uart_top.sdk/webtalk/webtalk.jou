@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# 
+# Start of session at: Wed Apr 24 16:51:52 2024
+# Process ID: 308779
+# Current directory: /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.sdk/webtalk/webtalk.log
+# Journal file: /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

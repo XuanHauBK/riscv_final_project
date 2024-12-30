@@ -1,0 +1,214 @@
+# //  Questa Sim-64
+# //  Version 2023.4 linux_x86_64 Oct  9 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {dti_riscv_top_simulate.do}
+# vsim -lib xil_defaultlib dti_riscv_top_opt 
+# Start time: 23:04:55 on Dec 19,2024
+# Loading sv_std.std
+# Loading work.dti_riscv_top(fast)
+# Loading work.design_1_wrapper(fast)
+# Loading work.design_1(fast)
+# Loading work.design_1_clk_wiz_0_0(fast)
+# Loading work.design_1_clk_wiz_0_0_clk_wiz(fast)
+# Loading unisims_ver.IBUF(fast)
+# Loading unisims_ver.MMCME2_ADV(fast)
+# Loading unisims_ver.BUFG(fast)
+# Loading unisims_ver.BUFG(fast__1)
+# Loading work.design_1_dti_riscv_0_0(fast)
+# Loading work.dti_riscv(fast)
+# Loading work.design_1_dti_uart_0_1(fast)
+# Loading work.dti_uart(fast)
+# Loading work.microblaze_0_local_memory_imp_1K0VQXK(fast)
+# Loading work.design_1_lmb_bram_0(fast)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(fast)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(fast)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(fast)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_output_reg_stage(fast)
+# Loading work.design_1_xlconstant_0_0(fast)
+# Loading xlconstant_v1_1_4.xlconstant_v1_1_4_xlconstant(fast)
+# Loading work.design_1_xlconstant_1_0(fast)
+# Loading xlconstant_v1_1_4.xlconstant_v1_1_4_xlconstant(fast__1)
+# Loading work.uart_rx(fast)
+# Loading work.glbl(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.design_1_axi_apb_bridge_0_0(design_1_axi_apb_bridge_0_0_arch)#1
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading lib_pkg_v1_0_2.lib_pkg(body)
+# Loading axi_apb_bridge_v3_0_14.axi_apb_bridge(rtl)#1
+# Loading axi_apb_bridge_v3_0_14.psel_decoder(rtl)#1
+# Loading axi_apb_bridge_v3_0_14.multiplexor(rtl)#1
+# Loading axi_apb_bridge_v3_0_14.axilite_sif(rtl)#1
+# Loading axi_apb_bridge_v3_0_14.apb_mif(rtl)#1
+# Loading axi_lite_ipif_v3_0_4.ipif_pkg(body)
+# Loading work.design_1_mdm_0_0(design_1_mdm_0_0_arch)#1
+# Loading mdm_v3_2_13.mdm_funcs(body)
+# Loading mdm_v3_2_13.mdm(imp)#1
+# Loading mdm_v3_2_13.mb_bscane2(imp)#1
+# Loading unisim.bscane2(bscane2_v)#1
+# Loading mdm_v3_2_13.mb_bufg(imp)#1
+# Loading unisim.bufg(bufg_v)#1
+# Loading mdm_v3_2_13.mdm_core(imp)#1
+# Loading mdm_v3_2_13.jtag_control(imp)#1
+# Loading mdm_v3_2_13.mb_fdc_1(imp)#1
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading unisim.vpkg(body)
+# Loading unisim.fdc_1(fdc_1_v)#1
+# Loading unisim.fdce(fdce_v)#1
+# Loading mdm_v3_2_13.mb_fdre_1(imp)#1
+# Loading unisim.fdre_1(fdre_1_v)#1
+# Loading unisim.fdre(fdre_v)#4
+# Loading mdm_v3_2_13.mb_srl16e(imp)#1
+# Loading unisim.srl16e(srl16e_v)#2
+# Loading mdm_v3_2_13.mb_srl16e(imp)#2
+# Loading unisim.srl16e(srl16e_v)#3
+# Loading mdm_v3_2_13.mb_srl16e(imp)#3
+# Loading unisim.srl16e(srl16e_v)#4
+# Loading mdm_v3_2_13.mb_srl16e(imp)#4
+# Loading unisim.srl16e(srl16e_v)#5
+# Loading work.design_1_microblaze_0_0(design_1_microblaze_0_0_arch)#1
+# Loading unisim.muxcy_l(muxcy_l_v)#2
+# Loading unisim.muxcy(muxcy_v)#2
+# Loading unisim.xorcy(xorcy_v)#1
+# Loading unisim.muxf7(muxf7_v)#1
+# Loading unisim.fdr(fdr_v)#1
+# Loading unisim.lut6(lut6_v)#5
+# Loading unisim.lut6(lut6_v)#6
+# Loading unisim.lut6(lut6_v)#1
+# Loading unisim.fds(fds_v)#2
+# Loading unisim.fdse(fdse_v)#2
+# Loading unisim.lut6(lut6_v)#2
+# Loading unisim.lut6(lut6_v)#3
+# Loading unisim.lut6(lut6_v)#4
+# Loading unisim.ram32m(ram32m_v)#1
+# Loading unisim.lut6_2(lut6_2_v)#4
+# Loading unisim.lut6(lut6_v)#7
+# Loading unisim.lut4(lut4_v)#1
+# Loading unisim.mult_and(mult_and_v)#1
+# Loading unisim.lut2(lut2_v)#1
+# Loading unisim.lut6_2(lut6_2_v)#1
+# Loading unisim.lut6_2(lut6_2_v)#2
+# Loading unisim.lut6_2(lut6_2_v)#3
+# Loading unisim.fde(fde_v)#1
+# Loading unisim.and2b1l(and2b1l_v)#1
+# Loading unisim.srl16e(srl16e_v)#6
+# Loading unisim.srl16e(srl16e_v)#7
+# Loading unisim.srl16e(srl16e_v)#10
+# Loading unisim.srl16e(srl16e_v)#11
+# Loading unisim.srl16e(srl16e_v)#8
+# Loading unisim.srl16e(srl16e_v)#9
+# Loading unisim.srlc16e(srlc16e_v)#1
+# Loading work.design_1_dlmb_bram_if_cntlr_0(design_1_dlmb_bram_if_cntlr_0_arch)#1
+# Loading lmb_bram_if_cntlr_v4_0_14.lmb_bram_if_funcs(body)
+# Loading lmb_bram_if_cntlr_v4_0_14.lmb_bram_if_cntlr(imp)#1
+# Loading lmb_bram_if_cntlr_v4_0_14.lmb_mux(imp)#1
+# Loading lmb_bram_if_cntlr_v4_0_14.pselect_mask(imp)#1
+# Loading work.design_1_dlmb_v10_0(design_1_dlmb_v10_0_arch)#1
+# Loading lmb_v10_v3_0_9.lmb_v10(imp)#2
+# Loading work.design_1_ilmb_bram_if_cntlr_0(design_1_ilmb_bram_if_cntlr_0_arch)#1
+# Loading lmb_bram_if_cntlr_v4_0_14.lmb_bram_if_cntlr(imp)#2
+# Loading lmb_bram_if_cntlr_v4_0_14.lmb_mux(imp)#2
+# Loading lmb_bram_if_cntlr_v4_0_14.pselect_mask(imp)#2
+# Loading work.design_1_ilmb_v10_0(design_1_ilmb_v10_0_arch)#1
+# Loading work.design_1_rst_clk_wiz_0_100m_0(design_1_rst_clk_wiz_0_100m_0_arch)#1
+# Loading proc_sys_reset_v5_0_12.proc_sys_reset(imp)#1
+# Loading unisim.fdre(fdre_v)#1
+# Loading proc_sys_reset_v5_0_12.lpf(imp)#1
+# Loading unisim.srl16(srl16_v)#1
+# Loading unisim.srl16e(srl16e_v)#1
+# Loading lib_cdc_v1_0_2.cdc_sync(implementation)#1
+# Loading proc_sys_reset_v5_0_12.sequence_psr(imp)#1
+# Loading proc_sys_reset_v5_0_12.upcnt_n(imp)#1
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'Interrupt_Ack'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/microblaze_0 File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 191
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'M_AXI_DP_AWPROT'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/microblaze_0 File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 191
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'M_AXI_DP_WSTRB'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/microblaze_0 File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 191
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'M_AXI_DP_ARPROT'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/microblaze_0 File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 191
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'LMB_Rst'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/microblaze_0_local_memory/dlmb_v10 File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 423
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'LMB_Rst'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/microblaze_0_local_memory/ilmb_v10 File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 469
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'peripheral_reset'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/rst_clk_wiz_0_100M File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 262
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'interconnect_aresetn'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/rst_clk_wiz_0_100M File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 262
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Block Memory Generator module dti_riscv_top.design_1_wrapper.design_1_i.microblaze_0_local_memory.lmb_bram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+add wave -position insertpoint  \
+sim:/dti_riscv_top/design_1_wrapper/design_1_i/dti_riscv_0/boost_en
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.dti_riscv_top(fast)
+# Loading work.design_1_wrapper(fast)
+# Loading work.design_1(fast)
+# Loading work.design_1_clk_wiz_0_0(fast)
+# Loading work.design_1_clk_wiz_0_0_clk_wiz(fast)
+# Loading unisims_ver.IBUF(fast)
+# Loading unisims_ver.MMCME2_ADV(fast)
+# Loading unisims_ver.BUFG(fast)
+# Loading unisims_ver.BUFG(fast__1)
+# Loading work.design_1_dti_riscv_0_0(fast)
+# Loading work.dti_riscv(fast)
+# Loading work.design_1_dti_uart_0_1(fast)
+# Loading work.dti_uart(fast)
+# Loading work.microblaze_0_local_memory_imp_1K0VQXK(fast)
+# Loading work.design_1_lmb_bram_0(fast)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(fast)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(fast)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(fast)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_output_reg_stage(fast)
+# Loading work.design_1_xlconstant_0_0(fast)
+# Loading xlconstant_v1_1_4.xlconstant_v1_1_4_xlconstant(fast)
+# Loading work.design_1_xlconstant_1_0(fast)
+# Loading xlconstant_v1_1_4.xlconstant_v1_1_4_xlconstant(fast__1)
+# Loading work.uart_rx(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'Interrupt_Ack'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/microblaze_0 File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 191
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'M_AXI_DP_AWPROT'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/microblaze_0 File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 191
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'M_AXI_DP_WSTRB'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/microblaze_0 File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 191
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'M_AXI_DP_ARPROT'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/microblaze_0 File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 191
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'LMB_Rst'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/microblaze_0_local_memory/dlmb_v10 File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 423
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'LMB_Rst'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/microblaze_0_local_memory/ilmb_v10 File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 469
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'peripheral_reset'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/rst_clk_wiz_0_100M File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 262
+# ** Warning: (vsim-8822) [TFMPC] - Missing Verilog connection for formal VHDL port 'interconnect_aresetn'.
+#    Time: 0 ps  Iteration: 0  Instance: /dti_riscv_top/design_1_wrapper/design_1_i/rst_clk_wiz_0_100M File: ../../../../dti_riscv_top.ip_user_files/bd/design_1/sim/design_1.v Line: 262
+run -all
+# Block Memory Generator module dti_riscv_top.design_1_wrapper.design_1_i.microblaze_0_local_memory.lmb_bram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# ** Note: $finish    : ../../../../dti_riscv_top.srcs/sim_1/new/dti_riscv_top.sv(85)
+#    Time: 10000025 ns  Iteration: 1  Instance: /dti_riscv_top
+# 1
+# Break at ../../../../dti_riscv_top.srcs/sim_1/new/dti_riscv_top.sv line 85
+run -all
+# End time: 23:17:35 on Dec 19,2024, Elapsed time: 0:12:40
+# Errors: 0, Warnings: 8

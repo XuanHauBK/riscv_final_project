@@ -1,0 +1,28 @@
+[QuestaSim]
+dti_riscv_lib = $HDS_PROJECT_DIR/dti_riscv_lib/work
+[hdl]
+dti_riscv_lib = $HDS_PROJECT_DIR/hdl
+dti_riscv_reg_blk = $HDS_PROJECT_DIR/libs/dti_riscv_reg_blk/hdl
+dti_lib = $HDS_PROJECT_DIR/libs
+[hds]
+dti_riscv_lib = $HDS_PROJECT_DIR/hds
+dti_riscv_reg_blk = $HDS_PROJECT_DIR/libs/dti_riscv_reg_blk/hds
+dti_lib = $HDS_PROJECT_DIR/libs/hds
+[hds_settings]
+default_library = dti_riscv_lib
+design_root = dti_riscv_lib.dti_riscv(dti_riscv)dti_riscv/struct.bd
+version = 2
+[includes_search_path]
+dti_riscv_lib = $HDS_PROJECT_DIR/inc
+dti_riscv_reg_blk = $dti_riscv_reg_blk
+[library_files_inclusion]
+dti_riscv_lib = specify
+dti_riscv_reg_blk = all
+dti_lib = all
+[library_type]
+dti_riscv_lib = regular
+dti_riscv_reg_blk = regular
+[protected_library_traversal]
+dti_riscv_reg_blk = no
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

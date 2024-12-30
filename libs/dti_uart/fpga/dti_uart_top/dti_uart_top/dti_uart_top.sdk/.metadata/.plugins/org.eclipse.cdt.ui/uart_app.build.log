@@ -1,0 +1,8 @@
+11:41:34 **** Incremental Build of configuration Debug for project uart_app ****
+make all 
+make: Warning: File `src/subdir.mk' has modification time 34 s in the future
+make: Nothing to be done for `all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+11:41:34 Build Finished (took 96ms)
+

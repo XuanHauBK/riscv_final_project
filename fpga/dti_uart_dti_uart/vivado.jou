@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Dec 16 22:42:23 2024
+# Process ID: 27372
+# Current directory: /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_uart_dti_uart
+# Command line: vivado
+# Log file: /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_uart_dti_uart/vivado.log
+# Journal file: /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_uart_dti_uart/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project dti_uart_dti_uart /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_uart_dti_uart/dti_uart_dti_uart -part xc7a100tcsg324-1
+set_property board_part digilentinc.com:nexys-a7-100t:part0:1.3 [current_project]
+import_files -norecurse /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_lib/dti_uart.sv
+update_compile_order -fileset sources_1
+ipx::infer_core -vendor user.org -library user -taxonomy /UserIP /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_uart_dti_uart
+ipx::edit_ip_in_project -upgrade true -name dti_uart -directory /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_uart_dti_uart/dti_uart_dti_uart/dti_uart_dti_uart.tmp /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_uart_dti_uart/component.xml
+ipx::current_core /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_uart_dti_uart/component.xml
+update_compile_order -fileset sources_1
+ipx::infer_bus_interface {penable psel pwdata pwrite paddr prdata pready pslverr} xilinx.com:interface:apb_rtl:1.0 [ipx::current_core]
+set_property name APB [ipx::get_bus_interfaces apb_1 -of_objects [ipx::current_core]]
+ipx::add_memory_map APB [ipx::current_core]
+set_property slave_memory_map_ref APB [ipx::get_bus_interfaces APB -of_objects [ipx::current_core]]
+ipx::add_address_block apb [ipx::get_memory_maps APB -of_objects [ipx::current_core]]
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+set_property  ip_repo_paths  /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_uart_dti_uart [current_project]
+update_ip_catalog

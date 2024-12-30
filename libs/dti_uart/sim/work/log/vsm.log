@@ -1,0 +1,240 @@
+# vsim -c dti_uart_tb -l log/vsm.log -voptargs="+acc" "+notimingchecks" -wlf vsim.wlf -do " add wave -r dti_uart_tb/*; run -all; " 
+# Start time: 08:58:38 on Apr 23,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "uart_rx(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "uart_tx(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "transmitter(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "receiver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# //  Questa Sim-64
+# //  Version 2023.4 linux_x86_64 Oct  9 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.dti_uart_tb(fast)
+# Loading work.dti_uart(fast)
+# Loading work.transmitter(fast)
+# Loading work.receiver(fast)
+# Loading work.register_block(fast)
+# Loading work.rb_regs(fast)
+# Loading work.rb_apb_bridge(fast)
+# Loading work.baudrate_gen(fast)
+# Loading work.uart_tx(fast)
+# Loading work.uart_rx(fast)
+#  add wave -r dti_uart_tb/*
+#  run -all
+# [43565] TX TRUE
+# [87075] TX TRUE
+# [130555] TX TRUE
+# [174065] TX TRUE
+# [217575] TX TRUE
+# [261055] TX TRUE
+# [304565] TX TRUE
+# [348075] TX TRUE
+# [391555] TX TRUE
+# [435065] TX TRUE
+# [478575] TX TRUE
+# [522055] TX TRUE
+# [565565] TX TRUE
+# [609075] TX TRUE
+# [652555] TX TRUE
+# [696065] TX TRUE
+# [739575] TX TRUE
+# [783055] TX TRUE
+# [826565] TX TRUE
+# [870075] TX TRUE
+# [913555] TX TRUE
+# [957065] TX TRUE
+# [1000575] TX TRUE
+# [1044055] TX TRUE
+# [1087565] TX TRUE
+# [1131075] TX TRUE
+# [1174555] TX TRUE
+# [1218065] TX TRUE
+# [1261575] TX TRUE
+# [1305055] TX TRUE
+# [1348565] TX TRUE
+# [1392075] TX TRUE
+# [1435555] TX TRUE
+# [1479065] TX TRUE
+# [1522575] TX TRUE
+# [1566055] TX TRUE
+# [1609565] TX TRUE
+# [1653075] TX TRUE
+# [1696555] TX TRUE
+# [1740065] TX TRUE
+# [1783575] TX TRUE
+# [1827055] TX TRUE
+# [1870565] TX TRUE
+# [1914075] TX TRUE
+# [1957555] TX TRUE
+# [2001065] TX TRUE
+# [2044575] TX TRUE
+# [2088055] TX TRUE
+# [2131565] TX TRUE
+# [2175075] TX TRUE
+# [2218555] TX TRUE
+# [2262065] TX TRUE
+# [2305575] TX TRUE
+# [2349055] TX TRUE
+# [2392565] TX TRUE
+# [2436075] TX TRUE
+# [2479555] TX TRUE
+# [2523065] TX TRUE
+# [2566575] TX TRUE
+# [2610055] TX TRUE
+# [2653565] TX TRUE
+# [2697075] TX TRUE
+# [2740555] TX TRUE
+# [2784065] TX TRUE
+# [2827575] TX TRUE
+# [2871055] TX TRUE
+# [2914565] TX TRUE
+# [2958075] TX TRUE
+# [3001555] TX TRUE
+# [3045065] TX TRUE
+# [3088575] TX TRUE
+# [3132055] TX TRUE
+# [3175565] TX TRUE
+# [3219075] TX TRUE
+# [3262555] TX TRUE
+# [3306065] TX TRUE
+# [3349575] TX TRUE
+# [3393055] TX TRUE
+# [3436565] TX TRUE
+# [3480075] TX TRUE
+# [3523555] TX TRUE
+# [3567065] TX TRUE
+# [3610575] TX TRUE
+# [3654055] TX TRUE
+# [3697565] TX TRUE
+# [3741075] TX TRUE
+# [3784555] TX TRUE
+# [3828065] TX TRUE
+# [3871575] TX TRUE
+# [3915055] TX TRUE
+# [3958565] TX TRUE
+# [4002075] TX TRUE
+# [4045555] TX TRUE
+# [4089065] TX TRUE
+# [4132575] TX TRUE
+# [4176055] TX TRUE
+# [4219565] TX TRUE
+# [4263075] TX TRUE
+# [4306555] TX TRUE
+# [4350065] TX TRUE
+# [4394415] RX TRUE
+# [4438655] RX TRUE
+# [4482895] RX TRUE
+# [4527135] RX TRUE
+# [4571375] RX TRUE
+# [4615615] RX TRUE
+# [4659855] RX TRUE
+# [4704095] RX TRUE
+# [4748335] RX TRUE
+# [4792575] RX TRUE
+# [4836815] RX TRUE
+# [4881055] RX TRUE
+# [4925295] RX TRUE
+# [4969535] RX TRUE
+# [5013775] RX TRUE
+# [5058015] RX TRUE
+# [5102255] RX TRUE
+# [5146495] RX TRUE
+# [5190735] RX TRUE
+# [5234975] RX TRUE
+# [5279215] RX TRUE
+# [5323455] RX TRUE
+# [5367695] RX TRUE
+# [5411935] RX TRUE
+# [5456175] RX TRUE
+# [5500415] RX TRUE
+# [5544655] RX TRUE
+# [5588895] RX TRUE
+# [5633135] RX TRUE
+# [5677375] RX TRUE
+# [5721615] RX TRUE
+# [5765855] RX TRUE
+# [5810095] RX TRUE
+# [5854335] RX TRUE
+# [5898575] RX TRUE
+# [5942815] RX TRUE
+# [5987055] RX TRUE
+# [6031295] RX TRUE
+# [6075535] RX TRUE
+# [6119775] RX TRUE
+# [6164015] RX TRUE
+# [6208255] RX TRUE
+# [6252495] RX TRUE
+# [6296735] RX TRUE
+# [6340975] RX TRUE
+# [6385215] RX TRUE
+# [6429455] RX TRUE
+# [6473695] RX TRUE
+# [6517935] RX TRUE
+# [6562175] RX TRUE
+# [6606415] RX TRUE
+# [6650655] RX TRUE
+# [6694895] RX TRUE
+# [6739135] RX TRUE
+# [6783375] RX TRUE
+# [6827615] RX TRUE
+# [6871855] RX TRUE
+# [6916095] RX TRUE
+# [6960335] RX TRUE
+# [7004575] RX TRUE
+# [7048815] RX TRUE
+# [7093055] RX TRUE
+# [7137295] RX TRUE
+# [7181535] RX TRUE
+# [7225775] RX TRUE
+# [7270015] RX TRUE
+# [7314255] RX TRUE
+# [7358495] RX TRUE
+# [7402735] RX TRUE
+# [7446975] RX TRUE
+# [7491215] RX TRUE
+# [7535455] RX TRUE
+# [7579695] RX TRUE
+# [7623935] RX TRUE
+# [7668175] RX TRUE
+# [7712415] RX TRUE
+# [7756655] RX TRUE
+# [7800895] RX TRUE
+# [7845135] RX TRUE
+# [7889375] RX TRUE
+# [7933615] RX TRUE
+# [7977855] RX TRUE
+# [8022095] RX TRUE
+# [8066335] RX TRUE
+# [8110575] RX TRUE
+# [8154815] RX TRUE
+# [8199055] RX TRUE
+# [8243295] RX TRUE
+# [8287535] RX TRUE
+# [8331775] RX TRUE
+# [8376015] RX TRUE
+# [8420255] RX TRUE
+# [8464495] RX TRUE
+# [8508735] RX TRUE
+# [8552975] RX TRUE
+# [8597215] RX TRUE
+# [8641455] RX TRUE
+# [8685695] RX TRUE
+# [8729935] RX TRUE
+# [8774175] RX TRUE
+# ** Note: $finish    : ../tb/dti_uart_tb.sv(260)
+#    Time: 8775175 fs  Iteration: 1  Instance: /dti_uart_tb
+# End time: 08:58:44 on Apr 23,2024, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 1

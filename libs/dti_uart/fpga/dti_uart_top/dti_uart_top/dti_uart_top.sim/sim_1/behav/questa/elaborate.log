@@ -1,0 +1,368 @@
+QuestaSim-64 vopt 10.7d_1 Compiler 2019.05 May  8 2019
+Start time: 11:45:40 on May 22,2024
+vopt "+acc=npr" -L xil_defaultlib -L microblaze_v10_0_6 -L axi_lite_ipif_v3_0_4 -L mdm_v3_2_13 -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_12 -L lib_pkg_v1_0_2 -L axi_apb_bridge_v3_0_14 -L lmb_v10_v3_0_9 -L lmb_bram_if_cntlr_v4_0_14 -L blk_mem_gen_v8_4_1 -L lib_srl_fifo_v1_0_2 -L axi_uart16550_v2_0_18 -L generic_baseblocks_v2_1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_16 -L fifo_generator_v13_2_2 -L axi_data_fifo_v2_1_15 -L axi_crossbar_v2_1_17 -L unisims_ver -L unimacro_ver -L secureip -L xpm -work xil_defaultlib xil_defaultlib.dti_uart_top xil_defaultlib.glbl -o dti_uart_top_opt 
+
+Top level modules:
+	dti_uart_top
+	glbl
+
+Analyzing design...
+-- Loading module dti_uart_top
+-- Loading module design_uart_wrapper
+-- Loading module design_uart
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity axi_apb_bridge
+-- Loading entity design_uart_axi_apb_bridge_0_0
+-- Loading architecture design_uart_axi_apb_bridge_0_0_arch of design_uart_axi_apb_bridge_0_0
+-- Loading architecture RTL of axi_apb_bridge
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading entity pselect_f
+-- Loading entity psel_decoder
+-- Loading entity multiplexor
+-- Loading package lib_pkg
+-- Loading entity counter_f
+-- Loading entity axilite_sif
+-- Loading entity apb_mif
+-- Loading package body lib_pkg
+-- Loading architecture RTL of psel_decoder
+-- Loading architecture RTL of multiplexor
+-- Loading architecture RTL of axilite_sif
+-- Loading architecture RTL of apb_mif
+-- Loading module design_uart_axi_interconnect_0_0
+-- Loading module m00_couplers_imp_1Y546N3
+-- Loading module m01_couplers_imp_RHKBGH
+-- Loading module s00_couplers_imp_4NPLLB
+-- Loading module design_uart_xbar_0
+-- Loading module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_axi_crossbar
+-- Loading entity xuart_tx_load_sm
+-- Loading entity rx16550
+-- Loading entity tx16550
+-- Loading entity srl_fifo_rbu_f
+-- Loading entity tx_fifo_block
+-- Loading entity rx_fifo_block
+-- Loading entity uart16550
+-- Loading entity ipic_if
+-- Loading entity xuart
+-- Loading package ipif_pkg
+-- Loading entity axi_lite_ipif
+-- Loading entity axi_uart16550
+-- Loading entity design_uart_axi_uart16550_0_0
+-- Loading architecture design_uart_axi_uart16550_0_0_arch of design_uart_axi_uart16550_0_0
+-- Loading package body ipif_pkg
+-- Loading architecture rtl of axi_uart16550
+-- Loading architecture imp of axi_lite_ipif
+-- Loading entity slave_attachment
+-- Loading architecture imp of slave_attachment
+-- Loading entity address_decoder
+-- Loading architecture IMP of address_decoder
+-- Loading entity pselect_f
+-- Loading architecture imp of xuart
+-- Loading entity cdc_sync
+-- Loading architecture implementation of uart16550
+-- Loading package VITAL_Timing
+-- Loading package VITAL_Primitives
+-- Loading package VPKG
+-- Loading entity ODDR
+-- Loading entity ODDRE1
+-- Loading architecture implementation of xuart_tx_load_sm
+-- Loading architecture implementation of rx16550
+-- Loading architecture implementation of tx16550
+-- Loading architecture imp of ipic_if
+-- Loading module design_uart_clk_wiz_1_0
+-- Loading module design_uart_clk_wiz_1_0_clk_wiz
+-- Loading module unisims_ver.IBUF
+-- Loading module unisims_ver.MMCME2_ADV
+-- Loading module unisims_ver.BUFG
+-- Loading module design_uart_dti_uart_0_0
+-- Loading module dti_uart
+-- Loading module transmitter
+-- Loading module receiver
+-- Loading module register_block
+-- Loading module rb_regs
+-- Loading module rb_apb_bridge
+-- Loading module baudrate_gen
+-- Loading entity MDM
+-- Loading entity design_uart_mdm_1_0
+-- Loading architecture design_uart_mdm_1_0_arch of design_uart_mdm_1_0
+-- Loading package mdm_funcs
+-- Loading architecture IMP of MDM
+-- Loading entity MB_BSCANE2
+-- Loading entity MB_BUFGCTRL
+-- Loading entity MB_BUFG
+-- Loading entity MDM_Core
+-- Loading entity bus_master
+-- Loading package body mdm_funcs
+-- Loading architecture IMP of MDM_CORE
+-- Loading entity MB_FDRE
+-- Loading entity SRL_FIFO
+-- Loading entity Arbiter
+-- Loading entity MB_PLLE2_BASE
+-- Loading entity JTAG_CONTROL
+-- Loading architecture IMP of JTAG_CONTROL
+-- Loading entity MB_FDC_1
+-- Loading entity MB_FDRE_1
+-- Loading entity MB_SRL16E
+-- Loading entity MB_FDRSE
+-- Loading entity design_uart_microblaze_0_0
+-- Loading architecture design_uart_microblaze_0_0_arch of design_uart_microblaze_0_0
+-- Loading module microblaze_0_local_memory_imp_UXHIJP
+-- Loading entity lmb_bram_if_cntlr
+-- Loading entity design_uart_dlmb_bram_if_cntlr_0
+-- Loading architecture design_uart_dlmb_bram_if_cntlr_0_arch of design_uart_dlmb_bram_if_cntlr_0
+-- Loading package lmb_bram_if_funcs
+-- Loading architecture imp of lmb_bram_if_cntlr
+-- Loading entity lmb_mux
+-- Loading entity checkbit_handler
+-- Loading entity Correct_One_Bit
+-- Loading entity axi_interface
+-- Loading package body lmb_bram_if_funcs
+-- Loading architecture imp of lmb_mux
+-- Loading entity pselect_mask
+-- Loading entity lmb_v10
+-- Loading entity design_uart_dlmb_v10_0
+-- Loading architecture design_uart_dlmb_v10_0_arch of design_uart_dlmb_v10_0
+-- Loading architecture IMP of lmb_v10
+-- Loading entity FDS
+-- Loading architecture FDS_V of FDS
+-- Loading entity FDSE
+-- Loading package body VPKG
+-- Loading architecture FDSE_V of FDSE
+-- Loading entity design_uart_ilmb_bram_if_cntlr_0
+-- Loading architecture design_uart_ilmb_bram_if_cntlr_0_arch of design_uart_ilmb_bram_if_cntlr_0
+-- Loading entity design_uart_ilmb_v10_0
+-- Loading architecture design_uart_ilmb_v10_0_arch of design_uart_ilmb_v10_0
+-- Loading module design_uart_lmb_bram_0
+-- Loading module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1
+-- Loading entity proc_sys_reset
+-- Loading entity design_uart_rst_clk_wiz_1_100M_0
+-- Loading architecture design_uart_rst_clk_wiz_1_100M_0_arch of design_uart_rst_clk_wiz_1_100M_0
+-- Loading architecture imp of proc_sys_reset
+-- Loading entity FDRE
+-- Loading entity lpf
+-- Loading entity sequence_psr
+-- Loading architecture FDRE_V of FDRE
+-- Loading architecture imp of lpf
+-- Loading entity SRL16
+-- Loading architecture SRL16_V of SRL16
+-- Loading entity SRL16E
+-- Loading architecture SRL16E_V of SRL16E
+-- Loading architecture imp of sequence_psr
+-- Loading entity upcnt_n
+-- Loading architecture imp of upcnt_n
+-- Loading module uart_tx
+-- Loading module uart_rx
+-- Loading module glbl
+-- Loading module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_crossbar_sasd
+-- Loading module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_addr_arbiter_sasd
+-- Loading module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_splitter
+-- Loading module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_enc
+-- Loading module axi_register_slice_v2_1_16.axi_register_slice_v2_1_16_axic_register_slice
+-- Loading architecture imp of pselect_f
+-- Loading architecture ODDR_V of ODDR
+-- Loading architecture ODDRE1_V of ODDRE1
+-- Loading architecture implementation of tx_fifo_block
+-- Loading architecture imp of srl_fifo_rbu_f
+-- Loading entity cntr_incr_decr_addn_f
+-- Loading entity dynshreg_f
+-- Loading architecture imp of cntr_incr_decr_addn_f
+-- Loading architecture behavioral of dynshreg_f
+-- Loading architecture implementation of rx_fifo_block
+-- Loading entity rx_fifo_control
+-- Loading architecture implementation of rx_fifo_control
+-- Loading architecture IMP of MB_FDC_1
+-- Loading entity FDC_1
+-- Loading architecture IMP of MB_FDRE_1
+-- Loading entity FDRE_1
+-- Loading architecture IMP of MB_SRL16E
+-- Loading architecture IMP of MB_BSCANE2
+-- Loading entity BSCANE2
+-- Loading architecture IMP of MB_BUFG
+-- Loading entity BUFG
+-- Loading architecture imp of pselect_mask
+-- Loading module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module
+-- Loading module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage
+-- Loading module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_output_reg_stage
+-- Loading architecture implementation of cdc_sync
+-- Loading module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_addr_decoder
+-- Loading module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_decerr_slave
+-- Loading architecture FDC_1_V of FDC_1
+-- Loading entity FDCE
+-- Loading architecture FDCE_V of FDCE
+-- Loading architecture FDRE_1_V of FDRE_1
+-- Loading architecture BSCANE2_V of BSCANE2
+-- Loading architecture BUFG_V of BUFG
+-- Loading architecture LUT6_V of LUT6
+-- Loading architecture FDR_V of FDR
+-- Loading architecture MUXCY_L_V of MUXCY_L
+-- Loading entity MUXCY
+-- Loading architecture MUXCY_V of MUXCY
+-- Loading module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_comparator_static
+-- Loading architecture XORCY_V of XORCY
+-- Loading architecture MUXF7_V of MUXF7
+-- Loading architecture RAM32M_V of RAM32M
+-- Loading architecture LUT6_2_V of LUT6_2
+-- Loading architecture FDE_V of FDE
+-- Loading architecture AND2B1L_V of AND2B1L
+-- Loading module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_carry_and
+-- Loading architecture LUT4_V of LUT4
+-- Loading architecture MULT_AND_V of MULT_AND
+-- Loading entity LUT2
+-- Loading architecture LUT2_V of LUT2
+-- Loading architecture SRLC16E_V of SRLC16E
+Optimizing 205 design-units (inlining 0/57 module instances, 0/5 cell instances, 0/1622 architecture instances):
+-- Optimizing module unisims_ver.MMCME2_ADV(fast)
+-- Optimizing module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_axi_crossbar(fast)
+-- Optimizing module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(fast)
+** Warning: /new_tools/tools/Xilinx/Vivado/2018.1/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v(2420): (vopt-2576) [BSOB] - Bit-select into 'current_contents' is out of bounds.
+-- Optimizing module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_crossbar_sasd(fast)
+-- Optimizing module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(fast)
+-- Optimizing module axi_register_slice_v2_1_16.axi_register_slice_v2_1_16_axic_register_slice(fast)
+-- Optimizing module microblaze_0_local_memory_imp_UXHIJP(fast)
+** Warning: ../../../../dti_uart_top.ip_user_files/bd/design_uart/sim/design_uart.v(1308): (vopt-2685) [TFMPC] - Too few port connections for 'lmb_bram'.  Expected 16, found 14.
+** Warning: ../../../../dti_uart_top.ip_user_files/bd/design_uart/sim/design_uart.v(1308): (vopt-2718) [TFMPC] - Missing connection for port 'rstb_busy'.
+** Warning: ../../../../dti_uart_top.ip_user_files/bd/design_uart/sim/design_uart.v(1308): (vopt-2718) [TFMPC] - Missing connection for port 'rsta_busy'.
+-- Optimizing module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_addr_arbiter_sasd(fast)
+-- Optimizing module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_enc(fast)
+-- Optimizing module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_enc(fast__1)
+-- Optimizing module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_enc(fast__2)
+-- Optimizing module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_enc(fast__3)
+-- Optimizing module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(fast)
+-- Optimizing module design_uart_axi_interconnect_0_0(fast)
+** Warning: ../../../../dti_uart_top.ip_user_files/bd/design_uart/sim/design_uart.v(793): (vopt-2685) [TFMPC] - Too few port connections for 'xbar'.  Expected 40, found 38.
+** Warning: ../../../../dti_uart_top.ip_user_files/bd/design_uart/sim/design_uart.v(793): (vopt-2718) [TFMPC] - Missing connection for port 'm_axi_arprot'.
+** Warning: ../../../../dti_uart_top.ip_user_files/bd/design_uart/sim/design_uart.v(793): (vopt-2718) [TFMPC] - Missing connection for port 'm_axi_awprot'.
+-- Optimizing module design_uart(fast)
+-- Optimizing module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_addr_decoder(fast)
+-- Optimizing module rb_regs(fast)
+-- Optimizing module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_decerr_slave(fast)
+-- Optimizing module uart_rx(fast)
+-- Optimizing module uart_tx(fast)
+-- Optimizing module s00_couplers_imp_4NPLLB(fast)
+-- Optimizing module transmitter(fast)
+-- Optimizing module receiver(fast)
+-- Optimizing module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_comparator_static(fast)
+-- Optimizing module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_comparator_static(fast__1)
+-- Optimizing module m00_couplers_imp_1Y546N3(fast)
+-- Optimizing module design_uart_xbar_0(fast)
+-- Optimizing module m01_couplers_imp_RHKBGH(fast)
+-- Optimizing module design_uart_lmb_bram_0(fast)
+-- Optimizing module dti_uart_top(fast)
+** Warning: ../../../../dti_uart_top.srcs/sim_1/new/dti_uart_top.sv(60): (vopt-2685) [TFMPC] - Too few port connections for 'design_uart_wrapper'.  Expected 10, found 6.
+** Warning: ../../../../dti_uart_top.srcs/sim_1/new/dti_uart_top.sv(60): (vopt-2718) [TFMPC] - Missing connection for port 'usb_uart_txd'.
+** Warning: ../../../../dti_uart_top.srcs/sim_1/new/dti_uart_top.sv(60): (vopt-2718) [TFMPC] - Missing connection for port 'usb_uart_rxd'.
+** Warning: ../../../../dti_uart_top.srcs/sim_1/new/dti_uart_top.sv(60): (vopt-2718) [TFMPC] - Missing connection for port 'usb_uart_rtsn'.
+** Warning: ../../../../dti_uart_top.srcs/sim_1/new/dti_uart_top.sv(60): (vopt-2718) [TFMPC] - Missing connection for port 'usb_uart_ctsn'.
+-- Optimizing module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_output_reg_stage(fast)
+-- Optimizing module design_uart_clk_wiz_1_0_clk_wiz(fast)
+-- Optimizing module dti_uart(fast)
+-- Optimizing module register_block(fast)
+-- Optimizing module rb_apb_bridge(fast)
+-- Optimizing module glbl(fast)
+-- Optimizing module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_splitter(fast)
+-- Optimizing module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_splitter(fast__1)
+-- Optimizing module baudrate_gen(fast)
+-- Optimizing module unisims_ver.IBUF(fast)
+-- Optimizing module design_uart_dti_uart_0_0(fast)
+-- Optimizing module design_uart_wrapper(fast)
+-- Optimizing module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_carry_and(fast)
+-- Optimizing module design_uart_clk_wiz_1_0(fast)
+-- Optimizing module unisims_ver.BUFG(fast)
+-- Optimizing architecture IMP of JTAG_CONTROL
+-- Optimizing architecture RTL of psel_decoder
+-- Optimizing architecture implementation of uart16550
+-- Optimizing architecture RTL of multiplexor
+-- Optimizing architecture imp of lmb_bram_if_cntlr
+-- Optimizing architecture implementation of rx16550
+-- Optimizing architecture imp of lmb_mux
+-- Optimizing architecture implementation of cdc_sync
+-- Optimizing package ipif_pkg
+-- Optimizing package body ipif_pkg
+-- Optimizing architecture RTL of axi_apb_bridge
+-- Optimizing architecture imp of slave_attachment
+-- Optimizing architecture implementation of tx16550
+-- Optimizing architecture RTL of axilite_sif
+-- Optimizing architecture LUT6_2_V of LUT6_2
+-- Optimizing architecture IMP of address_decoder
+-- Optimizing architecture imp of lpf
+-- Optimizing architecture imp of sequence_psr
+-- Optimizing architecture rtl of axi_uart16550
+-- Optimizing package lib_pkg
+-- Optimizing package body lib_pkg
+-- Optimizing architecture ODDR_V of ODDR
+-- Optimizing architecture imp of xuart
+-- Optimizing architecture LUT6_V of LUT6
+-- Optimizing architecture RTL of apb_mif
+-- Optimizing architecture RAM32M_V of RAM32M
+-- Optimizing architecture imp of axi_lite_ipif
+-- Optimizing architecture imp of proc_sys_reset
+-- Optimizing architecture imp of srl_fifo_rbu_f
+-- Optimizing architecture IMP of MDM_CORE
+-- Optimizing architecture IMP of MDM
+-- Optimizing package VPKG
+-- Optimizing package body VPKG
+-- Optimizing architecture imp of srl_fifo_rbu_f
+-- Optimizing architecture IMP of lmb_v10
+-- Optimizing package lmb_bram_if_funcs
+-- Optimizing package body lmb_bram_if_funcs
+-- Optimizing architecture LUT4_V of LUT4
+-- Optimizing architecture implementation of rx_fifo_control
+-- Optimizing architecture implementation of xuart_tx_load_sm
+-- Optimizing architecture implementation of rx_fifo_block
+-- Optimizing architecture BSCANE2_V of BSCANE2
+-- Optimizing architecture ODDRE1_V of ODDRE1
+-- Optimizing architecture IMP of MB_SRL16E
+-- Optimizing architecture SRLC16E_V of SRLC16E
+-- Optimizing architecture behavioral of dynshreg_f
+-- Optimizing architecture behavioral of dynshreg_f
+-- Optimizing architecture LUT2_V of LUT2
+-- Optimizing architecture imp of pselect_mask
+-- Optimizing architecture imp of ipic_if
+-- Optimizing architecture SRL16E_V of SRL16E
+-- Optimizing package mdm_funcs
+-- Optimizing package body mdm_funcs
+-- Optimizing architecture imp of cntr_incr_decr_addn_f
+-- Optimizing architecture FDCE_V of FDCE
+-- Optimizing architecture FDRE_V of FDRE
+-- Optimizing architecture FDSE_V of FDSE
+-- Optimizing architecture FDRE_V of FDRE
+-- Optimizing architecture FDRE_V of FDRE
+-- Optimizing architecture IMP of MB_BSCANE2
+-- Optimizing architecture implementation of tx_fifo_block
+-- Optimizing architecture imp of pselect_f
+-- Optimizing architecture IMP of MB_FDRE_1
+-- Optimizing architecture imp of upcnt_n
+-- Optimizing architecture IMP of MB_FDC_1
+-- Optimizing architecture SRL16_V of SRL16
+-- Optimizing architecture FDRE_1_V of FDRE_1
+-- Optimizing architecture FDC_1_V of FDC_1
+-- Optimizing architecture FDE_V of FDE
+-- Optimizing architecture FDR_V of FDR
+-- Optimizing architecture FDS_V of FDS
+-- Optimizing architecture FDR_V of FDR
+-- Optimizing architecture FDS_V of FDS
+-- Optimizing architecture AND2B1L_V of AND2B1L
+-- Optimizing architecture IMP of MB_BUFG
+-- Optimizing architecture MUXCY_L_V of MUXCY_L
+-- Optimizing architecture MULT_AND_V of MULT_AND
+-- Optimizing architecture MUXCY_V of MUXCY
+-- Optimizing architecture MUXF7_V of MUXF7
+-- Optimizing architecture XORCY_V of XORCY
+-- Optimizing architecture BUFG_V of BUFG
+-- Optimizing architecture design_uart_axi_apb_bridge_0_0_arch of design_uart_axi_apb_bridge_0_0
+-- Optimizing architecture design_uart_axi_uart16550_0_0_arch of design_uart_axi_uart16550_0_0
+-- Optimizing architecture design_uart_mdm_1_0_arch of design_uart_mdm_1_0
+-- Optimizing architecture design_uart_microblaze_0_0_arch of design_uart_microblaze_0_0
+-- Optimizing architecture design_uart_dlmb_bram_if_cntlr_0_arch of design_uart_dlmb_bram_if_cntlr_0
+-- Optimizing architecture design_uart_dlmb_v10_0_arch of design_uart_dlmb_v10_0
+-- Optimizing architecture design_uart_ilmb_bram_if_cntlr_0_arch of design_uart_ilmb_bram_if_cntlr_0
+-- Optimizing architecture design_uart_ilmb_v10_0_arch of design_uart_ilmb_v10_0
+-- Optimizing architecture design_uart_rst_clk_wiz_1_100M_0_arch of design_uart_rst_clk_wiz_1_100M_0
+Optimized design name is dti_uart_top_opt
+End time: 11:45:42 on May 22,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 12

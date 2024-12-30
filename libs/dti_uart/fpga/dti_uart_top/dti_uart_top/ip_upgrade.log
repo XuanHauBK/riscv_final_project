@@ -1,0 +1,174 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
+| Date         : Wed Apr 24 17:38:56 2024
+| Host         : dt68-linux running 64-bit CentOS Linux release 7.9.2009 (Core)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_uart_dti_uart_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_uart_dti_uart_0_0 (user.org:user:dti_uart:1.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
+| Date         : Wed Apr 24 16:33:22 2024
+| Host         : dt68-linux running 64-bit CentOS Linux release 7.9.2009 (Core)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_uart_dti_uart_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_uart_dti_uart_0_0 (user.org:user:dti_uart:1.0) from (Rev. 13) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
+| Date         : Tue Apr 23 18:20:57 2024
+| Host         : dt68-linux running 64-bit CentOS Linux release 7.9.2009 (Core)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_uart_dti_uart_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_uart_dti_uart_0_0 (user.org:user:dti_uart:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
+| Date         : Tue Apr 23 18:14:09 2024
+| Host         : dt68-linux running 64-bit CentOS Linux release 7.9.2009 (Core)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_uart_dti_uart_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_uart_dti_uart_0_0 (user.org:user:dti_uart:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
+| Date         : Tue Apr 23 18:11:39 2024
+| Host         : dt68-linux running 64-bit CentOS Linux release 7.9.2009 (Core)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_uart_dti_uart_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_uart_dti_uart_0_0 (user.org:user:dti_uart:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
+| Date         : Tue Apr 23 17:59:54 2024
+| Host         : dt68-linux running 64-bit CentOS Linux release 7.9.2009 (Core)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_uart_dti_uart_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_uart_dti_uart_0_0 (user.org:user:dti_uart:1.0) from (Rev. 9) to (Rev. 10)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_uart_dti_uart_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'paddr' width 12 differs from original width 32
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
+| Date         : Tue Apr 23 10:18:18 2024
+| Host         : dt68-linux running 64-bit CentOS Linux release 7.9.2009 (Core)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_uart_dti_uart_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_uart_dti_uart_0_0 (user.org:user:dti_uart:1.0) from (Rev. 7) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
+| Date         : Tue Apr 23 10:16:36 2024
+| Host         : dt68-linux running 64-bit CentOS Linux release 7.9.2009 (Core)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_uart_dti_uart_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_uart_dti_uart_0_0 (user.org:user:dti_uart:1.0) from (Rev. 2) to (Rev. 7)
+

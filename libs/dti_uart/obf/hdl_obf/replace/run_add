@@ -1,0 +1,17 @@
+perl add_round_bracket_bit_wise.pl -src=./
+
+mv dataflow_controller.sv1         dataflow_controller.sv
+mv datapath.sv1                    datapath.sv
+mv ddr_bist.sv1                    ddr_bist.sv
+mv dfi_bridge.sv1                  dfi_bridge.sv
+mv dti_gear_ctrl.sv1               dti_gear_ctrl.sv
+mv dti_gear_slice.sv1              dti_gear_slice.sv
+mv dti_phy_ctl_blk.sv1             dti_phy_ctl_blk.sv
+mv port_bridge.sv1                 port_bridge.sv
+mv protocol_controller.sv1         protocol_controller.sv
+mv register_block.sv1              register_block.sv
+
+perl add_param_cdc_data_sync_gf.pl -src=./
+mv port_bridge.sv1                 port_bridge.sv
+mv dti_cmd_cptr.sv1                dti_cmd_cptr.sv
+mv dynamo_core.sv1              dynamo_core.sv

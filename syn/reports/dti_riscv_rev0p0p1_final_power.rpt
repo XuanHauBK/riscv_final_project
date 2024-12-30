@@ -1,0 +1,54 @@
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -analysis_effort medium
+Design : dti_riscv
+Version: Q-2019.12-SP4
+Date   : Tue Dec 24 16:56:04 2024
+****************************************
+
+
+Library(s) Used:
+
+    dti_stdcell_ssg_0p81v_neg40c (File: /data2/projects/libraries/tsmc28hpcp/7t/dti_tm28hpcp_l30_stdcells_7t_rev1p0p1/db/dti_tm28hpcp_l30_stdcells_7t_ssg_0p81v_neg40c_rev0p0p1.db)
+
+
+Operating Conditions: slowg   Library: dti_stdcell_ssg_0p81v_neg40c
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 0.81 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =  7.68416 mW    (2%)
+  Net Switching Power  = 350.04382 mW   (98%)
+                         ---------
+Total Dynamic Power    = 357.72800 mW  (100%)
+
+Cell Leakage Power     = 572.3981 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad            0.00000           0.00000           0.00000           0.00000  (   0.00%)
+memory            0.00000           0.00000           0.00000           0.00000  (   0.00%)
+black_box         0.00000           0.00000           0.00000           0.00000  (   0.00%)
+clock_network  3.22272e-02         350.03952          66.21880         350.07260 (  97.86%)
+register          7.65038        1.31852e-03         498.96133           7.65220 (   2.14%)
+sequential        0.00000           0.00000           0.00000           0.00000  (   0.00%)
+combinational  1.66600e-03        1.21099e-03           7.21067        2.88420e-03
+                                                                                 (   0.00%)
+--------------------------------------------------------------------------------------------------
+Total             7.68427 mW      350.04205 mW      572.39081 nW      357.72769 mW
+1

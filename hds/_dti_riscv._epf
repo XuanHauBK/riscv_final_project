@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom dti_riscv
+DEFAULT_FILE atom dti_riscv/struct.bd

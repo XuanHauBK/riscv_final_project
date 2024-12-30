@@ -1,0 +1,354 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.4 2023.10, Oct  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/new_data6/workspace/hautx0/trash/hautx0/final_project/libs/apb_uart/sim/work
+T_opt
+!s110 1717843471
+Vh=`WHg:8P_omKEbU0HObV0
+04 11 4 work apb_uart_tb fast 0
+=1-98039b6522a7-6664360f-6aeda-3ca47
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.4;77
+vapb_interface
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1717843469
+!i10b 1
+!s100 ZUS^GVd23bnSi0nCOVl@10
+IA6CJamOX>CY_5RDbZTVcR0
+S1
+R1
+w1717843306
+8../../hdl/apb_interface.sv
+F../../hdl/apb_interface.sv
+!i122 0
+L0 17 153
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2023.4;77
+r1
+!s85 0
+31
+Z7 !s108 1717843469.000000
+Z8 !s107 ../../inc//dti_global_defines.svh|../../hdl/apb_uart.sv|tb/apb_uart_tb.sv|
+Z9 !s90 -f|filelist_tb.f|-f|filelist_rtl.f|+cover=bcefs|-nocoverfec|
+!i113 0
+Z10 !s102 +cover=bcefs -nocoverfec
+Z11 o+libext+.v +libext+.vh +libext+.sv +libext+.svh +cover=bcefs -nocoverfec -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 +incdir+../../inc/ -y ../../inc +libext+.v +libext+.vh +libext+.sv +libext+.svh -y ../../hdl -y ../../../dti_lib/dti_fifo/dti_bicnt_dwn -y ../../../dti_lib/dti_fifo/dti_bin_to_gray -y ../../../dti_lib/dti_fifo/dti_cdc_data_sync_gf -y ../../../dti_lib/dti_fifo/dti_fifo_async_sf -y ../../../dti_lib/dti_fifo/dti_gray_to_bin +cover=bcefs -nocoverfec -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vapb_uart
+Z13 2tb/apb_uart_tb.sv|../../hdl/apb_uart.sv
+R3
+R4
+!i10b 1
+!s100 PEM=_`HK02H9BV2=j?N:O1
+IY>56oh]L]WBH`Kf4lO`M:3
+S1
+R1
+w1717843437
+8../../hdl/apb_uart.sv
+F../../hdl/apb_uart.sv
+!i122 0
+L0 17 81
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R2
+vapb_uart_tb
+R13
+R3
+R4
+!i10b 1
+!s100 F@QG4AKAQWH6BGW@?f1]U2
+IUmjaO7:3YA9UNf[DjfeDY1
+S1
+R1
+w1716794158
+8tb/apb_uart_tb.sv
+Ftb/apb_uart_tb.sv
+!i122 0
+L0 3 119
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R2
+vbaudrate_gen
+R3
+R4
+!i10b 1
+!s100 =Hn7;AheQ6CKl;=?]=CYT1
+Ii8LT7Dol7_GDHnkSZTV062
+S1
+R1
+w1716776308
+8../../hdl/baudrate_gen.sv
+F../../hdl/baudrate_gen.sv
+!i122 0
+L0 17 53
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R2
+vdti_bin_to_gray
+R4
+!i10b 1
+!s100 cB_Mj9fiP`<NLzzCJYCa03
+IF0Q35<T`n^nP_EEd4IzAZ3
+R1
+Z14 w1716773239
+8../../../dti_lib/dti_fifo/dti_bin_to_gray/dti_bin_to_gray.v
+F../../../dti_lib/dti_fifo/dti_bin_to_gray/dti_bin_to_gray.v
+!i122 0
+L0 1 8
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R2
+vdti_cdc_data_sync_gf
+R4
+!i10b 1
+!s100 B[zdCY3cfV2UdQ5l?jMIo3
+IToGEc`hBWzeNF^6Zhg_LS2
+R1
+R14
+8../../../dti_lib/dti_fifo/dti_cdc_data_sync_gf/dti_cdc_data_sync_gf.v
+F../../../dti_lib/dti_fifo/dti_cdc_data_sync_gf/dti_cdc_data_sync_gf.v
+!i122 0
+L0 20 56
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R2
+vdti_fifo_async_2port_mem_wrap
+R3
+R4
+!i10b 1
+!s100 ?K`6@ldT6>L[4KiFC3Qbm2
+IC?4>=@Z6ch[liVL8_XX>k0
+S1
+R1
+R14
+8../../../dti_lib/dti_fifo/dti_fifo_async_sf/dti_fifo_async_2port_mem_wrap.sv
+F../../../dti_lib/dti_fifo/dti_fifo_async_sf/dti_fifo_async_2port_mem_wrap.sv
+!i122 0
+L0 2 39
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R2
+vdti_fifo_async_addr_ptr_gen
+R4
+!i10b 1
+!s100 GDM@3?@0I6dogBLNdYg9g0
+IgmdNYP?P]3<;:NdQ3=VlX1
+R1
+R14
+8../../../dti_lib/dti_fifo/dti_fifo_async_sf/dti_fifo_async_addr_ptr_gen.v
+F../../../dti_lib/dti_fifo/dti_fifo_async_sf/dti_fifo_async_addr_ptr_gen.v
+!i122 0
+L0 2 50
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R2
+vdti_fifo_async_ctrl
+R4
+!i10b 1
+!s100 PPiPT:<]EI01a?S3eG:9D3
+I?91EWcZQ4Y58dFDQZa2hU0
+R1
+R14
+8../../../dti_lib/dti_fifo/dti_fifo_async_sf/dti_fifo_async_ctrl.v
+F../../../dti_lib/dti_fifo/dti_fifo_async_sf/dti_fifo_async_ctrl.v
+!i122 0
+L0 2 148
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R2
+vdti_fifo_async_sf
+R4
+!i10b 1
+!s100 dokm8WXHghd8YU;o0JNSB0
+Ia_CA5gSioC>NFSdFaG9H80
+R1
+R14
+8../../../dti_lib/dti_fifo/dti_fifo_async_sf/dti_fifo_async_sf.v
+F../../../dti_lib/dti_fifo/dti_fifo_async_sf/dti_fifo_async_sf.v
+!i122 0
+L0 1 296
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R2
+vdti_gray_to_bin
+R4
+!i10b 1
+!s100 c0d`^F8IRWS:A7_YPIDg92
+ISh<j@F<2JYzN5?I0cTlP?3
+R1
+R14
+8../../../dti_lib/dti_fifo/dti_gray_to_bin/dti_gray_to_bin.v
+F../../../dti_lib/dti_fifo/dti_gray_to_bin/dti_gray_to_bin.v
+!i122 0
+L0 1 17
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R2
+vreceiver
+R3
+R4
+!i10b 1
+!s100 bP:VX7KLFlMeIY6nGCciS3
+Izzkhzaed7C<GNeK`;Dgg]0
+S1
+R1
+w1716776347
+8../../hdl/receiver.sv
+F../../hdl/receiver.sv
+!i122 0
+L0 17 142
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R2
+vtransmitter
+R3
+R4
+!i10b 1
+!s100 K9f_oKM<_n5he<jEGW<HK3
+I@CQiVA0XCchFCBLDi><TS3
+S1
+R1
+w1716793523
+8../../hdl/transmitter.sv
+F../../hdl/transmitter.sv
+!i122 0
+L0 17 160
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+R2

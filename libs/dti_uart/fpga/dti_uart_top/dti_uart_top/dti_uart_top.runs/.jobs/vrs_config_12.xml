@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_uart_dti_uart_0_0_synth_1" LaunchDir="/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/design_uart_dti_uart_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_microblaze_0_0_synth_1" LaunchDir="/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/design_uart_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_mdm_1_0_synth_1" LaunchDir="/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/design_uart_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_clk_wiz_1_0_synth_1" LaunchDir="/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/design_uart_clk_wiz_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_rst_clk_wiz_1_100M_0_synth_1" LaunchDir="/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/design_uart_rst_clk_wiz_1_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_axi_apb_bridge_0_0_synth_1" LaunchDir="/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/design_uart_axi_apb_bridge_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_dlmb_v10_0_synth_1" LaunchDir="/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/design_uart_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_ilmb_v10_0_synth_1" LaunchDir="/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/design_uart_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_uart_dlmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="design_uart_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/design_uart_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/design_uart_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_lmb_bram_0_synth_1" LaunchDir="/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/design_uart_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_axi_uart16550_0_0_synth_1" LaunchDir="/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/design_uart_axi_uart16550_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_xbar_0_synth_1" LaunchDir="/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/design_uart_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

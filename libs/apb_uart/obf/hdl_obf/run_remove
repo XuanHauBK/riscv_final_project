@@ -1,0 +1,8 @@
+perl remove_char.pl  -src=./
+mv dti_gear_ctrl.sv1 dti_gear_ctrl.sv
+mv dti_gear_slice.sv1 dti_gear_slice.sv
+mv dti_phy_ctl_blk.sv1 dti_phy_ctl_blk.sv
+mv port_bridge.sv1 port_bridge.sv
+mv dti_cmd_cptr.sv1 dti_cmd_cptr.sv
+mv dynamo_core.sv1 dynamo_core.sv
+rm *.sv1

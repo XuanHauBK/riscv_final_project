@@ -1,0 +1,222 @@
+# vsim -c dti_riscv_tb -l log/vsm.log -voptargs="+acc" "+notimingchecks" -wlf vsim.wlf -do " add wave -r dti_riscv_tb/*; run -all; exit;" 
+# Start time: 11:13:52 on Dec 16,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "transmitter(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "receiver(fast)".
+# ** Note: (vopt-143) Recognized 2 FSMs in module "dti_uart(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "dti_apb_adapter(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "dti_boost_inst(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# //  Questa Sim-64
+# //  Version 2023.4 linux_x86_64 Oct  9 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.dti_riscv_tb(fast)
+# Loading work.dti_riscv(fast)
+# Loading work.dti_apb_adapter(fast)
+# Loading work.dti_apb_peripheral(fast)
+# Loading work.apb_gpio(fast)
+# Loading work.apb_timer(fast)
+# Loading work.apb_uart(fast)
+# Loading work.baudrate_gen(fast)
+# Loading work.transmitter(fast)
+# Loading work.receiver(fast)
+# Loading work.apb_interface(fast)
+# Loading work.dti_fifo_async_sf(fast)
+# Loading work.dti_fifo_async_ctrl(fast)
+# Loading work.dti_gray_to_bin(fast)
+# Loading work.dti_fifo_async_addr_ptr_gen(fast)
+# Loading work.dti_bin_to_gray(fast)
+# Loading work.dti_cdc_data_sync_gf(fast)
+# Loading work.dti_cdc_data_sync_gf(fast__1)
+# Loading work.dti_fifo_async_ctrl(fast__1)
+# Loading work.dti_fifo_async_2port_mem_wrap(fast)
+# Loading work.dti_boost_inst(fast)
+# Loading work.dti_riscv_core(fast)
+# Loading work.riscv_csr_unit(fast)
+# Loading work.riscv_counter(fast)
+# Loading work.riscv_decode(fast)
+# Loading work.riscv_imm_decoder(fast)
+# Loading work.riscv_control_unit(fast)
+# Loading work.riscv_alu_control_decode(fast)
+# Loading work.riscv_execute(fast)
+# Loading work.riscv_alu_mux(fast)
+# Loading work.riscv_comparator(fast)
+# Loading work.riscv_alu(fast)
+# Loading work.riscv_csr_alu(fast)
+# Loading work.riscv_fetch(fast)
+# Loading work.riscv_memory(fast)
+# Loading work.riscv_register_file(fast)
+# Loading work.riscv_writeback(fast)
+# Loading work.imem(fast)
+# Loading work.dti_uart(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (8) for port 'irq'. The port definition is at: ../../hdl/dti_apb_peripheral.v(38).
+#    Time: 0 ns  Iteration: 0  Instance: /dti_riscv_tb/dti_riscv/dti_apb_peripheral File: ../../hdl/dti_riscv.v Line: 96
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (3) for port 'decode_exception_cause'. The port definition is at: ../../hdl/riscv_control_unit.sv(17).
+#    Time: 0 ns  Iteration: 0  Instance: /dti_riscv_tb/dti_riscv/dti_riscv_core/riscv_decode/pp_control_unit File: ../../hdl/riscv_decode.sv Line: 107
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'alu_x_src'. The port definition is at: ../../hdl/riscv_control_unit.sv(24).
+#    Time: 0 ns  Iteration: 0  Instance: /dti_riscv_tb/dti_riscv/dti_riscv_core/riscv_decode/pp_control_unit File: ../../hdl/riscv_decode.sv Line: 107
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'alu_y_src'. The port definition is at: ../../hdl/riscv_control_unit.sv(25).
+#    Time: 0 ns  Iteration: 0  Instance: /dti_riscv_tb/dti_riscv/dti_riscv_core/riscv_decode/pp_control_unit File: ../../hdl/riscv_decode.sv Line: 107
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'funct7'. The port definition is at: ../../hdl/riscv_alu_control_decode.sv(11).
+#    Time: 0 ns  Iteration: 0  Instance: /dti_riscv_tb/dti_riscv/dti_riscv_core/riscv_decode/pp_control_unit/riscv_alu_control_decode File: ../../hdl/riscv_control_unit.sv Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (3) for port 'decode_exception_cause_in'. The port definition is at: ../../hdl/riscv_execute.sv(89).
+#    Time: 0 ns  Iteration: 0  Instance: /dti_riscv_tb/dti_riscv/dti_riscv_core/riscv_execute File: ../../hdl/dti_riscv_core.v Line: 201
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'paddr'. The port definition is at: ../../libs/dti_uart/obf/hdl_obf_kname/dti_uart.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /dti_riscv_tb/dti_uart File: tb/dti_riscv_tb.sv Line: 60
+#  add wave -r dti_riscv_tb/*
+#  run -all
+# Read line: 00108093
+# 
+# [47915] TX TRUE
+# [95765] TX TRUE
+# [143615] TX TRUE
+# [191465] TX TRUE
+# Read line: 04800113
+# 
+# [239315] TX TRUE
+# [287165] TX TRUE
+# [335015] TX TRUE
+# [382865] TX TRUE
+# Read line: 0020a223
+# 
+# [430715] TX TRUE
+# [478565] TX TRUE
+# [526415] TX TRUE
+# [574265] TX TRUE
+# Read line: 06500113
+# 
+# [622115] TX TRUE
+# [669965] TX TRUE
+# [717815] TX TRUE
+# [765665] TX TRUE
+# Read line: 0020a223
+# 
+# [813515] TX TRUE
+# [861365] TX TRUE
+# [909215] TX TRUE
+# [957065] TX TRUE
+# Read line: 06c00113
+# 
+# [1004915] TX TRUE
+# [1052765] TX TRUE
+# [1100615] TX TRUE
+# [1148465] TX TRUE
+# Read line: 0020a223
+# 
+# [1196315] TX TRUE
+# [1244165] TX TRUE
+# [1292015] TX TRUE
+# [1339865] TX TRUE
+# Read line: 06c00113
+# 
+# [1387715] TX TRUE
+# [1435565] TX TRUE
+# [1483415] TX TRUE
+# [1531265] TX TRUE
+# Read line: 0020a223
+# 
+# [1579115] TX TRUE
+# [1626965] TX TRUE
+# [1674815] TX TRUE
+# [1722665] TX TRUE
+# Read line: 06f00113
+# 
+# [1770515] TX TRUE
+# [1818365] TX TRUE
+# [1866215] TX TRUE
+# [1914065] TX TRUE
+# Read line: 0020a223
+# 
+# [1961915] TX TRUE
+# [2009765] TX TRUE
+# [2057615] TX TRUE
+# [2105465] TX TRUE
+# Read line: 02000113
+# 
+# [2153315] TX TRUE
+# [2201165] TX TRUE
+# [2249015] TX TRUE
+# [2296865] TX TRUE
+# Read line: 0020a223
+# 
+# [2344715] TX TRUE
+# [2392565] TX TRUE
+# [2440415] TX TRUE
+# [2488265] TX TRUE
+# Read line: 05700113
+# 
+# [2536115] TX TRUE
+# [2583965] TX TRUE
+# [2631815] TX TRUE
+# [2679665] TX TRUE
+# Read line: 0020a223
+# 
+# [2727515] TX TRUE
+# [2775365] TX TRUE
+# [2823215] TX TRUE
+# [2871065] TX TRUE
+# Read line: 06f00113
+# 
+# [2918915] TX TRUE
+# [2966765] TX TRUE
+# [3014615] TX TRUE
+# [3062465] TX TRUE
+# Read line: 0020a223
+# 
+# [3110315] TX TRUE
+# [3158165] TX TRUE
+# [3206015] TX TRUE
+# [3253865] TX TRUE
+# Read line: 07200113
+# 
+# [3301715] TX TRUE
+# [3349565] TX TRUE
+# [3397415] TX TRUE
+# [3445265] TX TRUE
+# Read line: 0020a223
+# 
+# [3493115] TX TRUE
+# [3540965] TX TRUE
+# [3588815] TX TRUE
+# [3636665] TX TRUE
+# Read line: 06c00113
+# 
+# [3684515] TX TRUE
+# [3732365] TX TRUE
+# [3780215] TX TRUE
+# [3828065] TX TRUE
+# Read line: 0020a223
+# 
+# [3875915] TX TRUE
+# [3923765] TX TRUE
+# [3971615] TX TRUE
+# [4019465] TX TRUE
+# Read line: 06400113
+# 
+# [4067315] TX TRUE
+# [4115165] TX TRUE
+# [4163015] TX TRUE
+# [4210865] TX TRUE
+# Read line: 0020a223
+# 
+# [4258715] TX TRUE
+# [4306565] TX TRUE
+# [4354415] TX TRUE
+# [4402265] TX TRUE
+# ** Note: $finish    : tb/dti_riscv_tb.sv(245)
+#    Time: 5402335 ns  Iteration: 1  Instance: /dti_riscv_tb
+# End time: 11:13:58 on Dec 16,2024, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 8

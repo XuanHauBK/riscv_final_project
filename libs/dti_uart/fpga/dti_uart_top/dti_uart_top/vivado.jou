@@ -1,0 +1,197 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Apr 23 16:35:20 2024
+# Process ID: 116879
+# Current directory: /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top
+# Command line: vivado
+# Log file: /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/vivado.log
+# Journal file: /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.xpr
+update_compile_order -fileset sources_1
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+open_bd_design {/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd}
+startgroup
+set_property -dict [list CONFIG.CLKOUT3_USED {false} CONFIG.CLK_OUT3_PORT {clk_1} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKOUT2_DIVIDE {1} CONFIG.NUM_OUT_CLKS {2}] [get_bd_cells clk_wiz_1]
+endgroup
+save_bd_design
+delete_ip_run [get_files -of_objects [get_fileset sources_1] /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+set_property synth_checkpoint_mode None [get_files  /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+generate_target all [get_files  /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+export_ip_user_files -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -directory /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/sim_scripts -ip_user_files_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files -ipstatic_source_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/modelsim} {questa=/new_data6/workspace/huyvq0/xil_questa_lib2018} {ies=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/ies} {xcelium=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/xcelium} {vcs=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/vcs} {riviera=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+startgroup
+set_property -dict [list CONFIG.CLKOUT3_USED {false} CONFIG.CLK_OUT3_PORT {clk_out_3} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKOUT2_DIVIDE {1} CONFIG.NUM_OUT_CLKS {2}] [get_bd_cells clk_wiz_1]
+endgroup
+startgroup
+set_property -dict [list CONFIG.CLKOUT3_USED {false} CONFIG.CLK_OUT3_PORT {clk_out3} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKOUT2_DIVIDE {1} CONFIG.NUM_OUT_CLKS {2}] [get_bd_cells clk_wiz_1]
+endgroup
+startgroup
+set_property -dict [list CONFIG.CLKOUT3_USED {false} CONFIG.CLK_OUT2_PORT {clk_uart} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKOUT2_DIVIDE {1} CONFIG.NUM_OUT_CLKS {2}] [get_bd_cells clk_wiz_1]
+delete_bd_objs [get_bd_nets clk_wiz_1_clk_core]
+endgroup
+connect_bd_net [get_bd_pins clk_wiz_1/clk_uart] [get_bd_pins dti_uart_0/clk]
+save_bd_design
+generate_target all [get_files  /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+export_ip_user_files -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -directory /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/sim_scripts -ip_user_files_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files -ipstatic_source_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/modelsim} {questa=/new_data6/workspace/huyvq0/xil_questa_lib2018} {ies=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/ies} {xcelium=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/xcelium} {vcs=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/vcs} {riviera=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+startgroup
+set_property -dict [list CONFIG.PRIMITIVE {MMCM} CONFIG.CLKOUT1_DRIVES {BUFG} CONFIG.CLKOUT2_DRIVES {BUFG} CONFIG.CLKOUT3_DRIVES {BUFG} CONFIG.CLKOUT4_DRIVES {BUFG} CONFIG.CLKOUT5_DRIVES {BUFG} CONFIG.CLKOUT6_DRIVES {BUFG} CONFIG.CLKOUT7_DRIVES {BUFG} CONFIG.FEEDBACK_SOURCE {FDBK_AUTO} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {10.000} CONFIG.MMCM_COMPENSATION {ZHOLD} CONFIG.MMCM_CLKOUT0_DIVIDE_F {20.000} CONFIG.MMCM_CLKOUT1_DIVIDE {20} CONFIG.CLKOUT1_JITTER {151.636} CONFIG.CLKOUT1_PHASE_ERROR {98.575} CONFIG.CLKOUT2_JITTER {151.636} CONFIG.CLKOUT2_PHASE_ERROR {98.575}] [get_bd_cells clk_wiz_1]
+endgroup
+startgroup
+set_property -dict [list CONFIG.RESET_TYPE {ACTIVE_LOW} CONFIG.RESET_PORT {resetn}] [get_bd_cells clk_wiz_1]
+endgroup
+connect_bd_net [get_bd_ports resetn] [get_bd_pins clk_wiz_1/resetn]
+save_bd_design
+generate_target all [get_files  /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+validate_bd_design
+set_property CONFIG.POLARITY ACTIVE_LOW [get_bd_ports resetn]
+save_bd_design
+generate_target all [get_files  /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+export_ip_user_files -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -directory /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/sim_scripts -ip_user_files_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files -ipstatic_source_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/modelsim} {questa=/new_data6/workspace/huyvq0/xil_questa_lib2018} {ies=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/ies} {xcelium=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/xcelium} {vcs=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/vcs} {riviera=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+set_property -name {questa.simulate.custom_wave_do} -value {/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.sim/sim_1/behav/questa/wave.do} -objects [get_filesets sim_1]
+update_ip_catalog
+update_ip_catalog
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+update_ip_catalog
+update_ip_catalog
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+set_property -name {questa.simulate.custom_wave_do} -value {/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/wave.do} -objects [get_filesets sim_1]
+update_ip_catalog
+update_ip_catalog
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+open_bd_design {/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd}
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv user.org:user:dti_uart:1.0 [get_ips  design_uart_dti_uart_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips design_uart_dti_uart_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+export_ip_user_files -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -directory /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/sim_scripts -ip_user_files_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files -ipstatic_source_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/modelsim} {questa=/new_data6/workspace/huyvq0/xil_questa_lib2018} {ies=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/ies} {xcelium=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/xcelium} {vcs=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/vcs} {riviera=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv user.org:user:dti_uart:1.0 [get_ips  design_uart_dti_uart_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips design_uart_dti_uart_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+export_ip_user_files -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -directory /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/sim_scripts -ip_user_files_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files -ipstatic_source_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/modelsim} {questa=/new_data6/workspace/huyvq0/xil_questa_lib2018} {ies=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/ies} {xcelium=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/xcelium} {vcs=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/vcs} {riviera=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv user.org:user:dti_uart:1.0 [get_ips  design_uart_dti_uart_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips design_uart_dti_uart_0_0] -no_script -sync -force -quiet
+set_property synth_checkpoint_mode Hierarchical [get_files  /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+generate_target all [get_files  /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+catch { config_ip_cache -export [get_ips -all design_uart_dti_uart_0_0] }
+catch { config_ip_cache -export [get_ips -all design_uart_microblaze_0_0] }
+catch { config_ip_cache -export [get_ips -all design_uart_mdm_1_0] }
+catch { config_ip_cache -export [get_ips -all design_uart_clk_wiz_1_0] }
+catch { config_ip_cache -export [get_ips -all design_uart_rst_clk_wiz_1_100M_0] }
+catch { config_ip_cache -export [get_ips -all design_uart_axi_apb_bridge_0_0] }
+catch { config_ip_cache -export [get_ips -all design_uart_dlmb_v10_0] }
+catch { config_ip_cache -export [get_ips -all design_uart_ilmb_v10_0] }
+catch { config_ip_cache -export [get_ips -all design_uart_dlmb_bram_if_cntlr_0] }
+catch { config_ip_cache -export [get_ips -all design_uart_ilmb_bram_if_cntlr_0] }
+catch { config_ip_cache -export [get_ips -all design_uart_lmb_bram_0] }
+catch { config_ip_cache -export [get_ips -all design_uart_axi_uart16550_0_0] }
+catch { config_ip_cache -export [get_ips -all design_uart_xbar_0] }
+export_ip_user_files -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+launch_runs -jobs 80 {design_uart_dti_uart_0_0_synth_1 design_uart_microblaze_0_0_synth_1 design_uart_mdm_1_0_synth_1 design_uart_clk_wiz_1_0_synth_1 design_uart_rst_clk_wiz_1_100M_0_synth_1 design_uart_axi_apb_bridge_0_0_synth_1 design_uart_dlmb_v10_0_synth_1 design_uart_ilmb_v10_0_synth_1 design_uart_dlmb_bram_if_cntlr_0_synth_1 design_uart_ilmb_bram_if_cntlr_0_synth_1 design_uart_lmb_bram_0_synth_1 design_uart_axi_uart16550_0_0_synth_1 design_uart_xbar_0_synth_1}
+export_simulation -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -directory /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/sim_scripts -ip_user_files_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files -ipstatic_source_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/modelsim} {questa=/new_data6/workspace/huyvq0/xil_questa_lib2018} {ies=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/ies} {xcelium=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/xcelium} {vcs=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/vcs} {riviera=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv user.org:user:dti_uart:1.0 [get_ips  design_uart_dti_uart_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips design_uart_dti_uart_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+catch { config_ip_cache -export [get_ips -all design_uart_dti_uart_0_0] }
+export_ip_user_files -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+launch_runs -jobs 80 design_uart_dti_uart_0_0_synth_1
+export_simulation -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -directory /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/sim_scripts -ip_user_files_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files -ipstatic_source_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/modelsim} {questa=/new_data6/workspace/huyvq0/xil_questa_lib2018} {ies=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/ies} {xcelium=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/xcelium} {vcs=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/vcs} {riviera=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+export_ip_user_files -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+export_simulation -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -directory /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/sim_scripts -ip_user_files_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files -ipstatic_source_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/modelsim} {questa=/new_data6/workspace/huyvq0/xil_questa_lib2018} {ies=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/ies} {xcelium=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/xcelium} {vcs=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/vcs} {riviera=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 80
+wait_on_run impl_1
+open_run impl_1
+file copy -force /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/impl_1/design_uart_wrapper.sysdef /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.sdk/design_uart_wrapper.hdf
+
+launch_sdk -workspace /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.sdk -hwspec /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.sdk/design_uart_wrapper.hdf
+reset_simulation -simset sim_1 -mode post-synthesis -type functional
+reset_simulation -simset sim_1 -mode post-synthesis -type functional
+launch_simulation -mode post-synthesis -type functional
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+open_bd_design {/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd}
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv user.org:user:dti_uart:1.0 [get_ips  design_uart_dti_uart_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips design_uart_dti_uart_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+catch { config_ip_cache -export [get_ips -all design_uart_dti_uart_0_0] }
+export_ip_user_files -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+launch_runs -jobs 80 design_uart_dti_uart_0_0_synth_1
+export_simulation -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -directory /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/sim_scripts -ip_user_files_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files -ipstatic_source_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/modelsim} {questa=/new_data6/workspace/huyvq0/xil_questa_lib2018} {ies=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/ies} {xcelium=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/xcelium} {vcs=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/vcs} {riviera=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+export_ip_user_files -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd]
+export_simulation -of_objects [get_files /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/design_uart.bd] -directory /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/sim_scripts -ip_user_files_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files -ipstatic_source_dir /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/modelsim} {questa=/new_data6/workspace/huyvq0/xil_questa_lib2018} {ies=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/ies} {xcelium=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/xcelium} {vcs=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/vcs} {riviera=/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 80
+wait_on_run impl_1
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+file copy -force /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/impl_1/design_uart_wrapper.sysdef /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.sdk/design_uart_wrapper.hdf
+
+reset_simulation -simset sim_1 -mode behavioral
+reset_simulation -simset sim_1 -mode post-synthesis -type functional
+close_design
+launch_simulation -mode post-synthesis -type functional
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation

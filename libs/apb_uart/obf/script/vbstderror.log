@@ -1,0 +1,17 @@
+
+start time: Wed Apr 24 16:20:05 2024
+
+read_file ../../hdl/dti_uart.sv 
+
+parse_files +incdir+../../hdl +incdir+../../inc +incdir+../../libs/uart_reg_blk/hdl +libext+.v+.sv+.vh 
+
+link_design
+  # Warning: ../../hdl/baudrate_gen.sv(30): Operator EQ expects 32 or 26 bits on the LHS, but LHS's VARREF 'rx_acc' generates 5 bits.
+  # Warning: ../../hdl/baudrate_gen.sv(45): Operator EQ expects 32 or 26 bits on the LHS, but LHS's VARREF 'tx_acc' generates 9 bits.
+  # Warning: ../../hdl/receiver.sv(104): Bit extraction of var[7:0] requires 3 bit index, not 4 bits.
+
+write_design -flatten -munge -topmodule dti_uart -out dti_uart -outdir ../hdl_obf 
+
+write_design -topmodule dti_uart -out dti_uart -outdir ../hdl_obf_kname 
+
+report_blackbox -topmodule dti_uart -blackbox 

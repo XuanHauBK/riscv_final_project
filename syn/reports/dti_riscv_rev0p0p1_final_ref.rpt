@@ -1,0 +1,192 @@
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : reference
+Design : dti_riscv
+Version: Q-2019.12-SP4
+Date   : Tue Dec 24 16:56:06 2024
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+dti_28hc_7t_30_and2x1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.392000     153     59.975998  
+dti_28hc_7t_30_and2xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.392000     525    205.799995  
+dti_28hc_7t_30_and2xp58
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.392000      28     10.976000  
+dti_28hc_7t_30_and4xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.588000      36     21.168000  
+dti_28hc_7t_30_and8xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  1.176000      64     75.264000  
+dti_28hc_7t_30_ao12xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000      32     15.680000  
+dti_28hc_7t_30_ao22x1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.686000       2      1.372000  
+dti_28hc_7t_30_ao22xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.686000      97     66.541999  
+dti_28hc_7t_30_ao112xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.588000       1      0.588000  
+dti_28hc_7t_30_ao222xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.882000       1      0.882000  
+dti_28hc_7t_30_aoi13xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000      33     16.170000  
+dti_28hc_7t_30_aoi22rexp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000       3      1.470000  
+dti_28hc_7t_30_aoi22xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000    1601    784.490015  
+dti_28hc_7t_30_aoi112x1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000       1      0.490000  
+dti_28hc_7t_30_aoi112xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000       2      0.980000  
+dti_28hc_7t_30_ffqbcka01fox1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  2.058000     120    246.960011  n
+dti_28hc_7t_30_ffqbcka01x2
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  1.862000       3      5.586000  n
+dti_28hc_7t_30_ffqbckena01fsux1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  2.646000       3      7.938000  n
+dti_28hc_7t_30_ffqbckena01x1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  2.352000     234    550.368000  n
+dti_28hc_7t_30_ffqbckena01xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  2.254000    3020   6807.079844  n
+dti_28hc_7t_30_ffqblcka01xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  1.764000      20     35.280001  n
+dti_28hc_7t_30_ffqnubckena01xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  2.254000       2      4.508000  n
+dti_28hc_7t_30_iao22xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.686000       4      2.744000  
+dti_28hc_7t_30_invx1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.196000     325     63.699998  
+dti_28hc_7t_30_invx4
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000       1      0.490000  
+dti_28hc_7t_30_invxp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.196000       2      0.392000  
+dti_28hc_7t_30_invxp8
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.196000       1      0.196000  
+dti_28hc_7t_30_ioa12hpx1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000     100     49.000001  
+dti_28hc_7t_30_ioa12xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000       2      0.980000  
+dti_28hc_7t_30_ioa13xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.588000       1      0.588000  
+dti_28hc_7t_30_mux21optax1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.784000       3      2.352000  
+dti_28hc_7t_30_nand2i1xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.392000       2      0.784000  
+dti_28hc_7t_30_nand2px1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.392000       1      0.392000  
+dti_28hc_7t_30_nand2x1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.294000       7      2.058000  
+dti_28hc_7t_30_nand2xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.294000       7      2.058000  
+dti_28hc_7t_30_nand3i1xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000       1      0.490000  
+dti_28hc_7t_30_nand3xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.392000       2      0.784000  
+dti_28hc_7t_30_nand4xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000     257    125.930002  
+dti_28hc_7t_30_nor2i1x1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.392000      59     23.127999  
+dti_28hc_7t_30_nor2x1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.294000       1      0.294000  
+dti_28hc_7t_30_nor2xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.294000      19      5.586000  
+dti_28hc_7t_30_nor3xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.392000       1      0.392000  
+dti_28hc_7t_30_nor4x1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000      69     33.810001  
+dti_28hc_7t_30_oai12xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.392000       3      1.176000  
+dti_28hc_7t_30_oai13x1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000       1      0.490000  
+dti_28hc_7t_30_oai13xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000       2      0.980000  
+dti_28hc_7t_30_oai22rex1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000       2      0.980000  
+dti_28hc_7t_30_oai22xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000       1      0.490000  
+dti_28hc_7t_30_oai112xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.490000       1      0.490000  
+dti_28hc_7t_30_or2x1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.392000      20      7.840000  
+dti_28hc_7t_30_or4xp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.588000       1      0.588000  
+dti_28hc_7t_30_tiehix1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.294000       1      0.294000  
+dti_28hc_7t_30_xnor2bx1
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.784000       1      0.784000  
+dti_28hc_7t_30_xnor2bxp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.784000       5      3.920000  
+dti_28hc_7t_30_xor2bxp5
+                   dti_stdcell_ssg_0p81v_neg40c
+                                  0.784000       4      3.136000  
+dti_apb_peripheral                0.000000       1      0.000000  b
+dti_riscv_core                    0.000000       1      0.000000  b
+-----------------------------------------------------------------------------
+Total 57 references                                  9256.883864
+1

@@ -1,0 +1,412 @@
+
+*** Running vivado
+    with args -log design_uart_dti_uart_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_uart_dti_uart_0_0.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source design_uart_dti_uart_0_0.tcl -notrace
+Command: synth_design -top design_uart_dti_uart_0_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 165896 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1470.238 ; gain = 85.992 ; free physical = 206734 ; free virtual = 251606
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_uart_dti_uart_0_0' [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_dti_uart_0_0/synth/design_uart_dti_uart_0_0.sv:56]
+INFO: [Synth 8-6157] synthesizing module 'dti_uart' [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'transmitter' [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:46]
+INFO: [Synth 8-226] default block is never used [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:71]
+INFO: [Synth 8-226] default block is never used [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:192]
+INFO: [Synth 8-226] default block is never used [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:204]
+WARNING: [Synth 8-5788] Register bitpos_data_reg in module transmitter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:142]
+WARNING: [Synth 8-5788] Register bitpos_stop_reg in module transmitter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:143]
+INFO: [Synth 8-6155] done synthesizing module 'transmitter' (1#1) [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:46]
+INFO: [Synth 8-6157] synthesizing module 'receiver' [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:242]
+INFO: [Synth 8-155] case statement is not full and has no default [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:316]
+INFO: [Synth 8-226] default block is never used [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:370]
+INFO: [Synth 8-226] default block is never used [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:382]
+INFO: [Synth 8-6155] done synthesizing module 'receiver' (2#1) [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:242]
+INFO: [Synth 8-6157] synthesizing module 'register_block' [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:421]
+INFO: [Synth 8-6157] synthesizing module 'rb_regs' [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:462]
+INFO: [Synth 8-6155] done synthesizing module 'rb_regs' (3#1) [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:462]
+INFO: [Synth 8-6157] synthesizing module 'rb_apb_bridge' [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:713]
+INFO: [Synth 8-6155] done synthesizing module 'rb_apb_bridge' (4#1) [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:713]
+INFO: [Synth 8-6155] done synthesizing module 'register_block' (5#1) [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:421]
+INFO: [Synth 8-6157] synthesizing module 'baudrate_gen' [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:747]
+INFO: [Synth 8-6155] done synthesizing module 'baudrate_gen' (6#1) [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:747]
+INFO: [Synth 8-6155] done synthesizing module 'dti_uart' (7#1) [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ipshared/dti_uart_lib/dti_uart.sv:2]
+WARNING: [Synth 8-689] width (12) of port connection 'paddr' does not match port width (32) of module 'dti_uart' [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_dti_uart_0_0/synth/design_uart_dti_uart_0_0.sv:114]
+INFO: [Synth 8-6155] done synthesizing module 'design_uart_dti_uart_0_0' (8#1) [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_dti_uart_0_0/synth/design_uart_dti_uart_0_0.sv:56]
+WARNING: [Synth 8-3331] design rb_apb_bridge has unconnected port apb_presetn
+WARNING: [Synth 8-3331] design rb_apb_bridge has unconnected port apb_pclk
+WARNING: [Synth 8-3331] design receiver has unconnected port cfg_parity_type
+WARNING: [Synth 8-3331] design transmitter has unconnected port cfg_parity_type
+WARNING: [Synth 8-3331] design dti_uart has unconnected port pstrb[3]
+WARNING: [Synth 8-3331] design dti_uart has unconnected port pstrb[2]
+WARNING: [Synth 8-3331] design dti_uart has unconnected port pstrb[1]
+WARNING: [Synth 8-3331] design dti_uart has unconnected port pstrb[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1515.863 ; gain = 131.617 ; free physical = 206749 ; free virtual = 251621
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1515.863 ; gain = 131.617 ; free physical = 206749 ; free virtual = 251621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1515.863 ; gain = 131.617 ; free physical = 206749 ; free virtual = 251621
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 1868.922 ; gain = 0.000 ; free physical = 206404 ; free virtual = 251275
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:57 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206568 ; free virtual = 251439
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:57 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206568 ; free virtual = 251440
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:57 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206568 ; free virtual = 251440
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'transmitter'
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'receiver'
+INFO: [Synth 8-5544] ROM "bitpos_data" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE2 |                               00 |                               00
+                  iSTATE |                               01 |                               01
+                 iSTATE0 |                               10 |                               10
+                 iSTATE1 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'transmitter'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                  iSTATE |                               01 |                               01
+                 iSTATE0 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'receiver'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:58 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206561 ; free virtual = 251433
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 9     
+	   3 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 9     
+	   4 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module transmitter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 3     
+Module receiver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 4     
+Module rb_regs 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module rb_apb_bridge 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module baudrate_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design design_uart_dti_uart_0_0 has unconnected port pclk
+WARNING: [Synth 8-3331] design design_uart_dti_uart_0_0 has unconnected port presetn
+WARNING: [Synth 8-3331] design design_uart_dti_uart_0_0 has unconnected port pstrb[3]
+WARNING: [Synth 8-3331] design design_uart_dti_uart_0_0 has unconnected port pstrb[2]
+WARNING: [Synth 8-3331] design design_uart_dti_uart_0_0 has unconnected port pstrb[1]
+WARNING: [Synth 8-3331] design design_uart_dti_uart_0_0 has unconnected port pstrb[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:59 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206545 ; free virtual = 251419
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:01:12 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206424 ; free virtual = 251297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:01:12 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206424 ; free virtual = 251297
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:01:12 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206421 ; free virtual = 251295
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:01:12 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206421 ; free virtual = 251295
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:01:12 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206421 ; free virtual = 251295
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:01:12 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206421 ; free virtual = 251295
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:01:12 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206421 ; free virtual = 251295
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:01:12 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206421 ; free virtual = 251295
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:01:12 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206421 ; free virtual = 251295
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |    32|
+|3     |LUT3 |    11|
+|4     |LUT4 |    22|
+|5     |LUT5 |    30|
+|6     |LUT6 |    50|
+|7     |FDCE |    37|
+|8     |FDPE |     1|
+|9     |FDRE |    30|
+|10    |FDSE |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+-------------------+---------------+------+
+|      |Instance           |Module         |Cells |
++------+-------------------+---------------+------+
+|1     |top                |               |   216|
+|2     |  inst             |dti_uart       |   181|
+|3     |    baudrate_gen   |baudrate_gen   |    36|
+|4     |    receiver       |receiver       |    58|
+|5     |    register_block |register_block |    66|
+|6     |      rb_regs      |rb_regs        |    66|
+|7     |    transmitter    |transmitter    |    21|
++------+-------------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:01:12 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206421 ; free virtual = 251295
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:34 . Memory (MB): peak = 1868.922 ; gain = 131.617 ; free physical = 206474 ; free virtual = 251348
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:01:12 . Memory (MB): peak = 1868.922 ; gain = 484.676 ; free physical = 206474 ; free virtual = 251348
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:01:14 . Memory (MB): peak = 1876.930 ; gain = 512.141 ; free physical = 206468 ; free virtual = 251342
+INFO: [Common 17-1381] The checkpoint '/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/design_uart_dti_uart_0_0_synth_1/design_uart_dti_uart_0_0.dcp' has been generated.

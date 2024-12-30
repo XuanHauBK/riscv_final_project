@@ -1,0 +1,21 @@
+sv xil_defaultlib --include "../../../../dti_riscv_top.srcs/sources_1/bd/design_1/ipshared/4903" \
+"../../../bd/design_1/ipshared/1a8f/dti_riscv_dti_riscv/dti_riscv_dti_riscv.srcs/sources_1/imports/dti_riscv_lib/dti_riscv.sv" \
+"../../../bd/design_1/ip/design_1_dti_riscv_0_0/sim/design_1_dti_riscv_0_0.sv" \
+
+verilog xil_defaultlib --include "../../../../dti_riscv_top.srcs/sources_1/bd/design_1/ipshared/4903" \
+"../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v" \
+
+sv xil_defaultlib --include "../../../../dti_riscv_top.srcs/sources_1/bd/design_1/ipshared/4903" \
+"../../../bd/design_1/ipshared/16bd/dti_uart_dti_uart/dti_uart_dti_uart.srcs/sources_1/imports/dti_riscv_lib/dti_uart.sv" \
+"../../../bd/design_1/ip/design_1_dti_uart_0_1/sim/design_1_dti_uart_0_1.sv" \
+
+verilog xil_defaultlib --include "../../../../dti_riscv_top.srcs/sources_1/bd/design_1/ipshared/4903" \
+"../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
+"../../../bd/design_1/ip/design_1_lmb_bram_0/sim/design_1_lmb_bram_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+"../../../bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

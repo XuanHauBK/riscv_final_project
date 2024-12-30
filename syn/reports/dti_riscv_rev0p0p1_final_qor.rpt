@@ -1,0 +1,84 @@
+Warning: Design 'dti_riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : qor
+Design : dti_riscv
+Version: Q-2019.12-SP4
+Date   : Tue Dec 24 16:56:03 2024
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:            2.00000
+  Critical Path Length:       0.61677
+  Critical Path Slack:        0.03008
+  Critical Path Clk Period:   1.00000
+  Total Negative Slack:       0.00000
+  No. of Violating Paths:     0.00000
+  Worst Hold Violation:      -0.15891
+  Total Hold Violation:     -22.21056
+  No. of Hold Violations:   220.00000
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:               6890
+  Buf/Inv Cell Count:             329
+  Buf Cell Count:                   0
+  Inv Cell Count:                 329
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      3488
+  Sequential Cell Count:         3402
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:      1599.16401
+  Noncombinational Area:   7657.71986
+  Buf/Inv Area:              64.77800
+  Total Buffer Area:          0.00000
+  Total Inverter Area:       64.77800
+  Macro/Black Box Area:       0.00000
+  Net Area:                   0.00000
+  -----------------------------------
+  Cell Area:               9256.88386
+  Design Area:             9256.88386
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          7109
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: dt22-linux
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                 2.07703
+  Logic Optimization:              33.99487
+  Mapping Optimization:            92.02191
+  -----------------------------------------
+  Overall Compile Time:            271.59808
+  Overall Compile Wall Clock Time: 194.59407
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00000  TNS: 0.00000  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.15891  TNS: 22.21056  Number of Violating Paths: 220
+
+  --------------------------------------------------------------------
+
+
+1

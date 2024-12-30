@@ -1,0 +1,2 @@
+perl register_gen_h.pl ../doc/reg_block_bridge.xlsx
+perl register_gen_c.pl ../doc/reg_block_bridge.xlsx

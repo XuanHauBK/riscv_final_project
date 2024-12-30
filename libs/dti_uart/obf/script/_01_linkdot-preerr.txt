@@ -1,0 +1,440 @@
+SymEnt Dump:
++ $root                           se0x1d34860  fallb=se0  n=NETLIST 0x1c3a5e0a0
+| + $unit                           se0x1d430c0  fallb=se0  n=NETLIST 0x1c3a5e0a0
+| + dti_uart                        se0x1d3a360  fallb=se0x1d430c0  n=MODULE 0x1c9b1f0d2 u1=0x1d3a360 u4=0x1  dti_uart  L2
+| | + APB_ADDR_WIDTH                  se0x1d384b0  fallb=se0x1d3a360  n=VAR 0x1ca6a80d5 u1=0x1d37990 @dt=0@  APB_ADDR_WIDTH GPARAM
+| | + APB_DATA_WIDTH                  se0x1d38ea0  fallb=se0x1d3a360  n=VAR 0x1ca6720d4 u1=0x1d38840 @dt=0@  APB_DATA_WIDTH GPARAM
+| | + APB_STRB_WIDTH                  se0x1d37330  fallb=se0x1d3a360  n=VAR 0x1ca6d10d6 u1=0x1d36fb0 @dt=0@  APB_STRB_WIDTH GPARAM
+| | + DATA_WIDTH                      se0x1d39d00  fallb=se0x1d3a360  n=VAR 0x1c98930d3 u1=0x1d39970 @dt=0@  DATA_WIDTH GPARAM
+| | + __paramNumber1                  se0x1d39970  fallb=se0x1d3a360  n=VAR 0x1c98930d3 u1=0x1d39970 @dt=0@  DATA_WIDTH GPARAM
+| | + __paramNumber2                  se0x1d38840  fallb=se0x1d3a360  n=VAR 0x1ca6720d4 u1=0x1d38840 @dt=0@  APB_DATA_WIDTH GPARAM
+| | + __paramNumber3                  se0x1d37990  fallb=se0x1d3a360  n=VAR 0x1ca6a80d5 u1=0x1d37990 @dt=0@  APB_ADDR_WIDTH GPARAM
+| | + __paramNumber4                  se0x1d36fb0  fallb=se0x1d3a360  n=VAR 0x1ca6d10d6 u1=0x1d36fb0 @dt=0@  APB_STRB_WIDTH GPARAM
+| | + __pinNumber1                    se0x1d10880  fallb=se0x1d3a360  n=VAR 0x1ca7380d9 u1=0x1d10880 u4=0x1 @dt=0@  clk [I] INPUT
+| | + __pinNumber10                   se0x1d3cf40  fallb=se0x1d3a360  n=VAR 0x1caa410d18 u1=0x1d3cf40 u4=0x1 @dt=0@  pwdata [I] INPUT
+| | + __pinNumber11                   se0x1d3dd00  fallb=se0x1d3a360  n=VAR 0x1ca9e00d19 u1=0x1d3dd00 u4=0x1 @dt=0@  rx [I] INPUT
+| | + __pinNumber12                   se0x1d33ad0  fallb=se0x1d3a360  n=VAR 0x1caa500d20 u1=0x1d33ad0 u4=0x1 @dt=0@  cts_n [I] INPUT
+| | + __pinNumber13                   se0x1d3c850  fallb=se0x1d3a360  n=VAR 0x1caa830d21 u1=0x1d3c850 u4=0x1 @dt=0@  pready [O] OUTPUT
+| | + __pinNumber14                   se0x1d346c0  fallb=se0x1d3a360  n=VAR 0x1caaa90d22 u1=0x1d346c0 u4=0x1 @dt=0@  pslverr [O] OUTPUT
+| | + __pinNumber15                   se0x1d41800  fallb=se0x1d3a360  n=VAR 0x1cab750d23 u1=0x1d41800 u4=0x1 @dt=0@  prdata [O] OUTPUT
+| | + __pinNumber16                   se0x1d41ee0  fallb=se0x1d3a360  n=VAR 0x1caacf0d24 u1=0x1d41ee0 u4=0x1 @dt=0@  tx [O] OUTPUT
+| | + __pinNumber17                   se0x1d37140  fallb=se0x1d3a360  n=VAR 0x1cab840d25 u1=0x1d37140 u4=0x1 @dt=0@  rts_n [O] OUTPUT
+| | + __pinNumber2                    se0x1d0d280  fallb=se0x1d3a360  n=VAR 0x1ca7620d10 u1=0x1d0d280 u4=0x1 @dt=0@  reset_n [I] INPUT
+| | + __pinNumber3                    se0x1d196e0  fallb=se0x1d3a360  n=VAR 0x1ca78c0d11 u1=0x1d196e0 u4=0x1 @dt=0@  pclk [I] INPUT
+| | + __pinNumber4                    se0x1cce8a0  fallb=se0x1d3a360  n=VAR 0x1ca7b60d12 u1=0x1cce8a0 u4=0x1 @dt=0@  presetn [I] INPUT
+| | + __pinNumber5                    se0x1d26f20  fallb=se0x1d3a360  n=VAR 0x1ca7e00d13 u1=0x1d26f20 u4=0x1 @dt=0@  psel [I] INPUT
+| | + __pinNumber6                    se0x1d28f70  fallb=se0x1d3a360  n=VAR 0x1ca80a0d14 u1=0x1d28f70 u4=0x1 @dt=0@  penable [I] INPUT
+| | + __pinNumber7                    se0x1d2bc60  fallb=se0x1d3a360  n=VAR 0x1ca8340d15 u1=0x1d2bc60 u4=0x1 @dt=0@  pwrite [I] INPUT
+| | + __pinNumber8                    se0x1d2d700  fallb=se0x1d3a360  n=VAR 0x1ca92a0d16 u1=0x1d2d700 u4=0x1 @dt=0@  paddr [I] INPUT
+| | + __pinNumber9                    se0x1d2fc80  fallb=se0x1d3a360  n=VAR 0x1ca9b60d17 u1=0x1d2fc80 u4=0x1 @dt=0@  pstrb [I] INPUT
+| | + baudrate_gen                    se0x1d42950  fallb=se0x1d430c0  n=CELL 0x1cb8550d94 u1=0x1d42950  baudrate_gen -> MODULE 0x1cfc1e0i2 u1=0x1d42950 u4=0x1  baudrate_gen  L3
+| | | + BAUDRATE                        se0x1cb54e0  fallb=se0x1d42950  n=VAR 0x1ceae90i3 u1=0x1ccf7b0 @dt=0@  BAUDRATE GPARAM
+| | | + FREQ_FPGA                       se0x1cd39b0  fallb=se0x1d42950  n=VAR 0x1cfcf40i4 u1=0x1cead00 @dt=0@  FREQ_FPGA GPARAM
+| | | + RX_ACC_MAX                      se0x1cd9b30  fallb=se0x1d42950  n=VAR 0x1cfdc20i13 u1=0x1cdade0 @dt=0@  RX_ACC_MAX GPARAM
+| | | + RX_ACC_WIDTH                    se0x1ce7df0  fallb=se0x1d42950  n=VAR 0x1cfe860i15 u1=0x1cfaf20 @dt=0@  RX_ACC_WIDTH GPARAM
+| | | + TX_ACC_MAX                      se0x1ce96f0  fallb=se0x1d42950  n=VAR 0x1cfe310i14 u1=0x1ce51d0 @dt=0@  TX_ACC_MAX GPARAM
+| | | + TX_ACC_WIDTH                    se0x1cfb1c0  fallb=se0x1d42950  n=VAR 0x1cfec30i16 u1=0x1cfdf30 @dt=0@  TX_ACC_WIDTH GPARAM
+| | | + __paramNumber1                  se0x1ccf7b0  fallb=se0x1d42950  n=VAR 0x1ceae90i3 u1=0x1ccf7b0 @dt=0@  BAUDRATE GPARAM
+| | | + __paramNumber2                  se0x1cead00  fallb=se0x1d42950  n=VAR 0x1cfcf40i4 u1=0x1cead00 @dt=0@  FREQ_FPGA GPARAM
+| | | + __paramNumber3                  se0x1cdade0  fallb=se0x1d42950  n=VAR 0x1cfdc20i13 u1=0x1cdade0 @dt=0@  RX_ACC_MAX GPARAM
+| | | + __paramNumber4                  se0x1ce51d0  fallb=se0x1d42950  n=VAR 0x1cfe310i14 u1=0x1ce51d0 @dt=0@  TX_ACC_MAX GPARAM
+| | | + __paramNumber5                  se0x1cfaf20  fallb=se0x1d42950  n=VAR 0x1cfe860i15 u1=0x1cfaf20 @dt=0@  RX_ACC_WIDTH GPARAM
+| | | + __paramNumber6                  se0x1cfdf30  fallb=se0x1d42950  n=VAR 0x1cfec30i16 u1=0x1cfdf30 @dt=0@  TX_ACC_WIDTH GPARAM
+| | | + __pinNumber1                    se0x1caff40  fallb=se0x1d42950  n=VAR 0x1cfd360i7 u1=0x1caff40 u4=0x1 @dt=0@  clk [I] INPUT
+| | | + __pinNumber2                    se0x1cb0770  fallb=se0x1d42950  n=VAR 0x1cfd5c0i8 u1=0x1cb0770 u4=0x1 @dt=0@  reset_n [I] INPUT
+| | | + __pinNumber3                    se0x1cb27f0  fallb=se0x1d42950  n=VAR 0x1cfd820i9 u1=0x1cb27f0 u4=0x1 @dt=0@  rxclk_en [O] OUTPUT
+| | | + __pinNumber4                    se0x1cb51a0  fallb=se0x1d42950  n=VAR 0x1cfda80i10 u1=0x1cb51a0 u4=0x1 @dt=0@  txclk_en [O] OUTPUT
+| | | + block_clocked_rx_acc            se0x1d08480  fallb=se0x1d42950  n=BEGIN 0x1d11220i25 u1=0x1d08480 u4=0x1  block_clocked_rx_acc
+| | | | + ""                              se0x1cf94d0  fallb=se0x1d08480  n=BEGIN 0x1d11510i26 u1=0x1cf94d0 u4=0x1 [UNNAMED]
+| | | | + ""                              se0x1cf8650  fallb=se0x1d08480  n=BEGIN 0x1d11830i29 u1=0x1cf8650 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d06e00  fallb=se0x1cf8650  n=BEGIN 0x1d11ca0i30 u1=0x1d06e00 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1cf5f40  fallb=se0x1cf8650  n=BEGIN 0x1d12080i33 u1=0x1cf5f40 u4=0x1 [UNNAMED]
+| | | + block_clocked_tx_acc            se0x1d0a940  fallb=se0x1d42950  n=BEGIN 0x1d12dd0i40 u1=0x1d0a940 u4=0x1  block_clocked_tx_acc
+| | | | + ""                              se0x1d115d0  fallb=se0x1d0a940  n=BEGIN 0x1d130c0i41 u1=0x1d115d0 u4=0x1 [UNNAMED]
+| | | | + ""                              se0x1d12380  fallb=se0x1d0a940  n=BEGIN 0x1d134a0i44 u1=0x1d12380 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d096e0  fallb=se0x1d12380  n=BEGIN 0x1d13910i45 u1=0x1d096e0 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d0d420  fallb=se0x1d12380  n=BEGIN 0x1d13e90i48 u1=0x1d0d420 u4=0x1 [UNNAMED]
+| | | + clk                             se0x1cd4980  fallb=se0x1d42950  n=VAR 0x1cfd360i7 u1=0x1caff40 u4=0x1 @dt=0@  clk [I] INPUT
+| | | + reset_n                         se0x1cedc50  fallb=se0x1d42950  n=VAR 0x1cfd5c0i8 u1=0x1cb0770 u4=0x1 @dt=0@  reset_n [I] INPUT
+| | | + rx_acc                          se0x1d05dd0  fallb=se0x1d42950  n=VAR 0x1d0fb40i18 u1=0x1d05dd0 @dt=0@  rx_acc VAR
+| | | + rxclk_en                        se0x1cd7990  fallb=se0x1d42950  n=VAR 0x1cfd820i9 u1=0x1cb27f0 u4=0x1 @dt=0@  rxclk_en [O] OUTPUT
+| | | + tx_acc                          se0x1d07b50  fallb=se0x1d42950  n=VAR 0x1d101a0i19 u1=0x1d07b50 @dt=0@  tx_acc VAR
+| | | + txclk_en                        se0x1cea5a0  fallb=se0x1d42950  n=VAR 0x1cfda80i10 u1=0x1cb51a0 u4=0x1 @dt=0@  txclk_en [O] OUTPUT
+| | + cfg_data_bit_num                se0x1d2a5d0  fallb=se0x1d3a360  n=VAR 0x1cad090d30 u1=0x1d2a5d0 @dt=0@  cfg_data_bit_num WIRE
+| | + cfg_parity_en                   se0x1d293c0  fallb=se0x1d3a360  n=VAR 0x1cad250d32 u1=0x1d293c0 @dt=0@  cfg_parity_en WIRE
+| | + cfg_parity_type                 se0x1d28940  fallb=se0x1d3a360  n=VAR 0x1cad3f0d33 u1=0x1d28940 @dt=0@  cfg_parity_type WIRE
+| | + cfg_stop_bit_num                se0x1d2a1c0  fallb=se0x1d3a360  n=VAR 0x1cabc10d31 u1=0x1d2a1c0 @dt=0@  cfg_stop_bit_num WIRE
+| | + clk                             se0x1d36130  fallb=se0x1d3a360  n=VAR 0x1ca7380d9 u1=0x1d10880 u4=0x1 @dt=0@  clk [I] INPUT
+| | + ctrl_start_tx                   se0x1d28590  fallb=se0x1d3a360  n=VAR 0x1cad590d34 u1=0x1d28590 @dt=0@  ctrl_start_tx WIRE
+| | + cts_n                           se0x1d304f0  fallb=se0x1d3a360  n=VAR 0x1caa500d20 u1=0x1d33ad0 u4=0x1 @dt=0@  cts_n [I] INPUT
+| | + host_read_data                  se0x1cfb980  fallb=se0x1d3a360  n=VAR 0x1cae080d39 u1=0x1cfb980 @dt=0@  host_read_data WIRE
+| | + paddr                           se0x1d322b0  fallb=se0x1d3a360  n=VAR 0x1ca92a0d16 u1=0x1d2d700 u4=0x1 @dt=0@  paddr [I] INPUT
+| | + pclk                            se0x1d35390  fallb=se0x1d3a360  n=VAR 0x1ca78c0d11 u1=0x1d196e0 u4=0x1 @dt=0@  pclk [I] INPUT
+| | + penable                         se0x1d33930  fallb=se0x1d3a360  n=VAR 0x1ca80a0d14 u1=0x1d28f70 u4=0x1 @dt=0@  penable [I] INPUT
+| | + prdata                          se0x1d2e950  fallb=se0x1d3a360  n=VAR 0x1cab750d23 u1=0x1d41800 u4=0x1 @dt=0@  prdata [O] OUTPUT
+| | + pready                          se0x1d2f530  fallb=se0x1d3a360  n=VAR 0x1caa830d21 u1=0x1d3c850 u4=0x1 @dt=0@  pready [O] OUTPUT
+| | + presetn                         se0x1d344c0  fallb=se0x1d3a360  n=VAR 0x1ca7b60d12 u1=0x1cce8a0 u4=0x1 @dt=0@  presetn [I] INPUT
+| | + psel                            se0x1d33cc0  fallb=se0x1d3a360  n=VAR 0x1ca7e00d13 u1=0x1d26f20 u4=0x1 @dt=0@  psel [I] INPUT
+| | + pslverr                         se0x1d2ecf0  fallb=se0x1d3a360  n=VAR 0x1caaa90d22 u1=0x1d346c0 u4=0x1 @dt=0@  pslverr [O] OUTPUT
+| | + pstrb                           se0x1d31f20  fallb=se0x1d3a360  n=VAR 0x1ca9b60d17 u1=0x1d2fc80 u4=0x1 @dt=0@  pstrb [I] INPUT
+| | + pwdata                          se0x1d310d0  fallb=se0x1d3a360  n=VAR 0x1caa410d18 u1=0x1d3cf40 u4=0x1 @dt=0@  pwdata [I] INPUT
+| | + pwrite                          se0x1d32ab0  fallb=se0x1d3a360  n=VAR 0x1ca8340d15 u1=0x1d2bc60 u4=0x1 @dt=0@  pwrite [I] INPUT
+| | + receiver                        se0x1cf0880  fallb=se0x1d430c0  n=CELL 0x1cb2fa0d56 u1=0x1cf0880  receiver -> MODULE 0x1cc5f80g2 u1=0x1cf0880 u4=0x1  receiver  L3
+| | | + ""                              se0x1d32cb0  fallb=se0x1cf0880  n=BEGIN 0x1cf2d30g122 u1=0x1d32cb0 u4=0x1 [UNNAMED]
+| | | + ""                              se0x1d2abf0  fallb=se0x1cf0880  n=BEGIN 0x1cf55d0g133 u1=0x1d2abf0 u4=0x1 [UNNAMED]
+| | | + ""                              se0x1d2b230  fallb=se0x1cf0880  n=BEGIN 0x1cf83f0g144 u1=0x1d2b230 u4=0x1 [UNNAMED]
+| | | | + ""                              se0x1d34300  fallb=se0x1d2b230  n=BEGIN 0x1cf8840g145 u1=0x1d34300 u4=0x1 [UNNAMED]
+| | | | + ""                              se0x1d2b9e0  fallb=se0x1d2b230  n=BEGIN 0x1cf8e90g148 u1=0x1d2b9e0 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d35740  fallb=se0x1d2b9e0  n=BEGIN 0x1cf9210g149 u1=0x1d35740 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d2b660  fallb=se0x1d2b9e0  n=BEGIN 0x1cf9c70g152 u1=0x1d2b660 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d2cdc0  fallb=se0x1d2b9e0  n=BEGIN 0x1cfa310g155 u1=0x1d2cdc0 u4=0x1 [UNNAMED]
+| | | + DATA_WIDTH                      se0x1ce9ce0  fallb=se0x1cf0880  n=VAR 0x1cbe3e0g3 u1=0x1cd8da0 @dt=0@  DATA_WIDTH GPARAM
+| | | + RX_STATE_DATA                   se0x1cfe4a0  fallb=se0x1cf0880  n=VAR 0x1ce1cb0g23 u1=0x1cf06b0 @dt=0@  RX_STATE_DATA GPARAM
+| | | + RX_STATE_START                  se0x1cfa740  fallb=se0x1cf0880  n=VAR 0x1ce2080g22 u1=0x1cfa5c0 @dt=0@  RX_STATE_START GPARAM
+| | | + RX_STATE_STOP                   se0x1d046f0  fallb=se0x1cf0880  n=VAR 0x1ce27b0g24 u1=0x1d04960 @dt=0@  RX_STATE_STOP GPARAM
+| | | + __paramNumber1                  se0x1cd8da0  fallb=se0x1cf0880  n=VAR 0x1cbe3e0g3 u1=0x1cd8da0 @dt=0@  DATA_WIDTH GPARAM
+| | | + __paramNumber2                  se0x1cfa5c0  fallb=se0x1cf0880  n=VAR 0x1ce2080g22 u1=0x1cfa5c0 @dt=0@  RX_STATE_START GPARAM
+| | | + __paramNumber3                  se0x1cf06b0  fallb=se0x1cf0880  n=VAR 0x1ce1cb0g23 u1=0x1cf06b0 @dt=0@  RX_STATE_DATA GPARAM
+| | | + __paramNumber4                  se0x1d04960  fallb=se0x1cf0880  n=VAR 0x1ce27b0g24 u1=0x1d04960 @dt=0@  RX_STATE_STOP GPARAM
+| | | + __pinNumber1                    se0x1d4dc40  fallb=se0x1cf0880  n=VAR 0x1cc5d00g6 u1=0x1d4dc40 u4=0x1 @dt=0@  clk [I] INPUT
+| | | + __pinNumber10                   se0x1d4f640  fallb=se0x1cf0880  n=VAR 0x1ce16f0g15 u1=0x1d4f640 u4=0x1 @dt=0@  rts_n [O] OUTPUT
+| | | + __pinNumber11                   se0x1d4f4c0  fallb=se0x1cf0880  n=VAR 0x1ce1a20g16 u1=0x1d4f4c0 u4=0x1 @dt=0@  stt_rx_done [O] OUTPUT
+| | | + __pinNumber12                   se0x1d4f9f0  fallb=se0x1cf0880  n=VAR 0x1ce2610g17 u1=0x1d4f9f0 u4=0x1 @dt=0@  rx_data [O] OUTPUT
+| | | + __pinNumber2                    se0x1d4dca0  fallb=se0x1cf0880  n=VAR 0x1cdc350g7 u1=0x1d4dca0 u4=0x1 @dt=0@  reset_n [I] INPUT
+| | | + __pinNumber3                    se0x1d4e1b0  fallb=se0x1cf0880  n=VAR 0x1cbeac0g8 u1=0x1d4e1b0 u4=0x1 @dt=0@  rx [I] INPUT
+| | | + __pinNumber4                    se0x1d4e760  fallb=se0x1cf0880  n=VAR 0x1cbfba0g9 u1=0x1d4e760 u4=0x1 @dt=0@  clken [I] INPUT
+| | | + __pinNumber5                    se0x1d4e030  fallb=se0x1cf0880  n=VAR 0x1ce0840g10 u1=0x1d4e030 u4=0x1 @dt=0@  host_read_data [I] INPUT
+| | | + __pinNumber6                    se0x1d4ed80  fallb=se0x1cf0880  n=VAR 0x1ce1090g11 u1=0x1d4ed80 u4=0x1 @dt=0@  cfg_data_bit_num [I] INPUT
+| | | + __pinNumber7                    se0x1d4ef00  fallb=se0x1cf0880  n=VAR 0x1ce09e0g12 u1=0x1d4ef00 u4=0x1 @dt=0@  cfg_stop_bit_num [I] INPUT
+| | | + __pinNumber8                    se0x1d4f130  fallb=se0x1cf0880  n=VAR 0x1ce1230g13 u1=0x1d4f130 u4=0x1 @dt=0@  cfg_parity_en [I] INPUT
+| | | + __pinNumber9                    se0x1d4ec00  fallb=se0x1cf0880  n=VAR 0x1ce1490g14 u1=0x1d4ec00 u4=0x1 @dt=0@  cfg_parity_type [I] INPUT
+| | | + bitpos_data                     se0x1d08190  fallb=se0x1cf0880  n=VAR 0x1cbf760g28 u1=0x1d08190 @dt=0@  bitpos_data VAR
+| | | + bitpos_stop                     se0x1cf9130  fallb=se0x1cf0880  n=VAR 0x1ce3030g29 u1=0x1cf9130 @dt=0@  bitpos_stop VAR
+| | | + cfg_data_bit_num                se0x1ce49c0  fallb=se0x1cf0880  n=VAR 0x1ce1090g11 u1=0x1d4ed80 u4=0x1 @dt=0@  cfg_data_bit_num [I] INPUT
+| | | + cfg_parity_en                   se0x1ce4860  fallb=se0x1cf0880  n=VAR 0x1ce1230g13 u1=0x1d4f130 u4=0x1 @dt=0@  cfg_parity_en [I] INPUT
+| | | + cfg_parity_type                 se0x1ce8230  fallb=se0x1cf0880  n=VAR 0x1ce1490g14 u1=0x1d4ec00 u4=0x1 @dt=0@  cfg_parity_type [I] INPUT
+| | | + cfg_stop_bit_num                se0x1cf5a70  fallb=se0x1cf0880  n=VAR 0x1ce09e0g12 u1=0x1d4ef00 u4=0x1 @dt=0@  cfg_stop_bit_num [I] INPUT
+| | | + clk                             se0x1cf1210  fallb=se0x1cf0880  n=VAR 0x1cc5d00g6 u1=0x1d4dc40 u4=0x1 @dt=0@  clk [I] INPUT
+| | | + clken                           se0x1cdb480  fallb=se0x1cf0880  n=VAR 0x1cbfba0g9 u1=0x1d4e760 u4=0x1 @dt=0@  clken [I] INPUT
+| | | + clocked_block_proc              se0x1cfea10  fallb=se0x1cf0880  n=BEGIN 0x1ce8dc0g73 u1=0x1cfea10 u4=0x1  clocked_block_proc
+| | | | + ""                              se0x1d0f800  fallb=se0x1cfea10  n=BEGIN 0x1ce91f0g74 u1=0x1d0f800 u4=0x1 [UNNAMED]
+| | | | + ""                              se0x1d10a20  fallb=se0x1cfea10  n=BEGIN 0x1cea980g81 u1=0x1d10a20 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d26ac0  fallb=se0x1d10a20  n=BEGIN 0x1ceb650g84 u1=0x1d26ac0 u4=0x1 [UNNAMED]
+| | | | | | + ""                              se0x1d19340  fallb=se0x1d26ac0  n=BEGIN 0x1cec280g87 u1=0x1d19340 u4=0x1 [UNNAMED]
+| | | | | | | + ""                              se0x1d0cb80  fallb=se0x1d19340  n=BEGIN 0x1cecbd0g88 u1=0x1d0cb80 u4=0x1 [UNNAMED]
+| | | | | | | + ""                              se0x1d24f80  fallb=se0x1d19340  n=BEGIN 0x1ced8d0g91 u1=0x1d24f80 u4=0x1 [UNNAMED]
+| | | | | | + ""                              se0x1d25580  fallb=se0x1d26ac0  n=BEGIN 0x1cee110g95 u1=0x1d25580 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d26010  fallb=se0x1d10a20  n=BEGIN 0x1ceea40g99 u1=0x1d26010 u4=0x1 [UNNAMED]
+| | | | | | + ""                              se0x1d25e40  fallb=se0x1d26010  n=BEGIN 0x1ceee20g100 u1=0x1d25e40 u4=0x1 [UNNAMED]
+| | | | | | | + ""                              se0x1d26940  fallb=se0x1d25e40  n=BEGIN 0x1cefad0g102 u1=0x1d26940 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d27e30  fallb=se0x1d10a20  n=BEGIN 0x1cf0e70g108 u1=0x1d27e30 u4=0x1 [UNNAMED]
+| | | | | | + ""                              se0x1d28b40  fallb=se0x1d27e30  n=BEGIN 0x1cf12b0g109 u1=0x1d28b40 u4=0x1 [UNNAMED]
+| | | | | | | + ""                              se0x1d29a40  fallb=se0x1d28b40  n=BEGIN 0x1cf1f30g111 u1=0x1d29a40 u4=0x1 [UNNAMED]
+| | | + current_state                   se0x1d06270  fallb=se0x1cf0880  n=VAR 0x1cbed80g26 u1=0x1d06270 @dt=0@  current_state VAR
+| | | + data_bit_width                  se0x1cf8b00  fallb=se0x1cf0880  n=VAR 0x1ce3460g30 u1=0x1cf8b00 @dt=0@  data_bit_width VAR
+| | | + host_read_data                  se0x1ce4150  fallb=se0x1cf0880  n=VAR 0x1ce0840g10 u1=0x1d4e030 u4=0x1 @dt=0@  host_read_data [I] INPUT
+| | | + next_state                      se0x1d06960  fallb=se0x1cf0880  n=VAR 0x1cbef70g26 u1=0x1d06960 @dt=0@  next_state VAR
+| | | + next_state_block_proc           se0x1d0a320  fallb=se0x1cf0880  n=BEGIN 0x1ce3d90g38 u1=0x1d0a320 u4=0x1  next_state_block_proc
+| | | | + ""                              se0x1d07e60  fallb=se0x1d0a320  n=BEGIN 0x1ce4210g40 u1=0x1d07e60 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1cf7380  fallb=se0x1d07e60  n=BEGIN 0x1ce46c0g41 u1=0x1cf7380 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d0baf0  fallb=se0x1d07e60  n=BEGIN 0x1ce4b30g44 u1=0x1d0baf0 u4=0x1 [UNNAMED]
+| | | | + ""                              se0x1d137a0  fallb=se0x1d0a320  n=BEGIN 0x1ce5290g48 u1=0x1d137a0 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d13b20  fallb=se0x1d137a0  n=BEGIN 0x1ce5ad0g49 u1=0x1d13b20 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d142f0  fallb=se0x1d137a0  n=BEGIN 0x1ce5f40g52 u1=0x1d142f0 u4=0x1 [UNNAMED]
+| | | | + ""                              se0x1d13240  fallb=se0x1d0a320  n=BEGIN 0x1ce67e0g56 u1=0x1d13240 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d0a650  fallb=se0x1d13240  n=BEGIN 0x1ce7300g57 u1=0x1d0a650 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d0b270  fallb=se0x1d13240  n=BEGIN 0x1ce7990g60 u1=0x1d0b270 u4=0x1 [UNNAMED]
+| | | + reset_n                         se0x1ce9030  fallb=se0x1cf0880  n=VAR 0x1cdc350g7 u1=0x1d4dca0 u4=0x1 @dt=0@  reset_n [I] INPUT
+| | | + rts_n                           se0x1ce76a0  fallb=se0x1cf0880  n=VAR 0x1ce16f0g15 u1=0x1d4f640 u4=0x1 @dt=0@  rts_n [O] OUTPUT
+| | | + rx                              se0x1cdbed0  fallb=se0x1cf0880  n=VAR 0x1cbeac0g8 u1=0x1d4e1b0 u4=0x1 @dt=0@  rx [I] INPUT
+| | | + rx_data                         se0x1cf9ac0  fallb=se0x1cf0880  n=VAR 0x1ce2610g17 u1=0x1d4f9f0 u4=0x1 @dt=0@  rx_data [O] OUTPUT
+| | | + sample                          se0x1d07530  fallb=se0x1cf0880  n=VAR 0x1cbfed0g27 u1=0x1d07530 @dt=0@  sample VAR
+| | | + scratch                         se0x1d09d00  fallb=se0x1cf0880  n=VAR 0x1ce3cc0g32 u1=0x1d09d00 @dt=0@  scratch VAR
+| | | + stop_bit_width                  se0x1d06bd0  fallb=se0x1cf0880  n=VAR 0x1ce3890g31 u1=0x1d06bd0 @dt=0@  stop_bit_width VAR
+| | | + stt_rx_done                     se0x1ce5c70  fallb=se0x1cf0880  n=VAR 0x1ce1a20g16 u1=0x1d4f4c0 u4=0x1 @dt=0@  stt_rx_done [O] OUTPUT
+| | + register_block                  se0x1d2e650  fallb=se0x1d430c0  n=CELL 0x1cb76f0d70 u1=0x1d2e650  register_block -> MODULE 0x1ce0540h18 u1=0x1d2e650 u4=0x1  register_block  L3
+| | | + __pinNumber1                    se0x1d4fe50  fallb=se0x1d2e650  n=VAR 0x1cddaa0h19 u1=0x1d4fe50 u4=0x1 @dt=0@  tx_data [O] OUTPUT
+| | | + __pinNumber10                   se0x1d507e0  fallb=se0x1d2e650  n=VAR 0x1d003d0h28 u1=0x1d507e0 u4=0x1 @dt=0@  tx_done [O] OUTPUT
+| | | + __pinNumber11                   se0x1d45890  fallb=se0x1d2e650  n=VAR 0x1d00630h30 u1=0x1d45890 u4=0x1 @dt=0@  apb_presetn [I] INPUT
+| | | + __pinNumber12                   se0x1cb5de0  fallb=se0x1d2e650  n=VAR 0x1d00890h31 u1=0x1cb5de0 u4=0x1 @dt=0@  apb_pclk [I] INPUT
+| | | + __pinNumber13                   se0x1cb4250  fallb=se0x1d2e650  n=VAR 0x1d010e0h32 u1=0x1cb4250 u4=0x1 @dt=0@  apb_paddr [I] INPUT
+| | | + __pinNumber14                   se0x1caa030  fallb=se0x1d2e650  n=VAR 0x1d00a30h33 u1=0x1caa030 u4=0x1 @dt=0@  apb_psel [I] INPUT
+| | | + __pinNumber15                   se0x1cb3900  fallb=se0x1d2e650  n=VAR 0x1d01280h34 u1=0x1cb3900 u4=0x1 @dt=0@  apb_penable [I] INPUT
+| | | + __pinNumber16                   se0x1cab370  fallb=se0x1d2e650  n=VAR 0x1d014e0h35 u1=0x1cab370 u4=0x1 @dt=0@  apb_pwrite [I] INPUT
+| | | + __pinNumber17                   se0x1cac140  fallb=se0x1d2e650  n=VAR 0x1d01e00h36 u1=0x1cac140 u4=0x1 @dt=0@  apb_pwdata [I] INPUT
+| | | + __pinNumber18                   se0x1cb24e0  fallb=se0x1d2e650  n=VAR 0x1d01840h37 u1=0x1cb24e0 u4=0x1 @dt=0@  apb_pready [O] OUTPUT
+| | | + __pinNumber19                   se0x1cac960  fallb=se0x1d2e650  n=VAR 0x1d02580h38 u1=0x1cac960 u4=0x1 @dt=0@  apb_prdata [O] OUTPUT
+| | | + __pinNumber2                    se0x1d50080  fallb=se0x1d2e650  n=VAR 0x1cddfa0h20 u1=0x1d50080 u4=0x1 @dt=0@  cfg_data_bit_num [O] OUTPUT
+| | | + __pinNumber20                   se0x1cb1bb0  fallb=se0x1d2e650  n=VAR 0x1d02060h39 u1=0x1cb1bb0 u4=0x1 @dt=0@  apb_pslverr [O] OUTPUT
+| | | + __pinNumber21                   se0x1cae470  fallb=se0x1d2e650  n=VAR 0x1d02720h41 u1=0x1cae470 u4=0x1 @dt=0@  clk [I] INPUT
+| | | + __pinNumber22                   se0x1cb15d0  fallb=se0x1d2e650  n=VAR 0x1d02980h42 u1=0x1cb15d0 u4=0x1 @dt=0@  reset [I] INPUT
+| | | + __pinNumber3                    se0x1d502b0  fallb=se0x1d2e650  n=VAR 0x1cb9670h21 u1=0x1d502b0 u4=0x1 @dt=0@  cfg_stop_bit_num [O] OUTPUT
+| | | + __pinNumber4                    se0x1d4f830  fallb=se0x1d2e650  n=VAR 0x1cde140h22 u1=0x1d4f830 u4=0x1 @dt=0@  cfg_parity_en [O] OUTPUT
+| | | + __pinNumber5                    se0x1d50960  fallb=se0x1d2e650  n=VAR 0x1cde3a0h23 u1=0x1d50960 u4=0x1 @dt=0@  cfg_parity_type [O] OUTPUT
+| | | + __pinNumber6                    se0x1d50c80  fallb=se0x1d2e650  n=VAR 0x1cff780h24 u1=0x1d50c80 u4=0x1 @dt=0@  ctrl_start_tx [O] OUTPUT
+| | | + __pinNumber7                    se0x1d50e00  fallb=se0x1d2e650  n=VAR 0x1cfffd0h25 u1=0x1d50e00 u4=0x1 @dt=0@  rx_data [I] INPUT
+| | | + __pinNumber8                    se0x1d51030  fallb=se0x1d2e650  n=VAR 0x1cff920h26 u1=0x1d51030 u4=0x1 @dt=0@  stt_tx_done [I] INPUT
+| | | + __pinNumber9                    se0x1d51260  fallb=se0x1d2e650  n=VAR 0x1d00170h27 u1=0x1d51260 u4=0x1 @dt=0@  stt_rx_done [I] INPUT
+| | | + apb_paddr                       se0x1d3a6d0  fallb=se0x1d2e650  n=VAR 0x1d010e0h32 u1=0x1cb4250 u4=0x1 @dt=0@  apb_paddr [I] INPUT
+| | | + apb_pclk                        se0x1d375f0  fallb=se0x1d2e650  n=VAR 0x1d00890h31 u1=0x1cb5de0 u4=0x1 @dt=0@  apb_pclk [I] INPUT
+| | | + apb_penable                     se0x1d37b80  fallb=se0x1d2e650  n=VAR 0x1d01280h34 u1=0x1cb3900 u4=0x1 @dt=0@  apb_penable [I] INPUT
+| | | + apb_prdata                      se0x1d45370  fallb=se0x1d2e650  n=VAR 0x1d02580h38 u1=0x1cac960 u4=0x1 @dt=0@  apb_prdata [O] OUTPUT
+| | | + apb_pready                      se0x1d448a0  fallb=se0x1d2e650  n=VAR 0x1d01840h37 u1=0x1cb24e0 u4=0x1 @dt=0@  apb_pready [O] OUTPUT
+| | | + apb_presetn                     se0x1d3bfe0  fallb=se0x1d2e650  n=VAR 0x1d00630h30 u1=0x1d45890 u4=0x1 @dt=0@  apb_presetn [I] INPUT
+| | | + apb_psel                        se0x1d43ac0  fallb=se0x1d2e650  n=VAR 0x1d00a30h33 u1=0x1caa030 u4=0x1 @dt=0@  apb_psel [I] INPUT
+| | | + apb_pslverr                     se0x1d38670  fallb=se0x1d2e650  n=VAR 0x1d02060h39 u1=0x1cb1bb0 u4=0x1 @dt=0@  apb_pslverr [O] OUTPUT
+| | | + apb_pwdata                      se0x1d39670  fallb=se0x1d2e650  n=VAR 0x1d01e00h36 u1=0x1cac140 u4=0x1 @dt=0@  apb_pwdata [I] INPUT
+| | | + apb_pwrite                      se0x1d44380  fallb=se0x1d2e650  n=VAR 0x1d014e0h35 u1=0x1cab370 u4=0x1 @dt=0@  apb_pwrite [I] INPUT
+| | | + cfg_data_bit_num                se0x1d30690  fallb=se0x1d2e650  n=VAR 0x1cddfa0h20 u1=0x1d50080 u4=0x1 @dt=0@  cfg_data_bit_num [O] OUTPUT
+| | | + cfg_parity_en                   se0x1d3db30  fallb=se0x1d2e650  n=VAR 0x1cde140h22 u1=0x1d4f830 u4=0x1 @dt=0@  cfg_parity_en [O] OUTPUT
+| | | + cfg_parity_type                 se0x1d3e9f0  fallb=se0x1d2e650  n=VAR 0x1cde3a0h23 u1=0x1d50960 u4=0x1 @dt=0@  cfg_parity_type [O] OUTPUT
+| | | + cfg_stop_bit_num                se0x1d320c0  fallb=se0x1d2e650  n=VAR 0x1cb9670h21 u1=0x1d502b0 u4=0x1 @dt=0@  cfg_stop_bit_num [O] OUTPUT
+| | | + clk                             se0x1cecc90  fallb=se0x1d2e650  n=VAR 0x1d02720h41 u1=0x1cae470 u4=0x1 @dt=0@  clk [I] INPUT
+| | | + ctrl_start_tx                   se0x1d3e3d0  fallb=se0x1d2e650  n=VAR 0x1cff780h24 u1=0x1d50c80 u4=0x1 @dt=0@  ctrl_start_tx [O] OUTPUT
+| | | + rack                            se0x1ce2c40  fallb=se0x1d2e650  n=VAR 0x1ce2970h55 u1=0x1ce2c40 @dt=0@  rack WIRE
+| | | + raddr                           se0x1ceaa40  fallb=se0x1d2e650  n=VAR 0x1d03540h49 u1=0x1ceaa40 @dt=0@  raddr WIRE
+| | | + raddrerr                        se0x1cbbed0  fallb=se0x1d2e650  n=VAR 0x1cdd170h57 u1=0x1cbbed0 @dt=0@  raddrerr WIRE
+| | | + rb_apb_bridge                   se0x1cd0710  fallb=se0x1d430c0  n=CELL 0x1d0b420h94 u1=0x1cd0710  rb_apb_bridge -> MODULE 0x1d1af40k18 u1=0x1cd0710 u4=0x1  rb_apb_bridge  L4
+| | | | + __pinNumber1                    se0x1cb8400  fallb=se0x1cd0710  n=VAR 0x1d1b070k19 u1=0x1cb8400 u4=0x1 @dt=0@  clk [O] OUTPUT
+| | | | + __pinNumber10                   se0x1cd3500  fallb=se0x1cd0710  n=VAR 0x1d1cc40k30 u1=0x1cd3500 u4=0x1 @dt=0@  apb_pready [O] OUTPUT
+| | | | + __pinNumber11                   se0x1cd5170  fallb=se0x1cd0710  n=VAR 0x1d1d310k31 u1=0x1cd5170 u4=0x1 @dt=0@  apb_prdata [O] OUTPUT
+| | | | + __pinNumber12                   se0x1cf1720  fallb=se0x1cd0710  n=VAR 0x1d1d3e0k32 u1=0x1cf1720 u4=0x1 @dt=0@  apb_pslverr [O] OUTPUT
+| | | | + __pinNumber13                   se0x1cf0dd0  fallb=se0x1cd0710  n=VAR 0x1d4a8c0k34 u1=0x1cf0dd0 u4=0x1 @dt=0@  rd_en [O] OUTPUT
+| | | | + __pinNumber14                   se0x1cf1c00  fallb=se0x1cd0710  n=VAR 0x1d4af90k35 u1=0x1cf1c00 u4=0x1 @dt=0@  raddr [O] OUTPUT
+| | | | + __pinNumber15                   se0x1ce58f0  fallb=se0x1cd0710  n=VAR 0x1d4b490k36 u1=0x1ce58f0 u4=0x1 @dt=0@  rdata [I] INPUT
+| | | | + __pinNumber16                   se0x1cf2470  fallb=se0x1cd0710  n=VAR 0x1d4aa60k37 u1=0x1cf2470 u4=0x1 @dt=0@  rack [I] INPUT
+| | | | + __pinNumber17                   se0x1cf0560  fallb=se0x1cd0710  n=VAR 0x1d4b6f0k38 u1=0x1cf0560 u4=0x1 @dt=0@  raddrerr [I] INPUT
+| | | | + __pinNumber18                   se0x1ce6180  fallb=se0x1cd0710  n=VAR 0x1d4ba20k39 u1=0x1ce6180 u4=0x1 @dt=0@  wr_en [O] OUTPUT
+| | | | + __pinNumber19                   se0x1cf1580  fallb=se0x1cd0710  n=VAR 0x1d4c0f0k40 u1=0x1cf1580 u4=0x1 @dt=0@  waddr [O] OUTPUT
+| | | | + __pinNumber2                    se0x1cbb1e0  fallb=se0x1cd0710  n=VAR 0x1d0bf30k20 u1=0x1cbb1e0 u4=0x1 @dt=0@  reset_n [O] OUTPUT
+| | | | + __pinNumber20                   se0x1d04290  fallb=se0x1cd0710  n=VAR 0x1d4c5e0k41 u1=0x1d04290 u4=0x1 @dt=0@  wdata [O] OUTPUT
+| | | | + __pinNumber21                   se0x1d04e20  fallb=se0x1cd0710  n=VAR 0x1d4bbc0k42 u1=0x1d04e20 u4=0x1 @dt=0@  wack [I] INPUT
+| | | | + __pinNumber22                   se0x1cd3820  fallb=se0x1cd0710  n=VAR 0x1d4c840k43 u1=0x1cd3820 u4=0x1 @dt=0@  waddrerr [I] INPUT
+| | | | + __pinNumber3                    se0x1cb9180  fallb=se0x1cd0710  n=VAR 0x1d3ba30k23 u1=0x1cb9180 u4=0x1 @dt=0@  apb_presetn [I] INPUT
+| | | | + __pinNumber4                    se0x1ccf340  fallb=se0x1cd0710  n=VAR 0x1d1b770k24 u1=0x1ccf340 u4=0x1 @dt=0@  apb_pclk [I] INPUT
+| | | | + __pinNumber5                    se0x1ccecd0  fallb=se0x1cd0710  n=VAR 0x1d1bf10k25 u1=0x1ccecd0 u4=0x1 @dt=0@  apb_paddr [I] INPUT
+| | | | + __pinNumber6                    se0x1cd0520  fallb=se0x1cd0710  n=VAR 0x1d1b910k26 u1=0x1cd0520 u4=0x1 @dt=0@  apb_psel [I] INPUT
+| | | | + __pinNumber7                    se0x1cd14a0  fallb=se0x1cd0710  n=VAR 0x1d1c170k27 u1=0x1cd14a0 u4=0x1 @dt=0@  apb_penable [I] INPUT
+| | | | + __pinNumber8                    se0x1cd2830  fallb=se0x1cd0710  n=VAR 0x1d1c3d0k28 u1=0x1cd2830 u4=0x1 @dt=0@  apb_pwrite [I] INPUT
+| | | | + __pinNumber9                    se0x1cf22f0  fallb=se0x1cd0710  n=VAR 0x1d1cb70k29 u1=0x1cf22f0 u4=0x1 @dt=0@  apb_pwdata [I] INPUT
+| | | | + apb_paddr                       se0x1ccca80  fallb=se0x1cd0710  n=VAR 0x1d1bf10k25 u1=0x1ccecd0 u4=0x1 @dt=0@  apb_paddr [I] INPUT
+| | | | + apb_pclk                        se0x1ccb690  fallb=se0x1cd0710  n=VAR 0x1d1b770k24 u1=0x1ccf340 u4=0x1 @dt=0@  apb_pclk [I] INPUT
+| | | | + apb_penable                     se0x1cca910  fallb=se0x1cd0710  n=VAR 0x1d1c170k27 u1=0x1cd14a0 u4=0x1 @dt=0@  apb_penable [I] INPUT
+| | | | + apb_prdata                      se0x1cd62e0  fallb=se0x1cd0710  n=VAR 0x1d1d310k31 u1=0x1cd5170 u4=0x1 @dt=0@  apb_prdata [O] OUTPUT
+| | | | + apb_pready                      se0x1cd2430  fallb=se0x1cd0710  n=VAR 0x1d1cc40k30 u1=0x1cd3500 u4=0x1 @dt=0@  apb_pready [O] OUTPUT
+| | | | + apb_presetn                     se0x1ccbcc0  fallb=se0x1cd0710  n=VAR 0x1d3ba30k23 u1=0x1cb9180 u4=0x1 @dt=0@  apb_presetn [I] INPUT
+| | | | + apb_psel                        se0x1cc9b50  fallb=se0x1cd0710  n=VAR 0x1d1b910k26 u1=0x1cd0520 u4=0x1 @dt=0@  apb_psel [I] INPUT
+| | | | + apb_pslverr                     se0x1d2ac70  fallb=se0x1cd0710  n=VAR 0x1d1d3e0k32 u1=0x1cf1720 u4=0x1 @dt=0@  apb_pslverr [O] OUTPUT
+| | | | + apb_pwdata                      se0x1ccb320  fallb=se0x1cd0710  n=VAR 0x1d1cb70k29 u1=0x1cf22f0 u4=0x1 @dt=0@  apb_pwdata [I] INPUT
+| | | | + apb_pwrite                      se0x1c9cc20  fallb=se0x1cd0710  n=VAR 0x1d1c3d0k28 u1=0x1cd2830 u4=0x1 @dt=0@  apb_pwrite [I] INPUT
+| | | | + clk                             se0x1cd16c0  fallb=se0x1cd0710  n=VAR 0x1d1b070k19 u1=0x1cb8400 u4=0x1 @dt=0@  clk [O] OUTPUT
+| | | | + rack                            se0x1d2fa10  fallb=se0x1cd0710  n=VAR 0x1d4aa60k37 u1=0x1cf2470 u4=0x1 @dt=0@  rack [I] INPUT
+| | | | + raddr                           se0x1d197a0  fallb=se0x1cd0710  n=VAR 0x1d4af90k35 u1=0x1cf1c00 u4=0x1 @dt=0@  raddr [O] OUTPUT
+| | | | + raddrerr                        se0x1d2de20  fallb=se0x1cd0710  n=VAR 0x1d4b6f0k38 u1=0x1cf0560 u4=0x1 @dt=0@  raddrerr [I] INPUT
+| | | | + rd_en                           se0x1d295c0  fallb=se0x1cd0710  n=VAR 0x1d4a8c0k34 u1=0x1cf0dd0 u4=0x1 @dt=0@  rd_en [O] OUTPUT
+| | | | + rdata                           se0x1d29ae0  fallb=se0x1cd0710  n=VAR 0x1d4b490k36 u1=0x1ce58f0 u4=0x1 @dt=0@  rdata [I] INPUT
+| | | | + reset_n                         se0x1cceb50  fallb=se0x1cd0710  n=VAR 0x1d0bf30k20 u1=0x1cbb1e0 u4=0x1 @dt=0@  reset_n [O] OUTPUT
+| | | | + wack                            se0x1d3d1e0  fallb=se0x1cd0710  n=VAR 0x1d4bbc0k42 u1=0x1d04e20 u4=0x1 @dt=0@  wack [I] INPUT
+| | | | + waddr                           se0x1d32e50  fallb=se0x1cd0710  n=VAR 0x1d4c0f0k40 u1=0x1cf1580 u4=0x1 @dt=0@  waddr [O] OUTPUT
+| | | | + waddrerr                        se0x1d42510  fallb=se0x1cd0710  n=VAR 0x1d4c840k43 u1=0x1cd3820 u4=0x1 @dt=0@  waddrerr [I] INPUT
+| | | | + wdata                           se0x1d3bd70  fallb=se0x1cd0710  n=VAR 0x1d4c5e0k41 u1=0x1d04290 u4=0x1 @dt=0@  wdata [O] OUTPUT
+| | | | + wr_en                           se0x1d2f850  fallb=se0x1cd0710  n=VAR 0x1d4ba20k39 u1=0x1ce6180 u4=0x1 @dt=0@  wr_en [O] OUTPUT
+| | | | + wstrobe                         se0x1ca2040  fallb=se0x1cd0710  n=VAR 0x1cff0c0k54 u1=0x1ca2040 @dt=0x1cd30e0@(G/w1)  wstrobe WIRE
+| | | + rb_regs                         se0x1cbe9b0  fallb=se0x1d430c0  n=CELL 0x1d06f90h66 u1=0x1cbe9b0  rb_regs -> MODULE 0x1cff190j18 u1=0x1cbe9b0 u4=0x1  rb_regs  L4
+| | | | + CFG_DATA_BIT_NUM_PROC           se0x1d28a00  fallb=se0x1cbe9b0  n=BEGIN 0x1d2e890j174 u1=0x1d28a00 u4=0x1  CFG_DATA_BIT_NUM_PROC
+| | | | | + ""                              se0x1d29480  fallb=se0x1d28a00  n=BEGIN 0x1d2ec30j175 u1=0x1d29480 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d28620  fallb=se0x1d28a00  n=BEGIN 0x1d2f470j178 u1=0x1d28620 u4=0x1 [UNNAMED]
+| | | | + CFG_PARITY_EN_PROC              se0x1cf20b0  fallb=se0x1cbe9b0  n=BEGIN 0x1d31e60j206 u1=0x1cf20b0 u4=0x1  CFG_PARITY_EN_PROC
+| | | | | + ""                              se0x1cf1400  fallb=se0x1cf20b0  n=BEGIN 0x1d321f0j207 u1=0x1cf1400 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1ceefa0  fallb=se0x1cf20b0  n=BEGIN 0x1d329f0j210 u1=0x1ceefa0 u4=0x1 [UNNAMED]
+| | | | + CFG_PARITY_TYPE_PROC            se0x1cecd50  fallb=se0x1cbe9b0  n=BEGIN 0x1d33870j222 u1=0x1cecd50 u4=0x1  CFG_PARITY_TYPE_PROC
+| | | | | + ""                              se0x1cec400  fallb=se0x1cecd50  n=BEGIN 0x1d33c00j223 u1=0x1cec400 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1cee260  fallb=se0x1cecd50  n=BEGIN 0x1d34400j226 u1=0x1cee260 u4=0x1 [UNNAMED]
+| | | | + CFG_STOP_BIT_NUM_PROC           se0x1cf9390  fallb=se0x1cbe9b0  n=BEGIN 0x1d30430j190 u1=0x1cf9390 u4=0x1  CFG_STOP_BIT_NUM_PROC
+| | | | | + ""                              se0x1cfa460  fallb=se0x1cf9390  n=BEGIN 0x1d307d0j191 u1=0x1cfa460 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1cf89c0  fallb=se0x1cf9390  n=BEGIN 0x1d31010j194 u1=0x1cf89c0 u4=0x1 [UNNAMED]
+| | | | + CTRL_START_TX_PROC              se0x1ceebc0  fallb=se0x1cbe9b0  n=BEGIN 0x1d352d0j256 u1=0x1ceebc0 u4=0x1  CTRL_START_TX_PROC
+| | | | | + ""                              se0x1cf0ff0  fallb=se0x1ceebc0  n=BEGIN 0x1d35870j257 u1=0x1cf0ff0 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1ceab00  fallb=se0x1ceebc0  n=BEGIN 0x1d36070j260 u1=0x1ceab00 u4=0x1 [UNNAMED]
+| | | | + READ_ADDR_DECODE_STATUS_PROC    se0x1d32b70  fallb=se0x1cbe9b0  n=BEGIN 0x1d2a100j102 u1=0x1d32b70 u4=0x1  READ_ADDR_DECODE_STATUS_PROC
+| | | | | + ""                              se0x1d30950  fallb=se0x1d32b70  n=BEGIN 0x1d2a510j103 u1=0x1d30950 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d2edb0  fallb=se0x1d32b70  n=BEGIN 0x1d2af50j107 u1=0x1d2edb0 u4=0x1 [UNNAMED]
+| | | | + READ_DATA_PROC                  se0x1cd0af0  fallb=se0x1cbe9b0  n=BEGIN 0x1d43000j380 u1=0x1cd0af0 u4=0x1  READ_DATA_PROC
+| | | | + RX_DATA_PROC                    se0x1ce7480  fallb=se0x1cbe9b0  n=BEGIN 0x1d36ef0j290 u1=0x1ce7480 u4=0x1  RX_DATA_PROC
+| | | | | + ""                              se0x1ce6000  fallb=se0x1ce7480  n=BEGIN 0x1d37270j291 u1=0x1ce6000 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1ce6960  fallb=se0x1ce7480  n=BEGIN 0x1d378d0j294 u1=0x1ce6960 u4=0x1 [UNNAMED]
+| | | | + STT_RX_DONE_PROC                se0x1cd2cf0  fallb=se0x1cbe9b0  n=BEGIN 0x1d398b0j341 u1=0x1cd2cf0 u4=0x1  STT_RX_DONE_PROC
+| | | | | + ""                              se0x1cd4110  fallb=se0x1cd2cf0  n=BEGIN 0x1d39c40j342 u1=0x1cd4110 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1cd4be0  fallb=se0x1cd2cf0  n=BEGIN 0x1d3a2a0j345 u1=0x1cd4be0 u4=0x1 [UNNAMED]
+| | | | + STT_TX_DONE_PROC                se0x1cf5440  fallb=se0x1cbe9b0  n=BEGIN 0x1d383f0j325 u1=0x1cf5440 u4=0x1  STT_TX_DONE_PROC
+| | | | | + ""                              se0x1cf7cb0  fallb=se0x1cf5440  n=BEGIN 0x1d38780j326 u1=0x1cf7cb0 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1cd5c80  fallb=se0x1cf5440  n=BEGIN 0x1d38de0j329 u1=0x1cd5c80 u4=0x1 [UNNAMED]
+| | | | + TX_DATA_PROC                    se0x1d2f590  fallb=se0x1cbe9b0  n=BEGIN 0x1d2cb70j137 u1=0x1d2f590 u4=0x1  TX_DATA_PROC
+| | | | | + ""                              se0x1d2d980  fallb=se0x1d2f590  n=BEGIN 0x1d2cef0j138 u1=0x1d2d980 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d2a690  fallb=se0x1d2f590  n=BEGIN 0x1d2d800j141 u1=0x1d2a690 u4=0x1 [UNNAMED]
+| | | | + WRITE_ADDR_DECODE_STATUS_PROC   se0x1d38f30  fallb=se0x1cbe9b0  n=BEGIN 0x1d276f0j85 u1=0x1d38f30 u4=0x1  WRITE_ADDR_DECODE_STATUS_PROC
+| | | | | + ""                              se0x1d37a20  fallb=se0x1d38f30  n=BEGIN 0x1d27ab0j86 u1=0x1d37a20 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d359f0  fallb=se0x1d38f30  n=BEGIN 0x1d284d0j90 u1=0x1d359f0 u4=0x1 [UNNAMED]
+| | | | | | + ""                              se0x1d33d80  fallb=se0x1d359f0  n=BEGIN 0x1d28880j91 u1=0x1d33d80 u4=0x1 [UNNAMED]
+| | | | | | + ""                              se0x1d34580  fallb=se0x1d359f0  n=BEGIN 0x1d29300j95 u1=0x1d34580 u4=0x1 [UNNAMED]
+| | | | + __pinNumber1                    se0x1cb5ad0  fallb=se0x1cbe9b0  n=VAR 0x1d18b90j19 u1=0x1cb5ad0 u4=0x1 @dt=0@  tx_data [O] OUTPUT
+| | | | + __pinNumber10                   se0x1cb3380  fallb=se0x1cbe9b0  n=VAR 0x1d20c00j28 u1=0x1cb3380 u4=0x1 @dt=0@  tx_done [O] OUTPUT
+| | | | + __pinNumber11                   se0x1cb3690  fallb=se0x1cbe9b0  n=VAR 0x1d20e60j30 u1=0x1cb3690 u4=0x1 @dt=0@  clk [I] INPUT
+| | | | + __pinNumber12                   se0x1cb3c70  fallb=se0x1cbe9b0  n=VAR 0x1d210c0j31 u1=0x1cb3c70 u4=0x1 @dt=0@  reset [I] INPUT
+| | | | + __pinNumber13                   se0x1cb3f80  fallb=se0x1cbe9b0  n=VAR 0x1d21910j33 u1=0x1cb3f80 u4=0x1 @dt=0@  waddr [I] INPUT
+| | | | + __pinNumber14                   se0x1cb45a0  fallb=se0x1cbe9b0  n=VAR 0x1d21ed0j34 u1=0x1cb45a0 u4=0x1 @dt=0@  raddr [I] INPUT
+| | | | + __pinNumber15                   se0x1cb48b0  fallb=se0x1cbe9b0  n=VAR 0x1d223d0j35 u1=0x1cb48b0 u4=0x1 @dt=0@  wdata [I] INPUT
+| | | | + __pinNumber16                   se0x1cb4bc0  fallb=se0x1cbe9b0  n=VAR 0x1d228c0j36 u1=0x1cb4bc0 u4=0x1 @dt=0@  rdata [O] OUTPUT
+| | | | + __pinNumber17                   se0x1cb4ed0  fallb=se0x1cbe9b0  n=VAR 0x1d21300j37 u1=0x1cb4ed0 u4=0x1 @dt=0@  wr_en [I] INPUT
+| | | | + __pinNumber18                   se0x1cb6130  fallb=se0x1cbe9b0  n=VAR 0x1d22b20j38 u1=0x1cb6130 u4=0x1 @dt=0@  rd_en [I] INPUT
+| | | | + __pinNumber19                   se0x1cb6650  fallb=se0x1cbe9b0  n=VAR 0x1d22e50j39 u1=0x1cb6650 u4=0x1 @dt=0@  wack [O] OUTPUT
+| | | | + __pinNumber2                    se0x1cb5b30  fallb=se0x1cbe9b0  n=VAR 0x1d1f940j20 u1=0x1cb5b30 u4=0x1 @dt=0@  cfg_data_bit_num [O] OUTPUT
+| | | | + __pinNumber20                   se0x1cb6960  fallb=se0x1cbe9b0  n=VAR 0x1d230b0j40 u1=0x1cb6960 u4=0x1 @dt=0@  rack [O] OUTPUT
+| | | | + __pinNumber21                   se0x1cb6c70  fallb=se0x1cbe9b0  n=VAR 0x1d23310j41 u1=0x1cb6c70 u4=0x1 @dt=0@  waddrerr [O] OUTPUT
+| | | | + __pinNumber22                   se0x1cb6f80  fallb=se0x1cbe9b0  n=VAR 0x1d23570j42 u1=0x1cb6f80 u4=0x1 @dt=0@  raddrerr [O] OUTPUT
+| | | | + __pinNumber3                    se0x1cb0ce0  fallb=se0x1cbe9b0  n=VAR 0x1d19ac0j21 u1=0x1cb0ce0 u4=0x1 @dt=0@  cfg_stop_bit_num [O] OUTPUT
+| | | | + __pinNumber4                    se0x1cb04a0  fallb=se0x1cbe9b0  n=VAR 0x1d1fba0j22 u1=0x1cb04a0 u4=0x1 @dt=0@  cfg_parity_en [O] OUTPUT
+| | | | + __pinNumber5                    se0x1cb0ff0  fallb=se0x1cbe9b0  n=VAR 0x1d1fe00j23 u1=0x1cb0ff0 u4=0x1 @dt=0@  cfg_parity_type [O] OUTPUT
+| | | | + __pinNumber6                    se0x1cb2210  fallb=se0x1cbe9b0  n=VAR 0x1d20060j24 u1=0x1cb2210 u4=0x1 @dt=0@  ctrl_start_tx [O] OUTPUT
+| | | | + __pinNumber7                    se0x1cb1f00  fallb=se0x1cbe9b0  n=VAR 0x1d20800j25 u1=0x1cb1f00 u4=0x1 @dt=0@  rx_data [I] INPUT
+| | | | + __pinNumber8                    se0x1cb2b40  fallb=se0x1cbe9b0  n=VAR 0x1d20130j26 u1=0x1cb2b40 u4=0x1 @dt=0@  stt_tx_done [I] INPUT
+| | | | + __pinNumber9                    se0x1cb2e50  fallb=se0x1cbe9b0  n=VAR 0x1d209a0j27 u1=0x1cb2e50 u4=0x1 @dt=0@  stt_rx_done [I] INPUT
+| | | | + cfg_data_bit_num                se0x1cd4f60  fallb=se0x1cbe9b0  n=VAR 0x1d1f940j20 u1=0x1cb5b30 u4=0x1 @dt=0@  cfg_data_bit_num [O] OUTPUT
+| | | | + cfg_parity_en                   se0x1cd2c30  fallb=se0x1cbe9b0  n=VAR 0x1d1fba0j22 u1=0x1cb04a0 u4=0x1 @dt=0@  cfg_parity_en [O] OUTPUT
+| | | | + cfg_parity_type                 se0x1cd19e0  fallb=se0x1cbe9b0  n=VAR 0x1d1fe00j23 u1=0x1cb0ff0 u4=0x1 @dt=0@  cfg_parity_type [O] OUTPUT
+| | | | + cfg_ren                         se0x1d12c00  fallb=se0x1cbe9b0  n=VAR 0x1d23a50j50 u1=0x1d12c00 @dt=0@  cfg_ren WIRE
+| | | | + cfg_stop_bit_num                se0x1cd4050  fallb=se0x1cbe9b0  n=VAR 0x1d19ac0j21 u1=0x1cb0ce0 u4=0x1 @dt=0@  cfg_stop_bit_num [O] OUTPUT
+| | | | + cfg_wen                         se0x1cfe670  fallb=se0x1cbe9b0  n=VAR 0x1d23cc0j51 u1=0x1cfe670 @dt=0@  cfg_wen WIRE
+| | | | + clk                             se0x1ccb600  fallb=se0x1cbe9b0  n=VAR 0x1d20e60j30 u1=0x1cb3690 u4=0x1 @dt=0@  clk [I] INPUT
+| | | | + ctrl_ren                        se0x1d0b950  fallb=se0x1cbe9b0  n=VAR 0x1d23e60j52 u1=0x1d0b950 @dt=0@  ctrl_ren WIRE
+| | | | + ctrl_start_tx                   se0x1cd0a30  fallb=se0x1cbe9b0  n=VAR 0x1d20060j24 u1=0x1cb2210 u4=0x1 @dt=0@  ctrl_start_tx [O] OUTPUT
+| | | | + ctrl_wen                        se0x1d43940  fallb=se0x1cbe9b0  n=VAR 0x1d24000j53 u1=0x1d43940 @dt=0@  ctrl_wen WIRE
+| | | | + mux_cfg                         se0x1c9bbd0  fallb=se0x1cbe9b0  n=VAR 0x1d0f220j62 u1=0x1c9bbd0 @dt=0@  mux_cfg WIRE
+| | | | + mux_ctrl                        se0x1ceaf60  fallb=se0x1cbe9b0  n=VAR 0x1d0eea0j63 u1=0x1ceaf60 @dt=0@  mux_ctrl WIRE
+| | | | + mux_rx                          se0x1d3b3a0  fallb=se0x1cbe9b0  n=VAR 0x1d0c190j64 u1=0x1d3b3a0 @dt=0@  mux_rx WIRE
+| | | | + mux_stt                         se0x1d39dc0  fallb=se0x1cbe9b0  n=VAR 0x1d18f10j65 u1=0x1d39dc0 @dt=0@  mux_stt WIRE
+| | | | + mux_tx                          se0x1d36740  fallb=se0x1cbe9b0  n=VAR 0x1cff2d0j61 u1=0x1d36740 @dt=0@  mux_tx WIRE
+| | | | + rack                            se0x1cc7ba0  fallb=se0x1cbe9b0  n=VAR 0x1d230b0j40 u1=0x1cb6960 u4=0x1 @dt=0@  rack [O] OUTPUT
+| | | | + raddr                           se0x1cbb9c0  fallb=se0x1cbe9b0  n=VAR 0x1d21ed0j34 u1=0x1cb45a0 u4=0x1 @dt=0@  raddr [I] INPUT
+| | | | + raddrerr                        se0x1d3d8f0  fallb=se0x1cbe9b0  n=VAR 0x1d23570j42 u1=0x1cb6f80 u4=0x1 @dt=0@  raddrerr [O] OUTPUT
+| | | | + rd_en                           se0x1cfb580  fallb=se0x1cbe9b0  n=VAR 0x1d22b20j38 u1=0x1cb6130 u4=0x1 @dt=0@  rd_en [I] INPUT
+| | | | + rdata                           se0x1cba6f0  fallb=se0x1cbe9b0  n=VAR 0x1d228c0j36 u1=0x1cb4bc0 u4=0x1 @dt=0@  rdata [O] OUTPUT
+| | | | + reset                           se0x1cca850  fallb=se0x1cbe9b0  n=VAR 0x1d210c0j31 u1=0x1cb3c70 u4=0x1 @dt=0@  reset [I] INPUT
+| | | | + rx_data                         se0x1cd01f0  fallb=se0x1cbe9b0  n=VAR 0x1d20800j25 u1=0x1cb1f00 u4=0x1 @dt=0@  rx_data [I] INPUT
+| | | | + rx_data_reg                     se0x1d296d0  fallb=se0x1cbe9b0  n=VAR 0x1d24c30j57 u1=0x1d296d0 @dt=0@  rx_data_reg VAR
+| | | | + rx_ren                          se0x1d25150  fallb=se0x1cbe9b0  n=VAR 0x1d24270j54 u1=0x1d25150 @dt=0@  rx_ren WIRE
+| | | | + stt_ren                         se0x1d42dd0  fallb=se0x1cbe9b0  n=VAR 0x1d24410j55 u1=0x1d42dd0 @dt=0@  stt_ren WIRE
+| | | | + stt_rx_done                     se0x1cce000  fallb=se0x1cbe9b0  n=VAR 0x1d209a0j27 u1=0x1cb2e50 u4=0x1 @dt=0@  stt_rx_done [I] INPUT
+| | | | + stt_rx_done_reg                 se0x1d3cdb0  fallb=se0x1cbe9b0  n=VAR 0x1d24df0j59 u1=0x1d3cdb0 @dt=0@  stt_rx_done_reg VAR
+| | | | + stt_tx_done                     se0x1cceac0  fallb=se0x1cbe9b0  n=VAR 0x1d20130j26 u1=0x1cb2b40 u4=0x1 @dt=0@  stt_tx_done [I] INPUT
+| | | | + stt_tx_done_reg                 se0x1d2eb40  fallb=se0x1cbe9b0  n=VAR 0x1d24650j58 u1=0x1d2eb40 @dt=0@  stt_tx_done_reg VAR
+| | | | + tx_data                         se0x1cd6530  fallb=se0x1cbe9b0  n=VAR 0x1d18b90j19 u1=0x1cb5ad0 u4=0x1 @dt=0@  tx_data [O] OUTPUT
+| | | | + tx_done                         se0x1ccc290  fallb=se0x1cbe9b0  n=VAR 0x1d20c00j28 u1=0x1cb3380 u4=0x1 @dt=0@  tx_done [O] OUTPUT
+| | | | + tx_ren                          se0x1d3e5a0  fallb=se0x1cbe9b0  n=VAR 0x1d23710j48 u1=0x1d3e5a0 @dt=0@  tx_ren WIRE
+| | | | + tx_wen                          se0x1d1a9d0  fallb=se0x1cbe9b0  n=VAR 0x1d238b0j49 u1=0x1d1a9d0 @dt=0@  tx_wen WIRE
+| | | | + wack                            se0x1d3b9a0  fallb=se0x1cbe9b0  n=VAR 0x1d22e50j39 u1=0x1cb6650 u4=0x1 @dt=0@  wack [O] OUTPUT
+| | | | + waddr                           se0x1cc9a90  fallb=se0x1cbe9b0  n=VAR 0x1d21910j33 u1=0x1cb3f80 u4=0x1 @dt=0@  waddr [I] INPUT
+| | | | + waddrerr                        se0x1d3c440  fallb=se0x1cbe9b0  n=VAR 0x1d23310j41 u1=0x1cb6c70 u4=0x1 @dt=0@  waddrerr [O] OUTPUT
+| | | | + waddrerr_nxt                    se0x1d38900  fallb=se0x1cbe9b0  n=VAR 0x1cff3c0j78 u1=0x1d38900 @dt=0@  waddrerr_nxt WIRE
+| | | | + wdata                           se0x1c9bed0  fallb=se0x1cbe9b0  n=VAR 0x1d223d0j35 u1=0x1cb48b0 u4=0x1 @dt=0@  wdata [I] INPUT
+| | | | + wr_en                           se0x1c97fa0  fallb=se0x1cbe9b0  n=VAR 0x1d21300j37 u1=0x1cb4ed0 u4=0x1 @dt=0@  wr_en [I] INPUT
+| | | + rd_en                           se0x1ce73c0  fallb=se0x1d2e650  n=VAR 0x1d03e70h53 u1=0x1ce73c0 @dt=0@  rd_en WIRE
+| | | + rdata                           se0x1ce8e80  fallb=se0x1d2e650  n=VAR 0x1d03da0h51 u1=0x1ce8e80 @dt=0@  rdata WIRE
+| | | + reset                           se0x1cec340  fallb=se0x1d2e650  n=VAR 0x1d02980h42 u1=0x1cb15d0 u4=0x1 @dt=0@  reset [I] INPUT
+| | | + rx_data                         se0x1d3eee0  fallb=se0x1d2e650  n=VAR 0x1cfffd0h25 u1=0x1d50e00 u4=0x1 @dt=0@  rx_data [I] INPUT
+| | | + stt_rx_done                     se0x1d40640  fallb=se0x1d2e650  n=VAR 0x1d00170h27 u1=0x1d51260 u4=0x1 @dt=0@  stt_rx_done [I] INPUT
+| | | + stt_tx_done                     se0x1d3f780  fallb=se0x1d2e650  n=VAR 0x1cff920h26 u1=0x1d51030 u4=0x1 @dt=0@  stt_tx_done [I] INPUT
+| | | + tx_data                         se0x1d2efb0  fallb=se0x1d2e650  n=VAR 0x1cddaa0h19 u1=0x1d4fe50 u4=0x1 @dt=0@  tx_data [O] OUTPUT
+| | | + tx_done                         se0x1d35c10  fallb=se0x1d2e650  n=VAR 0x1d003d0h28 u1=0x1d507e0 u4=0x1 @dt=0@  tx_done [O] OUTPUT
+| | | + wack                            se0x1ce68a0  fallb=se0x1d2e650  n=VAR 0x1cbf220h54 u1=0x1ce68a0 @dt=0@  wack WIRE
+| | | + waddr                           se0x1ceb710  fallb=se0x1d2e650  n=VAR 0x1d03110h48 u1=0x1ceb710 @dt=0@  waddr WIRE
+| | | + waddrerr                        se0x1cd5e80  fallb=se0x1d2e650  n=VAR 0x1cdcfb0h56 u1=0x1cd5e80 @dt=0@  waddrerr WIRE
+| | | + wdata                           se0x1ce92b0  fallb=se0x1d2e650  n=VAR 0x1d03970h50 u1=0x1ce92b0 @dt=0@  wdata WIRE
+| | | + wr_en                           se0x1ce7a50  fallb=se0x1d2e650  n=VAR 0x1d02bf0h52 u1=0x1ce7a50 @dt=0@  wr_en WIRE
+| | + reset_n                         se0x1d35930  fallb=se0x1d3a360  n=VAR 0x1ca7620d10 u1=0x1d0d280 u4=0x1 @dt=0@  reset_n [I] INPUT
+| | + rts_n                           se0x1d2cfb0  fallb=se0x1d3a360  n=VAR 0x1cab840d25 u1=0x1d37140 u4=0x1 @dt=0@  rts_n [O] OUTPUT
+| | + rx                              se0x1d30890  fallb=se0x1d3a360  n=VAR 0x1ca9e00d19 u1=0x1d3dd00 u4=0x1 @dt=0@  rx [I] INPUT
+| | + rx_data                         se0x1d2b010  fallb=se0x1d3a360  n=VAR 0x1cacd40d29 u1=0x1d2b010 @dt=0@  rx_data WIRE
+| | + rxclk_en                        se0x1d13f50  fallb=se0x1d3a360  n=VAR 0x1caddf0d38 u1=0x1d13f50 @dt=0@  rxclk_en WIRE
+| | + stt_rx_done                     se0x1d277b0  fallb=se0x1d3a360  n=VAR 0x1cad9c0d36 u1=0x1d277b0 @dt=0@  stt_rx_done WIRE
+| | + stt_tx_done                     se0x1d27b70  fallb=se0x1d3a360  n=VAR 0x1cad820d35 u1=0x1d27b70 @dt=0@  stt_tx_done WIRE
+| | + transmitter                     se0x1cff590  fallb=se0x1d430c0  n=CELL 0x1cb0900d42 u1=0x1cff590  transmitter -> MODULE 0x1c9d7b0f2 u1=0x1cff590 u4=0x1  transmitter  L3
+| | | + ""                              se0x1cf5830  fallb=se0x1cff590  n=BEGIN 0x1cd2610f121 u1=0x1cf5830 u4=0x1 [UNNAMED]
+| | | | + ""                              se0x1ceed40  fallb=se0x1cf5830  n=BEGIN 0x1cd2b70f123 u1=0x1ceed40 u4=0x1 [UNNAMED]
+| | | | + ""                              se0x1cef280  fallb=se0x1cf5830  n=BEGIN 0x1cd35c0f126 u1=0x1cef280 u4=0x1 [UNNAMED]
+| | | | + ""                              se0x1cd66d0  fallb=se0x1cf5830  n=BEGIN 0x1cd3f90f129 u1=0x1cd66d0 u4=0x1 [UNNAMED]
+| | | | + ""                              se0x1cef760  fallb=se0x1cf5830  n=BEGIN 0x1cd4a60f132 u1=0x1cef760 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1ceb9d0  fallb=se0x1cef760  n=BEGIN 0x1cd4ea0f133 u1=0x1ceb9d0 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1cefff0  fallb=se0x1cef760  n=BEGIN 0x1cd5b00f136 u1=0x1cefff0 u4=0x1 [UNNAMED]
+| | | + ""                              se0x1cefe50  fallb=se0x1cff590  n=BEGIN 0x1cd6470f145 u1=0x1cefe50 u4=0x1 [UNNAMED]
+| | | + ""                              se0x1cd8060  fallb=se0x1cff590  n=BEGIN 0x1cd8b20f156 u1=0x1cd8060 u4=0x1 [UNNAMED]
+| | | + DATA_WIDTH                      se0x1cfc2c0  fallb=se0x1cff590  n=VAR 0x1cb9d00f3 u1=0x1cfbbc0 @dt=0@  DATA_WIDTH GPARAM
+| | | + STATE_DATA                      se0x1cefb90  fallb=se0x1cff590  n=VAR 0x1cc5680f24 u1=0x1ceeee0 @dt=0@  STATE_DATA GPARAM
+| | | + STATE_IDLE                      se0x1cf2df0  fallb=se0x1cff590  n=VAR 0x1cc4fd0f22 u1=0x1cf1ff0 @dt=0@  STATE_IDLE GPARAM
+| | | + STATE_START                     se0x1cf1370  fallb=se0x1cff590  n=VAR 0x1cc5330f23 u1=0x1cf0f30 @dt=0@  STATE_START GPARAM
+| | | + STATE_STOP                      se0x1ceeb00  fallb=se0x1cff590  n=VAR 0x1cc59d0f25 u1=0x1cee1d0 @dt=0@  STATE_STOP GPARAM
+| | | + __paramNumber1                  se0x1cfbbc0  fallb=se0x1cff590  n=VAR 0x1cb9d00f3 u1=0x1cfbbc0 @dt=0@  DATA_WIDTH GPARAM
+| | | + __paramNumber2                  se0x1cf1ff0  fallb=se0x1cff590  n=VAR 0x1cc4fd0f22 u1=0x1cf1ff0 @dt=0@  STATE_IDLE GPARAM
+| | | + __paramNumber3                  se0x1cf0f30  fallb=se0x1cff590  n=VAR 0x1cc5330f23 u1=0x1cf0f30 @dt=0@  STATE_START GPARAM
+| | | + __paramNumber4                  se0x1ceeee0  fallb=se0x1cff590  n=VAR 0x1cc5680f24 u1=0x1ceeee0 @dt=0@  STATE_DATA GPARAM
+| | | + __paramNumber5                  se0x1cee1d0  fallb=se0x1cff590  n=VAR 0x1cc59d0f25 u1=0x1cee1d0 @dt=0@  STATE_STOP GPARAM
+| | | + __pinNumber1                    se0x1d464c0  fallb=se0x1cff590  n=VAR 0x1cc2b20f6 u1=0x1d464c0 u4=0x1 @dt=0@  clk [I] INPUT
+| | | + __pinNumber10                   se0x1d4d770  fallb=se0x1cff590  n=VAR 0x1cc4970f15 u1=0x1d4d770 u4=0x1 @dt=0@  ctrl_start_tx [I] INPUT
+| | | + __pinNumber11                   se0x1d4d8f0  fallb=se0x1cff590  n=VAR 0x1cc4bd0f16 u1=0x1d4d8f0 u4=0x1 @dt=0@  stt_tx_done [O] OUTPUT
+| | | + __pinNumber12                   se0x1d4d470  fallb=se0x1cff590  n=VAR 0x1cc4f00f17 u1=0x1d4d470 u4=0x1 @dt=0@  tx [O] OUTPUT
+| | | + __pinNumber2                    se0x1d46520  fallb=se0x1cff590  n=VAR 0x1cc2d80f7 u1=0x1d46520 u4=0x1 @dt=0@  reset_n [I] INPUT
+| | | + __pinNumber3                    se0x1d4cb90  fallb=se0x1cff590  n=VAR 0x1cc2fe0f8 u1=0x1d4cb90 u4=0x1 @dt=0@  clken [I] INPUT
+| | | + __pinNumber4                    se0x1d4ca10  fallb=se0x1cff590  n=VAR 0x1cc3240f9 u1=0x1d4ca10 u4=0x1 @dt=0@  cts_n [I] INPUT
+| | | + __pinNumber5                    se0x1d4ce90  fallb=se0x1cff590  n=VAR 0x1cc3ef0f10 u1=0x1d4ce90 u4=0x1 @dt=0@  tx_data [I] INPUT
+| | | + __pinNumber6                    se0x1d4cd10  fallb=se0x1cff590  n=VAR 0x1cc4250f11 u1=0x1d4cd10 u4=0x1 @dt=0@  cfg_data_bit_num [I] INPUT
+| | | + __pinNumber7                    se0x1d4d240  fallb=se0x1cff590  n=VAR 0x1cc3440f12 u1=0x1d4d240 u4=0x1 @dt=0@  cfg_stop_bit_num [I] INPUT
+| | | + __pinNumber8                    se0x1d4d0c0  fallb=se0x1cff590  n=VAR 0x1cc44b0f13 u1=0x1d4d0c0 u4=0x1 @dt=0@  cfg_parity_en [I] INPUT
+| | | + __pinNumber9                    se0x1d4d5f0  fallb=se0x1cff590  n=VAR 0x1cc4710f14 u1=0x1d4d5f0 u4=0x1 @dt=0@  cfg_parity_type [I] INPUT
+| | | + bitpos_data                     se0x1d21280  fallb=se0x1cff590  n=VAR 0x1cc6fb0f28 u1=0x1d21280 @dt=0@  bitpos_data VAR
+| | | + bitpos_stop                     se0x1d0c000  fallb=se0x1cff590  n=VAR 0x1cc7530f29 u1=0x1d0c000 @dt=0@  bitpos_stop VAR
+| | | + cfg_data_bit_num                se0x1cfa3d0  fallb=se0x1cff590  n=VAR 0x1cc4250f11 u1=0x1d4cd10 u4=0x1 @dt=0@  cfg_data_bit_num [I] INPUT
+| | | + cfg_parity_en                   se0x1cf92d0  fallb=se0x1cff590  n=VAR 0x1cc44b0f13 u1=0x1d4d0c0 u4=0x1 @dt=0@  cfg_parity_en [I] INPUT
+| | | + cfg_parity_type                 se0x1cf8f50  fallb=se0x1cff590  n=VAR 0x1cc4710f14 u1=0x1d4d5f0 u4=0x1 @dt=0@  cfg_parity_type [I] INPUT
+| | | + cfg_stop_bit_num                se0x1cf9d30  fallb=se0x1cff590  n=VAR 0x1cc3440f12 u1=0x1d4d240 u4=0x1 @dt=0@  cfg_stop_bit_num [I] INPUT
+| | | + clk                             se0x1cfca60  fallb=se0x1cff590  n=VAR 0x1cc2b20f6 u1=0x1d464c0 u4=0x1 @dt=0@  clk [I] INPUT
+| | | + clken                           se0x1cfb800  fallb=se0x1cff590  n=VAR 0x1cc2fe0f8 u1=0x1d4cb90 u4=0x1 @dt=0@  clken [I] INPUT
+| | | + clocked_block_proc              se0x1cd2f10  fallb=se0x1cff590  n=BEGIN 0x1ccdf40f90 u1=0x1cd2f10 u4=0x1  clocked_block_proc
+| | | | + ""                              se0x1cd3e90  fallb=se0x1cd2f10  n=BEGIN 0x1cce370f91 u1=0x1cd3e90 u4=0x1 [UNNAMED]
+| | | | + ""                              se0x1cec1a0  fallb=se0x1cd2f10  n=BEGIN 0x1ccea00f94 u1=0x1cec1a0 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1cec580  fallb=se0x1cec1a0  n=BEGIN 0x1ccf430f97 u1=0x1cec580 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1cecf50  fallb=se0x1cec1a0  n=BEGIN 0x1cd0130f101 u1=0x1cecf50 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1cd4de0  fallb=se0x1cec1a0  n=BEGIN 0x1cd05c0f103 u1=0x1cd4de0 u4=0x1 [UNNAMED]
+| | | | | | + ""                              se0x1cee540  fallb=se0x1cd4de0  n=BEGIN 0x1cd0970f104 u1=0x1cee540 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1cee3c0  fallb=se0x1cec1a0  n=BEGIN 0x1cd1540f108 u1=0x1cee3c0 u4=0x1 [UNNAMED]
+| | | | | | + ""                              se0x1cee960  fallb=se0x1cee3c0  n=BEGIN 0x1cd1920f109 u1=0x1cee960 u4=0x1 [UNNAMED]
+| | | + ctrl_start_tx                   se0x1cf8900  fallb=se0x1cff590  n=VAR 0x1cc4970f15 u1=0x1d4d770 u4=0x1 @dt=0@  ctrl_start_tx [I] INPUT
+| | | + cts_n                           se0x1cfb860  fallb=se0x1cff590  n=VAR 0x1cc3240f9 u1=0x1d4ca10 u4=0x1 @dt=0@  cts_n [I] INPUT
+| | | + current_state                   se0x1ced990  fallb=se0x1cff590  n=VAR 0x1cc6490f27 u1=0x1ced990 @dt=0@  current_state VAR
+| | | + data_bit_width                  se0x1cb95f0  fallb=se0x1cff590  n=VAR 0x1cc7ab0f30 u1=0x1cb95f0 @dt=0@  data_bit_width VAR
+| | | + next_state                      se0x1d0bb90  fallb=se0x1cff590  n=VAR 0x1cc6960f27 u1=0x1d0bb90 @dt=0@  next_state VAR
+| | | + next_state_block_proc           se0x1d24780  fallb=se0x1cff590  n=BEGIN 0x1cc8160f37 u1=0x1d24780 u4=0x1  next_state_block_proc
+| | | | + ""                              se0x1d29f30  fallb=se0x1d24780  n=BEGIN 0x1cc8660f39 u1=0x1d29f30 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d34e00  fallb=se0x1d29f30  n=BEGIN 0x1cb9f90f40 u1=0x1d34e00 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1cfba70  fallb=se0x1d29f30  n=BEGIN 0x1cba750f43 u1=0x1cfba70 u4=0x1 [UNNAMED]
+| | | | + ""                              se0x1d461d0  fallb=se0x1d24780  n=BEGIN 0x1cba560f47 u1=0x1d461d0 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d272a0  fallb=se0x1d461d0  n=BEGIN 0x1cc8720f48 u1=0x1d272a0 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1d36a20  fallb=se0x1d461d0  n=BEGIN 0x1cc8b90f51 u1=0x1d36a20 u4=0x1 [UNNAMED]
+| | | | + ""                              se0x1d19950  fallb=se0x1d24780  n=BEGIN 0x1cc92f0f55 u1=0x1d19950 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1cd0050  fallb=se0x1d19950  n=BEGIN 0x1cc9530f56 u1=0x1cd0050 u4=0x1 [UNNAMED]
+| | | | | | + ""                              se0x1cd0dd0  fallb=se0x1cd0050  n=BEGIN 0x1cc99d0f57 u1=0x1cd0dd0 u4=0x1 [UNNAMED]
+| | | | | | + ""                              se0x1cb8990  fallb=se0x1cd0050  n=BEGIN 0x1cca060f60 u1=0x1cb8990 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1ce4e30  fallb=se0x1d19950  n=BEGIN 0x1cca790f64 u1=0x1ce4e30 u4=0x1 [UNNAMED]
+| | | | + ""                              se0x1cd0890  fallb=se0x1d24780  n=BEGIN 0x1ccb0f0f68 u1=0x1cd0890 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1ce6ed0  fallb=se0x1cd0890  n=BEGIN 0x1ccb540f69 u1=0x1ce6ed0 u4=0x1 [UNNAMED]
+| | | | | | + ""                              se0x1ce7800  fallb=se0x1ce6ed0  n=BEGIN 0x1ccbb40f70 u1=0x1ce7800 u4=0x1 [UNNAMED]
+| | | | | | + ""                              se0x1ce8b60  fallb=se0x1ce6ed0  n=BEGIN 0x1ccc1d0f73 u1=0x1ce8b60 u4=0x1 [UNNAMED]
+| | | | | + ""                              se0x1cdca90  fallb=se0x1cd0890  n=BEGIN 0x1ccc900f77 u1=0x1cdca90 u4=0x1 [UNNAMED]
+| | | + reset_n                         se0x1cfb7a0  fallb=se0x1cff590  n=VAR 0x1cc2d80f7 u1=0x1d46520 u4=0x1 @dt=0@  reset_n [I] INPUT
+| | | + stop_bit_width                  se0x1d3bbc0  fallb=se0x1cff590  n=VAR 0x1cc8030f31 u1=0x1d3bbc0 @dt=0@  stop_bit_width VAR
+| | | + stt_tx_done                     se0x1cf84b0  fallb=se0x1cff590  n=VAR 0x1cc4bd0f16 u1=0x1d4d8f0 u4=0x1 @dt=0@  stt_tx_done [O] OUTPUT
+| | | + tx                              se0x1cf5690  fallb=se0x1cff590  n=VAR 0x1cc4f00f17 u1=0x1d4d470 u4=0x1 @dt=0@  tx [O] OUTPUT
+| | | + tx_data                         se0x1cdc760  fallb=se0x1cff590  n=VAR 0x1cc3ef0f10 u1=0x1d4ce90 u4=0x1 @dt=0@  tx_data [I] INPUT
+| | + tx                              se0x1d2d8c0  fallb=se0x1d3a360  n=VAR 0x1caacf0d24 u1=0x1d41ee0 u4=0x1 @dt=0@  tx [O] OUTPUT
+| | + tx_data                         se0x1d2cc30  fallb=se0x1d3a360  n=VAR 0x1cac520d28 u1=0x1d2cc30 @dt=0@  tx_data WIRE
+| | + tx_done                         se0x1cf3e60  fallb=se0x1d3a360  n=VAR 0x1cae220d40 u1=0x1cf3e60 @dt=0@  tx_done WIRE
+| | + txclk_en                        se0x1d1b450  fallb=se0x1d3a360  n=VAR 0x1cadc50d37 u1=0x1d1b450 @dt=0@  txclk_en WIRE

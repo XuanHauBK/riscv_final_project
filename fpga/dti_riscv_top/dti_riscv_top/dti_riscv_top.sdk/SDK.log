@@ -1,0 +1,30 @@
+08:29:17 INFO  : Registering command handlers for SDK TCF services
+08:29:21 INFO  : Launching XSCT server: xsct -n -interactive /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.sdk/temp_xsdb_launch_script.tcl
+08:29:23 INFO  : XSCT server has started successfully.
+08:29:25 INFO  : Successfully done setting XSCT server connection channel  
+08:29:25 INFO  : Processing command line option -hwspec /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.sdk/design_1_wrapper.hdf.
+08:29:25 INFO  : Successfully done setting SDK workspace  
+11:11:01 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1734408695000,  Project:1734369264000
+11:11:01 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+11:11:05 INFO  : Copied contents of /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.sdk/design_1_wrapper.hdf into /design_1_wrapper_hw_platform_0/system.hdf.
+11:11:06 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:11:08 INFO  : 
+11:11:09 INFO  : Updating hardware inferred compiler options for riscv_app.
+11:11:09 INFO  : Clearing existing target manager status.
+11:11:09 INFO  : Closing and re-opening the MSS file of ther project riscv_app_bsp
+11:11:09 INFO  : Closing and re-opening the MSS file of ther project riscv_app_bsp
+11:11:09 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:11:10 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+12:10:46 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1734411647000,  Project:1734408695000
+12:10:46 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+12:10:49 INFO  : Copied contents of /data_sip/sip4/workspace/hautx0/hautx0/final_project/trunk/fpga/dti_riscv_top/dti_riscv_top/dti_riscv_top.sdk/design_1_wrapper.hdf into /design_1_wrapper_hw_platform_0/system.hdf.
+12:10:49 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:10:51 INFO  : 
+12:10:52 INFO  : Updating hardware inferred compiler options for riscv_app.
+12:10:58 INFO  : Clearing existing target manager status.
+12:10:58 INFO  : Closing and re-opening the MSS file of ther project riscv_app_bsp
+12:10:58 INFO  : Closing and re-opening the MSS file of ther project riscv_app_bsp
+12:10:58 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:11:01 WARN  : Linker script will not be updated automatically. Users need to update it manually.

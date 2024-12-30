@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom dti_apb_adapter
+DEFAULT_FILE atom dti_apb_adapter/fsm.sm

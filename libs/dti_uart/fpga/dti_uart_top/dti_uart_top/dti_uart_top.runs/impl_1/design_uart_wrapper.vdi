@@ -1,0 +1,204 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Jun 10 09:23:43 2024
+# Process ID: 35481
+# Current directory: /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/impl_1
+# Command line: vivado -log design_uart_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_uart_wrapper.tcl -notrace
+# Log file: /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/impl_1/design_uart_wrapper.vdi
+# Journal file: /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_uart_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_dti_uart'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2018.1/data/ip'.
+Command: link_design -top design_uart_wrapper -part xc7a100tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 386 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_microblaze_0_0/design_uart_microblaze_0_0.xdc] for cell 'design_uart_i/microblaze_0/U0'
+Finished Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_microblaze_0_0/design_uart_microblaze_0_0.xdc] for cell 'design_uart_i/microblaze_0/U0'
+Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_mdm_1_0/design_uart_mdm_1_0.xdc] for cell 'design_uart_i/mdm_1/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_mdm_1_0/design_uart_mdm_1_0.xdc:50]
+get_clocks: Time (s): cpu = 00:00:13 ; elapsed = 00:00:50 . Memory (MB): peak = 2315.828 ; gain = 547.531 ; free physical = 80742 ; free virtual = 191542
+Finished Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_mdm_1_0/design_uart_mdm_1_0.xdc] for cell 'design_uart_i/mdm_1/U0'
+Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_clk_wiz_1_0/design_uart_clk_wiz_1_0_board.xdc] for cell 'design_uart_i/clk_wiz_1/inst'
+Finished Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_clk_wiz_1_0/design_uart_clk_wiz_1_0_board.xdc] for cell 'design_uart_i/clk_wiz_1/inst'
+Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_clk_wiz_1_0/design_uart_clk_wiz_1_0.xdc] for cell 'design_uart_i/clk_wiz_1/inst'
+INFO: [Timing 38-2] Deriving generated clocks [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_clk_wiz_1_0/design_uart_clk_wiz_1_0.xdc:57]
+Finished Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_clk_wiz_1_0/design_uart_clk_wiz_1_0.xdc] for cell 'design_uart_i/clk_wiz_1/inst'
+Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_rst_clk_wiz_1_100M_0/design_uart_rst_clk_wiz_1_100M_0_board.xdc] for cell 'design_uart_i/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_rst_clk_wiz_1_100M_0/design_uart_rst_clk_wiz_1_100M_0_board.xdc] for cell 'design_uart_i/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_rst_clk_wiz_1_100M_0/design_uart_rst_clk_wiz_1_100M_0.xdc] for cell 'design_uart_i/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_rst_clk_wiz_1_100M_0/design_uart_rst_clk_wiz_1_100M_0.xdc] for cell 'design_uart_i/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_dlmb_v10_0/design_uart_dlmb_v10_0.xdc] for cell 'design_uart_i/microblaze_0_local_memory/dlmb_v10/U0'
+Finished Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_dlmb_v10_0/design_uart_dlmb_v10_0.xdc] for cell 'design_uart_i/microblaze_0_local_memory/dlmb_v10/U0'
+Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_ilmb_v10_0/design_uart_ilmb_v10_0.xdc] for cell 'design_uart_i/microblaze_0_local_memory/ilmb_v10/U0'
+Finished Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_ilmb_v10_0/design_uart_ilmb_v10_0.xdc] for cell 'design_uart_i/microblaze_0_local_memory/ilmb_v10/U0'
+Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_axi_uart16550_0_0/design_uart_axi_uart16550_0_0_board.xdc] for cell 'design_uart_i/axi_uart16550_0/U0'
+Finished Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_axi_uart16550_0_0/design_uart_axi_uart16550_0_0_board.xdc] for cell 'design_uart_i/axi_uart16550_0/U0'
+Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_axi_uart16550_0_0/design_uart_axi_uart16550_0_0.xdc] for cell 'design_uart_i/axi_uart16550_0/U0'
+Finished Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/sources_1/bd/design_uart/ip/design_uart_axi_uart16550_0_0/design_uart_axi_uart16550_0_0.xdc] for cell 'design_uart_i/axi_uart16550_0/U0'
+Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/constrs_1/new/pin_io.xdc]
+Finished Parsing XDC File [/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.srcs/constrs_1/new/pin_io.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'design_uart_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.sdk/uart_app/Debug/uart_app.elf 
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 96 instances were transformed.
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 80 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 16 instances
+
+13 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:28 ; elapsed = 00:01:38 . Memory (MB): peak = 2500.918 ; gain = 1104.910 ; free physical = 80758 ; free virtual = 191559
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2500.918 ; gain = 0.000 ; free physical = 80749 ; free virtual = 191549
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-2] Deriving generated clocks
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 2 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 19d3d8ac6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.54 . Memory (MB): peak = 2500.918 ; gain = 0.000 ; free physical = 80749 ; free virtual = 191550
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 192911929
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.66 . Memory (MB): peak = 2500.918 ; gain = 0.000 ; free physical = 80749 ; free virtual = 191550
+INFO: [Opt 31-389] Phase Constant propagation created 10 cells and removed 54 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: b2c52adf
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2500.918 ; gain = 0.000 ; free physical = 80749 ; free virtual = 191550
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 673 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: b2c52adf
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2500.918 ; gain = 0.000 ; free physical = 80749 ; free virtual = 191550
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: b2c52adf
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2500.918 ; gain = 0.000 ; free physical = 80749 ; free virtual = 191549
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: bfd4a956
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2500.918 ; gain = 0.000 ; free physical = 80749 ; free virtual = 191549
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 1 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2500.918 ; gain = 0.000 ; free physical = 80749 ; free virtual = 191549
+Ending Logic Optimization Task | Checksum: bfd4a956
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2500.918 ; gain = 0.000 ; free physical = 80749 ; free virtual = 191549
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=12.990 | TNS=0.000 |
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 128 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 64 newly gated: 0 Total Ports: 256
+Ending PowerOpt Patch Enables Task | Checksum: 134728225
+
+Time (s): cpu = 00:00:00.46 ; elapsed = 00:00:00.48 . Memory (MB): peak = 2826.723 ; gain = 0.000 ; free physical = 80699 ; free virtual = 191502
+Ending Power Optimization Task | Checksum: 134728225
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:18 . Memory (MB): peak = 2826.723 ; gain = 325.805 ; free physical = 80710 ; free virtual = 191513
+INFO: [Common 17-83] Releasing license: Implementation
+36 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:24 . Memory (MB): peak = 2826.723 ; gain = 325.805 ; free physical = 80710 ; free virtual = 191513
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2826.723 ; gain = 0.000 ; free physical = 80708 ; free virtual = 191512
+INFO: [Common 17-1381] The checkpoint '/new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/impl_1/design_uart_wrapper_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file design_uart_wrapper_drc_opted.rpt -pb design_uart_wrapper_drc_opted.pb -rpx design_uart_wrapper_drc_opted.rpx
+Command: report_drc -file design_uart_wrapper_drc_opted.rpt -pb design_uart_wrapper_drc_opted.pb -rpx design_uart_wrapper_drc_opted.rpx
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /new_data6/workspace/hautx0/Intern_SIP_08_04_2024/sip_2024_apr/dti_uart/fpga/dti_uart_top/dti_uart_top/dti_uart_top.runs/impl_1/design_uart_wrapper_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2826.723 ; gain = 0.000 ; free physical = 80706 ; free virtual = 191511
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2826.723 ; gain = 0.000 ; free physical = 80702 ; free virtual = 191508
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 803b763b
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2826.723 ; gain = 0.000 ; free physical = 80702 ; free virtual = 191508
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2826.723 ; gain = 0.000 ; free physical = 80707 ; free virtual = 191513
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 0830290c
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2826.723 ; gain = 0.000 ; free physical = 80706 ; free virtual = 191511
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1ccca9f6e
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:03 . Memory (MB): peak = 2826.723 ; gain = 0.000 ; free physical = 80686 ; free virtual = 191491
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1ccca9f6e
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:03 . Memory (MB): peak = 2826.723 ; gain = 0.000 ; free physical = 80686 ; free virtual = 191491
+Phase 1 Placer Initialization | Checksum: 1ccca9f6e
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:03 . Memory (MB): peak = 2826.723 ; gain = 0.000 ; free physical = 80687 ; free virtual = 191492
+
+Phase 2 Global Placement

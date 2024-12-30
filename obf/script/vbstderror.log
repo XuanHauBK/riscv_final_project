@@ -1,0 +1,100 @@
+
+start time: Mon Dec 16 11:51:57 2024
+
+read_file ../../hdl/dti_riscv.v 
+
+parse_files +incdir+../../hdl +incdir+../../inc +incdir+../../libs/apb_uart/hdl +incdir+../../libs/apb_gpio/hdl +incdir+../../libs/apb_timer/hdl +incdir+../../libs/dti_lib/dti_fifo/dti_bicnt_dwn +incdir+../../libs/dti_lib/dti_fifo/dti_bin_to_gray +incdir+../../libs/dti_lib/dti_fifo/dti_cdc_data_sync_gf +incdir+../../libs/dti_lib/dti_fifo/dti_fifo_async_sf +incdir+../../libs/dti_lib/dti_fifo/dti_gray_to_bin +libext+.v+.sv+.vh 
+
+link_design
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(23): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(24): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(25): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_INVALID' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(28): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(29): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(30): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_INVALID' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(33): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(34): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(35): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_INVALID' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(38): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(39): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(40): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_INVALID' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(43): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(44): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(45): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_INVALID' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(48): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(49): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(50): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_INVALID' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(53): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(54): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(55): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_INVALID' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(58): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(60): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_SHAMT' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(63): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_IMM' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(66): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_ADD' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(67): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SLT' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(68): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SLTU' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(69): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_XOR' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(70): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_OR' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(71): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_AND' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(72): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SLL' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(73): Operator EQ expects 8 bits on the RHS, but RHS's VARREF 'FUN7_SRLI' generates 7 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(73): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's COND generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(77): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(78): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(80): Operator EQ expects 8 bits on the RHS, but RHS's VARREF 'FUN7_ADD' generates 7 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(80): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's COND generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(81): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SLL' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(82): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SLT' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(83): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SLTU' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(84): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_XOR' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(85): Operator EQ expects 8 bits on the RHS, but RHS's VARREF 'FUN7_SRL' generates 7 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(85): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's COND generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(86): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_OR' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(87): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_AND' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(91): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(92): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(93): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_INVALID' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(96): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(97): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(98): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_INVALID' generates 4 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(101): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(102): Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_SRC_REG' generates 3 bits.
+  # Warning: ../../hdl/riscv_alu_control_decode.sv(103): Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'ALU_INVALID' generates 4 bits.
+  # Warning: ../../libs/apb_uart/hdl/baudrate_gen.sv(45): Operator EQ expects 32 or 26 bits on the LHS, but LHS's VARREF 'rx_acc' generates 5 bits.
+  # Warning: ../../libs/apb_uart/hdl/baudrate_gen.sv(60): Operator EQ expects 32 or 26 bits on the LHS, but LHS's VARREF 'tx_acc' generates 9 bits.
+  # Warning: ../../libs/apb_uart/hdl/receiver.sv(117): Bit extraction of var[7:0] requires 3 bit index, not 4 bits.
+  # Warning: ../../hdl/riscv_control_unit.sv(42): Operator ASSIGNW expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'alu_op_temp' generates 3 bits.
+  # Warning: ../../hdl/riscv_control_unit.sv(44): Operator EQ expects 4 bits on the LHS, but LHS's VARREF 'alu_op_temp' generates 3 bits.
+  # Warning: ../../hdl/riscv_control_unit.sv(45): Operator NEQ expects 4 bits on the LHS, but LHS's VARREF 'alu_op_temp' generates 3 bits.
+  # Warning: ../../hdl/riscv_control_unit.sv(50): Input port connection funct7 expects 8 bits but connection's VARREF 'funct7' generates 7 bits.
+  # Warning: ../../hdl/riscv_alu.sv(24): Operator COND expects 32 bits on the Conditional True, but Conditional True's CONST '1'b1' generates 1 bits.
+  # Warning: ../../hdl/riscv_alu.sv(24): Operator COND expects 32 bits on the Conditional False, but Conditional False's CONST '1'b0' generates 1 bits.
+  # Warning: ../../hdl/riscv_alu.sv(27): Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's SEL generates 1 bits.
+  # Warning: ../../hdl/riscv_alu.sv(23): Operator EQ expects 32 or 5 bits on the RHS, but RHS's SEL generates 1 bits.
+  # Warning: ../../hdl/riscv_alu.sv(23): Bit extraction of var[31:0] requires 5 bit index, not 1 bits.
+  # Warning: ../../hdl/riscv_alu.sv(31): Operator COND expects 32 bits on the Conditional True, but Conditional True's CONST '1'b1' generates 1 bits.
+  # Warning: ../../hdl/riscv_alu.sv(31): Operator COND expects 32 bits on the Conditional False, but Conditional False's CONST '1'b0' generates 1 bits.
+  # Warning: ../../libs/apb_uart/hdl/transmitter.sv(70): Operator EQ expects 32 or 4 bits on the LHS, but LHS's VARREF 'bitpos_data' generates 3 bits.
+  # Warning: ../../libs/apb_gpio/hdl/apb_gpio.sv(83): Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'gpio_i' generates 16 bits.
+  # Warning: ../../libs/apb_gpio/hdl/apb_gpio.sv(93): Operator ASSIGNDLY expects 16 bits on the Assign RHS, but Assign RHS's VARREF 'apb_pwdata' generates 32 bits.
+  # Warning: ../../hdl/riscv_decode.sv(114): Output port connection alu_x_src expects 4 bits but connection's VARREF 'alu_x_src' generates 3 bits.
+  # Warning: ../../hdl/riscv_decode.sv(115): Output port connection alu_y_src expects 4 bits but connection's VARREF 'alu_y_src' generates 3 bits.
+  # Warning: ../../hdl/riscv_decode.sv(120): Output port connection decode_exception_cause expects 6 bits but connection's VARREF 'decode_exception_cause' generates 3 bits.
+  # Warning: ../../hdl/riscv_execute.sv(180): Logical Operator LOGAND expects 1 bit on the LHS, but LHS's VARREF 'irq' generates 8 bits.
+  # Warning: ../../hdl/imem.sv(59): Operator LT expects 32 bits on the RHS, but RHS's VARREF 'index_inst' generates 7 bits.
+  # Warning: ../../hdl/dti_riscv_core.v(252): Input port connection decode_exception_cause_in expects 6 bits but connection's VARREF 'decode_exception_cause_id' generates 3 bits.
+  # Warning: ../../hdl/dti_boost_inst.sv(36): Operator EQ expects 32 or 26 bits on the LHS, but LHS's VARREF 'rx_acc' generates 5 bits.
+  # Warning: ../../hdl/dti_boost_inst.sv(128): Bit extraction of var[7:0] requires 3 bit index, not 4 bits.
+  # Warning: ../../hdl/dti_apb_peripheral.v(114): Logical Operator LOGOR expects 1 bit on the LHS, but LHS's VARREF 'apb_prdata_uart' generates 32 bits.
+  # Warning: ../../hdl/dti_apb_peripheral.v(114): Logical Operator LOGOR expects 1 bit on the RHS, but RHS's VARREF 'apb_prdata_gpio' generates 32 bits.
+  # Warning: ../../hdl/dti_apb_peripheral.v(114): Logical Operator LOGOR expects 1 bit on the RHS, but RHS's VARREF 'apb_prdata_timer' generates 32 bits.
+  # Warning: ../../hdl/dti_apb_peripheral.v(114): Operator ASSIGNW expects 32 bits on the Assign RHS, but Assign RHS's LOGOR generates 1 bits.
+  # Warning: ../../hdl/dti_apb_adapter.v(66): Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's CONCAT generates 56 bits.
+  # Warning: ../../hdl/dti_apb_adapter.v(69): Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's CONCAT generates 48 bits.
+  # Warning: ../../hdl/dti_riscv.v(113): Output port connection irq expects 1 bits but connection's VARREF 'irq' generates 8 bits.
+
+write_design -flatten -munge -topmodule dti_riscv -out dti_riscv -outdir ../hdl_obf 
+
+write_design -flatten -topmodule dti_riscv -out dti_riscv -outdir ../hdl_obf_kname 
+
+report_blackbox -topmodule dti_riscv -blackbox 
